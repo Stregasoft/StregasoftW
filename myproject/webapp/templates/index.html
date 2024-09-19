@@ -1,0 +1,852 @@
+{% load static %}
+
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Stregasoft</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/favicon/favicon.png' %}" />
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/fontawesome-all.min.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/default.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/aos.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <style>
+        .swiper-container {
+            width: 650px;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            width: 75%;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body class="homepage04">
+    {% for message in messages %}
+<div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+    <strong>{% trans "Message" %}:</strong> {{ message }}
+    <button type="button" class="close" data-dismiss="alert" aria-label="{% trans "Close" %}">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+{% endfor %}
+
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+    <!-- Add your site or application content here -->
+    <!--  HEADER AREA -->
+    <header id="header" class="header-area header-area04">
+    <div class="container custom-container02">
+        <nav class="menu-area d-flex align-items-center">
+            <div class="logo">
+                <a href="{% url 'index' %}">
+                    <img src="{% static 'img/logo/logo03.png' %}" alt="{% trans 'brandLogo' %}" class="logo-04" />
+                </a>
+            </div>
+            <ul class="main-menu d-flex align-items-center">
+                <li>
+                    <a class="active" href="{% url 'index' %}">{% trans 'Home' %}</a>
+                </li>
+                <li>
+                    <a href="{% url 'services' %}">{% trans 'Services' %}</a>
+                    <ul class="sub-menu">
+                        <li><a href="{% url 'webservices' %}">{% trans 'Web Services' %}</a></li>
+                        <li><a href="{% url 'crmservices' %}">{% trans 'CRM Services' %}</a></li>
+                        <li><a href="{% url 'chatbotservices' %}">{% trans 'Chatbot Services' %}</a></li>
+                        <li><a href="{% url 'itservices' %}">{% trans 'IT Services' %}</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="{% url 'about' %}">{% trans 'About' %}</a>
+                </li>
+                <!-- <li>
+                    <a href="javascript:void(0)">{% trans 'Portfolio' %}</a>
+                    <ul class="sub-menu">
+                        <li><a href="project.html">{% trans 'Project' %}</a></li>
+                        <li>
+                            <a href="project-details.html">{% trans 'Project Detail' %}</a>
+                        </li>
+                    </ul>
+                </li> -->
+                <li>
+                    <a href="{% url 'blog_list' %}">{% trans 'Blog' %}</a>
+                </li>
+                <li>
+                    <a href="{% url 'contact' %}">{% trans 'Contact' %}</a>
+                </li>
+            </ul>
+
+            <div class="right-content ml-auto">
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/stregasoft"><img src="{% static 'img/icon/facebook-f.svg' %}" alt="{% trans 'facebook' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    <a href="https://www.instagram.com/stregasoft"><img src="{% static 'img/icon/instagram.svg' %}" alt="{% trans 'instagram' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    <a href="https://www.linkedin.com/company/stregasoft"><img src="{% static 'img/icon/linkedin-in.svg' %}" alt="{% trans 'linkedin' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    <a href="https://www.youtube.com/@stregasoft"><img src="{% static 'img/icon/youtube.svg' %}" alt="{% trans 'youtube' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                </div>
+                <!-- Verifica si el usuario está autenticado -->
+                {% if user.is_authenticated %}
+                    <!-- Usuario está autenticado -->
+                    <div class="social-icon1">
+                        <a href="{% url 'dashboard' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    </div>
+                {% else %}
+                    <!-- Usuario no está autenticado -->
+                    <div class="social-icon1">
+                        <a href="{% url 'login' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    </div>
+                {% endif %}
+            </div>
+            <div class="lang-menu">
+                <div class="selected-lang">
+                    <a href="#" id="globe-btn"><img src="{% static 'img/avatar/globe.png' %}" style="height: 30px; align-items: center;" alt="{% trans 'Language Selector' %}"></a>
+                </div>
+                <ul id="lang-list">
+                    <li>
+                        <form action="{% url 'set_language' %}" method="post">
+                            {% csrf_token %}
+                            <input name="next" type="hidden" value="{{ request.path }}">
+                            <input name="language" type="hidden" value="es">
+                            <button type="submit">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrSRVRdUmc2ieu8m1t95LYvaSkxr0eRJ2kPw&s" alt="{% trans 'Flag of Spain' %}" style="width: 20px; height: 15px; margin-right: 5px;">
+                                {% trans 'ESP' %}
+                            </button>
+                        </form>
+                    </li>
+                    <li>
+                        <form action="{% url 'set_language' %}" method="post">
+                            {% csrf_token %}
+                            <input name="next" type="hidden" value="{{ request.path }}">
+                            <input name="language" type="hidden" value="en">
+                            <button type="submit">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="{% trans 'Flag of UK' %}" style="width: 20px; height: 15px; margin-right: 5px;">
+                                {% trans 'ENG' %}
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            
+            
+            <div class="hamburger-menu"><span></span><span></span><span></span></div>
+        </nav>
+        <aside>
+            <div class="sidebar-menu">
+                <div class="close-sidebar"><span></span><span></span></div>
+                <div class="logo">
+                    <a href="{% url 'index' %}">
+                        <img src="{% static 'img/logo/logo08.png' %}" alt="{% trans 'logo' %}" />
+                    </a>
+                </div>
+                <ul class="main-menu">
+                    <li>
+                        <a class="active" href="{% url 'index' %}">{% trans 'Home' %}</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">{% trans 'Services' %} <span class="arrow">&#9662;</span></a>
+                        <ul class="submenu">
+                            <li><a href="{% url 'services' %}">{% trans 'Our Services' %}</a></li>
+                            <li><a href="{% url 'webservices' %}">{% trans 'Web Services' %}</a></li>
+                            <li><a href="{% url 'crmservices' %}">{% trans 'CRM Services' %}</a></li>
+                            <li><a href="{% url 'chatbotservices' %}">{% trans 'Chatbot Services' %}</a></li>
+                            <li><a href="{% url 'itservices' %}">{% trans 'IT Services' %}</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{% url 'about' %}">{% trans 'About Us' %}</a></li>
+                    <li><a href="{% url 'blog_list' %}">{% trans 'Blog' %}</a></li>
+                    <li><a href="{% url 'contact' %}">{% trans 'Contact Us' %}</a></li>
+                    
+                    <!-- Icono de cuentas en el menú móvil -->
+                    <li class="social-icon1">
+                        {% if user.is_authenticated %}
+                            <a href="{% url 'dashboard' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                        {% else %}
+                            <a href="{% url 'login' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                        {% endif %}
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="overlay"></div>
+        </aside>
+    </div>
+</header>
+<main>
+    
+       <!--  BANNER AREA -->
+       <section class="banner-custom">
+        <div class="banner-custom-container">
+          <div class="banner-custom-content">
+            <div class="banner-custom-decoration">
+              <img class="mask1" src="{% static 'img/mask/mask-page-04.png' %}" alt="{% trans 'mask' %}">
+            </div>
+            <div class="banner-custom-text aos-init aos-animate">
+              <h1 class="banner-custom-title" data-aos="">{% trans "Welcome!" %}</h1>
+              <p id="tech-services" data-aos="fade-up">{% trans "Technology at your Service" %}</p>
+              <div class="banner-custom-button" data-aos="fade-down">
+                <a id="button1" class="primary__button primary__button-bgPrimary" href="{% url 'services' %}">{% trans "Start Now!" %}</a>
+              </div>
+            </div>
+          </div>
+          <div class="banner-custom-video-container aos-init aos-animate" data-aos="fade">
+            <video autoplay muted loop id="bannerCustomVideo">
+              <source src="{% static 'img/mask/file.mp4' %}" type="video/mp4">
+              {% trans "Your browser does not support the video tag." %}
+            </video>
+            <div class="banner-custom-logo aos-init aos-animate">
+              <img src="{% static 'img/logo/strega.png' %}" alt="{% trans 'Website Logo' %}" data-aos="fade-up">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      
+      
+      
+      
+      
+    
+     <!--  TESTIMONIAL AREA -->
+<!--  TESTIMONIAL AREA -->
+<section class="testimonial-area testimonial04" style="background-image: url({% static 'img/testimonial/testimonialbg.jpg' %});">
+    <div class="container">
+        <div class="section-title mb-50" data-aos="fade-up">
+            <h2 class="mb-20">
+                <a href="{% url 'services' %}">
+                    <span>{% trans "Our Services" %}</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tstimonial-wrappers">
+            <div class="row testimonial-active">
+                <!-- Web Development -->
+                <div class="col-xl-4 single-slider">
+                    <div class="testimoial-icon">
+                        <img class="logo-img" src="{% static 'img/services/dev.webp' %}" alt="{% trans 'Web Services logo' %}" />
+                    </div>
+                    <div class="testimonial-wrappers">
+                        <div class="tesmonial-text">
+                            <h2><a href="{% url 'webservices' %}">{% trans "Web Services" %}</a></h2>
+                            <p style="color: gray;">
+                                {% trans "At Stregasoft, our web development services provide tailored, innovative solutions with responsive design, ensuring a seamless user experience and robust functionality for your business growth." %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CRM Services -->
+                <div class="col-xl-4 single-slider">
+                    <div class="testimoial-icon">
+                        <img class="logo-img" src="{% static 'img/services/crm.webp' %}" alt="{% trans 'CRM Services logo' %}" />
+                    </div>
+                    <div class="testimonial-wrappers">
+                        <div class="tesmonial-text">
+                            <h2><a href="{% url 'crmservices' %}">{% trans "CRM Services" %}</a></h2>
+                            <p style="color: gray;">
+                                {% trans "At Stregasoft, our CRM Services optimize customer management, enhance sales processes, and boost satisfaction with efficient, user-friendly tools customized to meet your business needs." %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Chatbot Services -->
+                <div class="col-xl-4 single-slider">
+                    <div class="testimoial-icon">
+                        <img class="logo-img" src="{% static 'img/services/chatbot.webp' %}" alt="{% trans 'Chatbot Services logo' %}" />
+                    </div>
+                    <div class="testimonial-wrappers">
+                        <div class="tesmonial-text">
+                            <h2><a href="{% url 'chatbotservices' %}">{% trans "Chatbot Services" %}</a></h2>
+                            <p style="color: gray;">
+                                {% trans "At Stregasoft, our chatbot services offer advanced automation for customer interactions, improving engagement and operational efficiency with intelligent, real-time support tailored to your needs." %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- IT Services -->
+                <div class="col-xl-4 single-slider">
+                    <div class="testimoial-icon">
+                        <img class="logo-img" src="{% static 'img/services/it.webp' %}" alt="{% trans 'IT Services logo' %}" />
+                    </div>
+                    <div class="testimonial-wrappers">
+                        <div class="tesmonial-text">
+                            <h2><a href="{% url 'itservices' %}">{% trans "IT Services" %}</a></h2>
+                            <p style="color: gray;">
+                                {% trans "At Stregasoft, our IT services deliver comprehensive support, from managing your infrastructure to implementing robust cybersecurity solutions, ensuring your technology operates securely and smoothly." %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--  Services Area -->
+<section class="pb-130 pt-100 homepage-03 service-introduction">
+    <div class="container">
+        <div class="section-heading text-center">
+            <h2 id="company-header" data-aos="fade-up" class="aos-init aos-animate">{% trans "Our Company" %}</h2>
+            <p>{% trans "Welcome to Stregasoft, your gateway to a world of innovative tech solutions and digital excellence." %}</p>
+        </div>
+        <div class="row pl-15 pr-15">
+            <div class="col-lg-3 col-md-6">
+                <div class="services-introduction-item" data-aos="fade-up">
+                    <div class="services-introduction-item-image bg-white shadow">
+                        <img src="{% static 'img/services/laptop-code-solid.svg' %}" alt="{% trans 'Leading Technology Solutions' %}" class="img-fluid" />
+                    </div>
+                    <div class="services-introduction-item-text">
+                        <h5>{% trans "Leading Technology Solutions" %}</h5>
+                        <p>{% trans "Our company leads the way in technology, providing a wide array of services to cater to your distinctive software and IT requirements." %}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-introduction-item mt-35" data-aos="fade-up" data-aos-delay="300">
+                    <div class="services-introduction-item-image bg-white shadow">
+                        <img src="{% static 'img/services/team-check.svg' %}" alt="{% trans 'Industry Leading Experts' %}" class="img-fluid" />
+                    </div>
+                    <div class="services-introduction-item-text">
+                        <h5>{% trans "Industry Leading Experts" %}</h5>
+                        <p>{% trans "Our exceptional team consists of engineers, programmers, designers, and marketing experts, all dedicated to driving your ideas to the top of your industry." %}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-introduction-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="services-introduction-item-image bg-white shadow">
+                        <img src="{% static 'img/services/chatbot-speech-bubble.svg' %}" alt="{% trans 'Excellent Customer Service' %}" class="img-fluid" />
+                    </div>
+                    <div class="services-introduction-item-text">
+                        <h5>{% trans "Excellent Customer Service" %}</h5>
+                        <p>{% trans "Our excellent customer service provides you unparalleled support and guidance. We prioritize your satisfaction and aim to build lasting relationships through our exceptional service." %}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="services-introduction-item mt-35" data-aos="fade-up" data-aos-delay="500">
+                    <div class="services-introduction-item-image bg-white shadow">
+                        <img src="{% static 'img/services/compass-drafting-solid.svg' %}" alt="{% trans 'Custom Solutions' %}" class="img-fluid" />
+                    </div>
+                    <div class="services-introduction-item-text">
+                        <h5>{% trans "Custom Solutions" %}</h5>
+                        <p>{% trans "We are a premier provider of software services, offering personalized software solutions, expert advisory, and cutting-edge app and web design." %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--  SKILL AREA -->
+
+   
+   
+
+<!-- CLIENT REVIEW TESTIMONIAL AREA -->
+<div class="banner-container">
+    <video autoplay muted loop class="bg-video">
+        <source src="{% static 'img/banner/banner.mp4' %}" type="video/mp4">
+        <source src="{% static 'img/banner/banner.webm' %}" type="video/webm">
+        <source src="{% static 'img/banner/banner.ogv' %}" type="video/ogg">
+        {% trans "Your browser does not support the video tag." %}
+    </video>
+    <div class="overlay">
+        <h2 class="overlay-text" data-aos="fade-down">"{% trans "Innovation is the lifeline of entrepreneurship. It's about solving problems and creating opportunities." %}"</h2>
+
+
+        <div class="StylableButton2545352419__container" id="readMoreButton">
+            <span class="StylableButton2545352419__label wixui-button__label" data-testid="stylablebutton-label">
+                {% trans "Read More" %}
+            </span>
+        </div>
+    </div>
+</div>
+
+<section class="contactArea">
+    <div class="container1" data-aos="fade-up">
+        <div class="column">
+            <img src="{% static '/img/action/comment-alt-dots.svg' %}" alt="Low-Code Development icon" style="height: 30px;">
+            <h2 id="contact-us-title">{% trans "Leave us a message!" %}</h2>
+
+            <form action="{% url 'contact' %}" method="POST" id="contact-form">
+                {% csrf_token %}
+                <!-- Mostrar mensajes de éxito o error -->
+                {% if messages %}
+                    <div class="messages">
+                        {% for message in messages %}
+                            <div class="alert alert-{{ message.tags }}" role="alert">
+                                {{ message }}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            
+                <div class="form-group">
+                    <label for="name">{% trans "Your Name" %}</label>
+                    <input type="text" name="name" id="name" class="form-control" value="{{ name|default_if_none:'' }}">
+                    {% if form.name.errors %}
+                    <div class="alert alert-danger" role="alert">
+                        {% for error in form.name.errors %}
+                        <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    <label for="last_name">{% trans "Your Last Name" %}</label>
+                    <input type="text" name="last_name" id="last_name" class="form-control" value="{{ last_name|default_if_none:'' }}">
+                    {% if form.last_name.errors %}
+                    <div class="alert alert-danger" role="alert">
+                        {% for error in form.last_name.errors %}
+                        <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    <label for="email">{% trans "Your Email" %}</label>
+                    <input type="email" name="email" id="email" class="form-control" value="{{ email|default_if_none:'' }}">
+                    {% if form.email.errors %}
+                    <div class="alert alert-danger" role="alert">
+                        {% for error in form.email.errors %}
+                        <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    <label for="phone">{% trans "Phone (optional)" %}</label>
+                    <input type="text" name="phone" id="phone" class="form-control" value="{{ phone|default_if_none:'' }}">
+                    {% if form.phone.errors %}
+                    <div class="alert alert-danger" role="alert">
+                        {% for error in form.phone.errors %}
+                        <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    <label for="message">{% trans "Your Message" %}</label>
+                    <textarea name="message" id="message" class="form-control" rows="5">{{ message|default_if_none:'' }}</textarea>
+                    {% if form.message.errors %}
+                    <div class="alert alert-danger" role="alert">
+                        {% for error in form.message.errors %}
+                        <p>{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="form-group">
+                    <div class="g-recaptcha" data-sitekey="6LcDqR0qAAAAAGSKjUdW86ReLCmI0zs3P_Hn6phC"></div>
+                    {% if captcha_error %}
+                    <div class="alert alert-danger" role="alert">
+                        <p>{{ captcha_error }}</p>
+                    </div>
+                    {% endif %}
+                </div>
+                <button type="submit" class="btn btn-primary">{% trans "Send Message" %}</button>
+            </form>
+        </div>
+        <div class="column">
+            <div class="contact-info contact-info-background" style="text-align: center;">
+                <h2 class="large-title">{% trans "Get in Touch" %}</h2>
+                <!-- Resto del código -->
+                <div class="contact-info" style="display: flex; flex-direction: column; align-items: left;">
+                    <div class="contact-item" style="display: flex; align-items: center; margin-bottom: 10px;">
+                        <a href="https://wa.me/50587158006" target="_blank" class="social-linkw" style="margin-right: 10px;">
+                            <i class="fab fa-whatsapp icon"></i>
+                        </a>
+                        <p class="whatsapp" style="margin: 0;">
+                            <a href="https://wa.me/50587158006" style="text-decoration: none; color: inherit;">
+                                <strong>{% trans "Chat on Whatsapp" %}</strong>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="contact-item" style="display: flex; align-items: center; margin-bottom: 10px;">
+                        <a href="mailto:info@stregasoft.com" class="social-linkm" style="margin-right: 10px;">
+                            <i class="fas fa-envelope icon"></i>
+                        </a>
+                        <p class="email" style="margin: 0;"><strong>{% trans "Email:" %}</strong> <a href="mailto:info@stregasoft.com" style="color: #fff;">info@stregasoft.com</a></p>
+                    </div>
+                    <div class="contact-item" style="display: flex; align-items: center; margin-bottom: 10px;">
+                        <a href="https://www.stregasoft.com" target="_blank" class="social-links" style="margin-right: 10px;">
+                            <!-- SVG del globo terráqueo -->
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="48" height="48">
+                                <path d="m12,0C5.383,0,0,5.383,0,12s5.383,12,12,12,12-5.383,12-12S18.617,0,12,0Zm8.647,7h-3.232c-.788-1.881-1.879-3.477-2.818-4.646,2.576.694,4.74,2.389,6.05,4.646Zm-.147,2.526l-.363,4.221c-.031.44-.337.779-.706.779-.244,0-.471-.151-.601-.4l-.831-1.6-.831,1.6c-.129.249-.356.4-.601.4-.368,0-.675-.339-.706-.779l-.363-4.221h1.042l.249,3.158,1.209-2.327,1.209,2.327.247-3.158h1.044Zm-8.501,12.06c-.812-.859-2.195-2.508-3.216-4.586h6.429c-1.021,2.075-2.403,3.725-3.213,4.586Zm-2.448-12.06h1.042l.249,3.158,1.209-2.327,1.209,2.327.247-3.158h1.044l-.363,4.221c-.031.44-.337.779-.706.779-.244,0-.471-.151-.601-.4l-.831-1.6-.831,1.6c-.129.249-.356.4-.601.4-.368,0-.675-.339-.706-.779l-.363-4.221Zm-.771-2.526c1.021-2.078,2.41-3.725,3.221-4.586.813.86,2.202,2.506,3.223,4.586h-6.444Zm.619-4.645c-.941,1.17-2.031,2.763-2.817,4.645h-3.228c1.31-2.256,3.472-3.95,6.045-4.645Zm-.899,7.17l-.363,4.221c-.031.44-.337.779-.706.779-.244,0-.471-.151-.601-.4l-.831-1.6-.831,1.6c-.129.249-.356.4-.601.4-.368,0-.675-.339-.706-.779l-.363-4.221h1.042l.249,3.158,1.209-2.327,1.209,2.327.247-3.158h1.044Zm-5.147,7.474h3.221c.789,1.881,1.881,3.475,2.822,4.644-2.573-.696-4.734-2.389-6.043-4.644Zm11.251,4.644c.941-1.169,2.033-2.763,2.822-4.644h3.221c-1.309,2.255-3.47,3.948-6.043,4.644Z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <p class="website" style="margin: 0;"><strong>{% trans "Website:" %}</strong> <a href="https://www.stregasoft.com" target="_blank" style="color: #fff;">stregasoft.com</a></p>
+                    </div>
+                    <p class="additional-info">{% trans "Feel free to contact us for any inquiries or assistance." %}</p>
+                </div>
+                
+                <h2 class="large-title" style="margin-bottom: 20px;">{% trans "Our Business Hours" %}</h2>
+                <table class="business-hours" style="margin: 0 auto;">
+                    <tr>
+                        <td>{% trans "Mon-Fri" %}</td>
+                        <td style="color: rgb(128, 248, 128)">8:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>{% trans "Sat-Sun" %}</td>
+                        <td style="color: red;">{% trans "Closed" %}</td>
+                    </tr>
+                </table>
+                
+                <!-- Agregar el reloj aquí -->
+                <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:20px 0 0 0;padding:0;width:200px;height:80px;" src="https://www.clocklink.com/html5embed.php?clock=004&timezone=Nicaragua_Managua&color=white&size=200&Title=&Message=&Target=&From=2024,1,1,0,0,0&Color=white"></iframe>
+                
+                <style>
+                    .business-hours {
+                        width: auto; /* Ajustar el ancho de la tabla */
+                        margin-bottom: 20px;
+                        border-collapse: collapse;
+                        margin-top: 10px; /* Reducir la separación superior */
+                    }
+        
+                    .business-hours td {
+                        padding: 4px 10px; /* Reducir el padding */
+                        font-size: 16px;
+                        color: #fff;
+                        text-align: center; /* Centrar el texto en las celdas */
+                    }
+        
+                    .business-hours td:first-child {
+                        font-weight: bold;
+                    }
+        
+                    .business-hours td:last-child {
+                        font-weight: bold;
+                    }
+                </style>
+            </div>
+        </div>
+        
+</section>
+
+
+<!-- FOOTER AREA -->
+<footer class="footer03">
+    <div class="footer-area">
+        <div class="container">
+            <div class="row align-items-lg-baseline">
+                <div class="col-lg-4 col-md-12 order-lg-0 order-4">
+                    <div class="footer-area-about" data-aos="fade-up">
+                        <a href="{% url 'index' %}">
+                            <img src="{% static 'img/logo/logo03.png' %}" alt="{% trans 'Logo' %}" class="img-fluid" />
+                        </a>
+
+                        <div class="footer-area-links">
+                            <a href="javascript:void(0)" onclick="goToURL('https://www.facebook.com/stregasoft')"><i class="fab fa-facebook-f"></i></a>
+                            <a href="javascript:void(0)" onclick="goToURL('https://www.instagram.com/stregasoft')"><i class="fab fa-instagram"></i></a>
+                            <a href="javascript:void(0)" onclick="goToURL('https://www.linkedin.com/company/stregasoft/')"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="javascript:void(0)" onclick="goToURL('https://www.youtube.com/@stregasoft')"><i class="fab fa-youtube"></i></a>
+                            <a href="javascript:void(0)" onclick="goToURL('https://www.tiktok.com/@stregasoft')"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 mr-lg-65 col-md-4 col-6 order-lg-0 order-md-1">
+                    <div class="footer-area-lists mb-30" data-aos="fade-up" data-aos-delay="300">
+                        <h4>{% trans "Company" %}</h4>
+                        <ul>
+                            <li><a href="{% url 'about' %}">{% trans "About" %}</a></li>
+                            <li><a href="{% url 'contact' %}">{% trans "Contact us" %}</a></li>
+                            <li><a href="{% url 'blog_list' %}">{% trans "Blog" %}</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 mr-lg-65 col-md-4 col-6 order-lg-0 order-2">
+                    <div class="footer-area-lists mb-30" data-aos="fade-up" data-aos-delay="400">
+                        <h4>{% trans "Services" %}</h4>
+                        <ul>
+                            <li><a href="{% url 'webservices' %}">{% trans "Web Services" %}</a></li>
+                            <li><a href="{% url 'crmservices' %}">{% trans "CRM Services" %}</a></li>
+                            <li><a href="{% url 'chatbotservices' %}">{% trans "Chatbot Services" %}</a></li>
+                            <li><a href="{% url 'itservices' %}">{% trans "IT Services" %}</a></li>
+                        </ul>                        
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 order-lg-0 order-md-3">
+                    <div class="footer-area-lists" data-aos="fade-up" data-aos-delay="500">
+                        <h4>{% trans "Legal" %}</h4>
+                        <ul>
+                            <li><a href="{% url 'privacy' %}">{% trans "Privacy Policy" %}</a></li>
+                            <li><a href="{% url 'terms' %}">{% trans "Terms & Conditions" %}</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row align-items-center copyright-area">
+                <div class="col-sm-12 d-flex justify-content-between align-items-center">
+                    <div class="copyright-area-text">
+                        <p class="text-white">{% trans "© Stregasoft 2024" %}</p>
+                    </div>
+                    <div class="copyright-area-top text-lg-right">
+                        <a class="text-white" href="#header" id="to-top">{% trans "Back to Top" %} <i class="fas fa-angle-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="cookie-banner" class="cookie-banner">
+   <p style="color: white;">Usamos cookies para mejorar tu experiencia. Puedes aceptar o rechazar las cookies a continuación.</p>
+  <div class="cookie-buttons">
+    <button id="accept-cookies" class="cookie-button accept">Aceptar</button>
+    <button id="reject-cookies" class="cookie-button reject">Rechazar</button>
+  </div>
+</div>
+<style>
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;``
+    width: 100%;
+    background-color: #1d4999; /* Color principal de la compañía */
+    text-align: center;
+    padding: 40px;
+    z-index: 1000;
+    display: none; /* Mostrar solo cuando sea necesario */
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+
+  .cookie-banner p {
+    font-size: 18px;
+    color: white;
+    margin: 0 0 20px 0;
+  }
+
+  .cookie-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .cookie-button {
+    background-color: white;
+    color: #1d4999;
+    border: 2px solid #1d4999;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+  }
+
+  .cookie-button.accept:hover {
+    background-color: #1d4999;
+    color: white;
+  }
+
+  .cookie-button.reject:hover {
+    background-color: #f44336; /* Rojo para la opción de rechazar */
+    color: white;
+    border: 2px solid #f44336;
+  }
+
+  .cookie-button.reject {
+    border: 2px solid #f44336;
+    color: #f44336;
+  }
+</style>
+
+
+
+
+<!-- JS here -->
+<script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/circle-progress.min.js' %}"></script>
+<script src="{% static 'js/slick.min.js' %}"></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+<script src="{% static 'js/waypoint.min.js' %}"></script>
+<script src="{% static 'js/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'js/progress.js' %}"></script>
+<script src="{% static 'js/slider.js' %}"></script>
+<script src="{% static 'js/aos.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+    /* Sticky Header */
+    let logo = document.querySelector('.logo-04');
+    window.addEventListener('scroll', function () {
+        let header = document.querySelectorAll('header');
+        header.forEach((headItem) => {
+            headItem.classList.toggle('sticky', window.scrollY > 0);
+        });
+    });
+
+    var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 1,
+        spaceBetween: 00,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            type: "progressbar",
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: "auto",
+                spaceBetween: 30,
+            },
+        },
+    });
+</script>
+<script>
+    let startX;
+    let startY;
+
+    document.addEventListener('touchstart', function(event) {
+        startX = event.touches[0].clientX;
+        startY = event.touches[0].clientY;
+    }, { passive: false });
+
+    document.addEventListener('touchmove', function(event) {
+        const currentX = event.touches[0].clientX;
+        const currentY = event.touches[0].clientY;
+
+        const deltaX = Math.abs(currentX - startX);
+        const deltaY = Math.abs(currentY - startY);
+
+        if (deltaX > deltaY) {
+            event.preventDefault(); // Bloquea el desplazamiento horizontal
+        }
+    }, { passive: false });
+</script>
+<script>
+    function goToURL(url) {
+        window.open(url, '_blank');
+    }
+</script>
+<script>
+    document.getElementById('readMoreButton').addEventListener('click', function() {
+        window.location.href = '{% url 'about' %}';
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const arrows = document.querySelectorAll('.arrow');
+        arrows.forEach(arrow => {
+            arrow.addEventListener('click', function(event) {
+                event.preventDefault();
+                const submenu = this.nextElementSibling;
+                if (submenu.style.display === 'block') {
+                    submenu.style.display = 'none';
+                } else {
+                    submenu.style.display = 'block';
+                }
+            });
+        });
+    });
+</script>
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        var response = grecaptcha.getResponse();
+        if (response.length === 0) {
+            event.preventDefault(); // Prevent form submission
+            alert('Please complete the CAPTCHA.');
+        }
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var globeBtn = document.getElementById('globe-btn');
+        var langList = document.getElementById('lang-list');
+    
+        globeBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            if (langList.style.display === 'none' || langList.style.display === '') {
+                langList.style.display = 'block';
+            } else {
+                langList.style.display = 'none';
+            }
+        });
+    });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Verifica si el usuario ya ha aceptado o rechazado las cookies
+    if (!localStorage.getItem("cookiesAccepted") && !localStorage.getItem("cookiesRejected")) {
+      document.getElementById("cookie-banner").style.display = "block";
+    }
+
+    // Manejar el clic en "Aceptar"
+    document.getElementById("accept-cookies").addEventListener("click", function() {
+      localStorage.setItem("cookiesAccepted", "true");
+      document.getElementById("cookie-banner").style.display = "none";
+      // Aquí puedes agregar alguna lógica si aceptan las cookies, por ejemplo, habilitar análisis
+    });
+
+    // Manejar el clic en "Rechazar"
+    document.getElementById("reject-cookies").addEventListener("click", function() {
+      localStorage.setItem("cookiesRejected", "true");
+      document.getElementById("cookie-banner").style.display = "none";
+      // Aquí puedes agregar lógica para lo que pasa si el usuario rechaza las cookies, como deshabilitar seguimiento
+    });
+  });
+</script>
+
+
+<!-- Purchase Button -->
+<!--<div class="templatecookie-btn">-->
+<!--    <span>-->
+<!--        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="" viewBox="0 0 24 24" stroke="currentColor">-->
+<!--            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"-->
+<!--                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />-->
+<!--        </svg>-->
+<!--    </span>-->
+<!--</div>-->
+</body>
+</html>

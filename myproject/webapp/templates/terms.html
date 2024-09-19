@@ -1,0 +1,441 @@
+{% load static %}
+
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Terms | Stregasoft</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/favicon/favicon.png' %}" />
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/fontawesome-all.min.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/default.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/aos.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style3.css' %}" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <style>
+        .swiper-container {
+            width: 650px;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            width: 75%;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body class="homepage04">
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+    <!-- Add your site or application content here -->
+    <!--  HEADER AREA -->
+    <header id="header" class="header-area header-area04">
+    <div class="container custom-container02">
+        <nav class="menu-area d-flex align-items-center">
+            <div class="logo">
+                <a href="{% url 'index' %}">
+                    <img src="{% static 'img/logo/logo03.png' %}" alt="{% trans 'brandLogo' %}" class="logo-04" />
+                </a>
+            </div>
+            <ul class="main-menu d-flex align-items-center">
+                <li>
+                    <a  href="{% url 'index' %}">{% trans 'Home' %}</a>
+                </li>
+                <li>
+                    <a href="{% url 'services' %}">{% trans 'Services' %}</a>
+                    <ul class="sub-menu">
+                        <li><a href="{% url 'webservices' %}">{% trans 'Web Services' %}</a></li>
+                        <li><a href="{% url 'crmservices' %}">{% trans 'CRM Services' %}</a></li>
+                        <li><a href="{% url 'chatbotservices' %}">{% trans 'Chatbot Services' %}</a></li>
+                        <li><a href="{% url 'itservices' %}">{% trans 'IT Services' %}</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="{% url 'about' %}">{% trans 'About' %}</a>
+                </li>
+                <!-- <li>
+                    <a href="javascript:void(0)">{% trans 'Portfolio' %}</a>
+                    <ul class="sub-menu">
+                        <li><a href="project.html">{% trans 'Project' %}</a></li>
+                        <li>
+                            <a href="project-details.html">{% trans 'Project Detail' %}</a>
+                        </li>
+                    </ul>
+                </li> -->
+                <li>
+                    <a href="{% url 'blog_list' %}">{% trans 'Blog' %}</a>
+                </li>
+                <li>
+                    <a href="{% url 'contact' %}">{% trans 'Contact' %}</a>
+                </li>
+            </ul>
+
+            <div class="right-content ml-auto">
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/stregasoft"><img src="{% static 'img/icon/facebook-f.svg' %}" alt="{% trans 'facebook' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    <a href="https://www.instagram.com/stregasoft"><img src="{% static 'img/icon/instagram.svg' %}" alt="{% trans 'instagram' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    <a href="https://www.linkedin.com/company/stregasoft"><img src="{% static 'img/icon/linkedin-in.svg' %}" alt="{% trans 'linkedin' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    <a href="https://www.youtube.com/@stregasoft"><img src="{% static 'img/icon/youtube.svg' %}" alt="{% trans 'youtube' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                </div>
+                <!-- Verifica si el usuario está autenticado -->
+                {% if user.is_authenticated %}
+                    <!-- Usuario está autenticado -->
+                    <div class="social-icon1">
+                        <a href="{% url 'dashboard' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    </div>
+                {% else %}
+                    <!-- Usuario no está autenticado -->
+                    <div class="social-icon1">
+                        <a href="{% url 'login' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    </div>
+                {% endif %}
+            </div>
+            <div class="lang-menu">
+                <div class="selected-lang">
+                    <a href="#" id="globe-btn"><img src="{% static 'img/avatar/globe.png' %}" style="height: 30px; align-items: center;" alt="{% trans 'Language Selector' %}"></a>
+                </div>
+                <ul id="lang-list">
+                    <li>
+                        <form action="{% url 'set_language' %}" method="post">
+                            {% csrf_token %}
+                            <input name="next" type="hidden" value="{{ request.path }}">
+                            <input name="language" type="hidden" value="es">
+                            <button type="submit">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrSRVRdUmc2ieu8m1t95LYvaSkxr0eRJ2kPw&s" alt="{% trans 'Flag of Spain' %}" style="width: 20px; height: 15px; margin-right: 5px;">
+                                {% trans 'ESP' %}
+                            </button>
+                        </form>
+                    </li>
+                    <li>
+                        <form action="{% url 'set_language' %}" method="post">
+                            {% csrf_token %}
+                            <input name="next" type="hidden" value="{{ request.path }}">
+                            <input name="language" type="hidden" value="en">
+                            <button type="submit">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="{% trans 'Flag of UK' %}" style="width: 20px; height: 15px; margin-right: 5px;">
+                                {% trans 'ENG' %}
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="hamburger-menu"><span></span><span></span><span></span></div>
+        </nav>
+        <aside>
+            <div class="sidebar-menu">
+                <div class="close-sidebar"><span></span><span></span></div>
+                <div class="logo">
+                    <a href="{% url 'index' %}">
+                        <img src="{% static 'img/logo/logo08.png' %}" alt="{% trans 'logo' %}" />
+                    </a>
+                </div>
+                <ul class="main-menu">
+                    <li>
+                        <a class="active" href="{% url 'index' %}">{% trans 'Home' %}</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">{% trans 'Services' %} <span class="arrow">&#9662;</span></a>
+                        <ul class="submenu">
+                            <li><a href="{% url 'services' %}">{% trans 'Our Services' %}</a></li>
+                            <li><a href="{% url 'webservices' %}">{% trans 'Web Services' %}</a></li>
+                            <li><a href="{% url 'crmservices' %}">{% trans 'CRM Services' %}</a></li>
+                            <li><a href="{% url 'chatbotservices' %}">{% trans 'Chatbot Services' %}</a></li>
+                            <li><a href="{% url 'itservices' %}">{% trans 'IT Services' %}</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{% url 'about' %}">{% trans 'About Us' %}</a></li>
+                    <li><a href="{% url 'blog_list' %}">{% trans 'Blog' %}</a></li>
+                    <li><a href="{% url 'contact' %}">{% trans 'Contact Us' %}</a></li>
+                    
+                    <!-- Icono de cuentas en el menú móvil -->
+                    <li class="social-icon1">
+                        {% if user.is_authenticated %}
+                            <a href="{% url 'dashboard' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                        {% else %}
+                            <a href="{% url 'login' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                        {% endif %}
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="overlay"></div>
+        </aside>
+    </div>
+</header>
+<main>
+
+    <main class="terms-container">
+        <h1>{% trans "© Stregasoft Terms & Conditions" %}</h1>
+
+<section>
+    <h2>{% trans "Effective Date" %}</h2>
+    <p>{% trans "Effective Date: 07/23/2024" %}</p>
+</section>
+
+<section>
+    <h2>{% trans "Welcome to Stregasoft" %}</h2>
+    <p>{% trans "These terms & conditions (“Terms”, “Agreement”) are an agreement between Stregasoft (“Website”, “us”, “we”, or “our”) and you (“User”, “you”, or “your”). This Agreement sets forth the general terms & conditions of your use of the Stregasoft website located at https://www.stregasoft.com and any of its related products and services (collectively, “Website” or “Services”)." %}</p>
+</section>
+
+<section>
+    <h2>{% trans "Services Provided" %}</h2>
+    <p>{% trans "Stregasoft offers the following services:" %}</p>
+    <ul>
+        <li><strong>{% trans "Web Services:" %}</strong> {% trans "Design, development, and maintenance of websites." %}</li>
+        <li><strong>{% trans "CRM Services:" %}</strong> {% trans "Customer relationship management software and support." %}</li>
+        <li><strong>{% trans "Chatbot Services:" %}</strong> {% trans "Automation of the customer engagement process within your business." %}</li>
+        <li><strong>{% trans "IT Services:" %}</strong> {% trans "Comprehensive IT support and consulting." %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "Use of Services and Website" %}</h2>
+    <p>{% trans "By using our services, you agree to the following:" %}</p>
+    <ul>
+        <li>{% trans "You will use our services only for lawful purposes and in accordance with these Terms & Conditions." %}</li>
+        <li>{% trans "You must not use our services or website to violate any applicable laws or regulations, transmit harmful or disruptive content, or engage in any activity that disrupts or interferes with our services or the website." %}</li>
+        <li>{% trans "You may not use the website for the purpose of exploiting, harming, or attempting to exploit or harm minors in any way, transmitting any advertising or promotional material without permission, including any “junk mail,” “chain letter,” or “spam.”" %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "Client Responsibilities" %}</h2>
+    <p>{% trans "As a client, you agree to:" %}</p>
+    <ul>
+        <li>{% trans "Provide accurate and complete information required for the provision of services." %}</li>
+        <li>{% trans "Ensure that you have the necessary rights and permissions to provide any materials or information you supply to us." %}</li>
+        <li>{% trans "Pay all applicable fees in a timely manner." %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "Fees and Payment" %}</h2>
+    <ul>
+        <li>{% trans "Fees for our services will be outlined in the service agreement." %}</li>
+        <li>{% trans "Payment terms are specified in the agreement, and late payments may incur additional charges." %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "Intellectual Property" %}</h2>
+    <ul>
+        <li>{% trans "The website and its entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio, and the design, selection, and arrangement thereof), are owned by Stregasoft, its licensors, or other providers of such material and are protected by international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws." %}</li>
+        <li>{% trans "You are granted a non-exclusive, non-transferable license to use these materials only for the purposes for which they are provided." %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "Confidentiality" %}</h2>
+    <ul>
+        <li>{% trans "We will maintain the confidentiality of your information and will not disclose it to third parties except as required by law or as necessary to provide our services." %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "Limitation of Liability" %}</h2>
+    <ul>
+        <li>{% trans "To the fullest extent permitted by law, Stregasoft will not be liable for any indirect, incidental, or consequential damages arising from the use of or inability to use our services or the website." %}</li>
+        <li>{% trans "Our liability is limited to the amount paid by you for the services in question." %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "Disclaimer of Warranties" %}</h2>
+    <ul>
+        <li>{% trans "The website is provided “as is” and without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that the website will be uninterrupted or error-free, that defects will be corrected, or that the website or the server that makes it available are free of viruses or other harmful components." %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "Termination" %}</h2>
+    <ul>
+        <li>{% trans "We reserve the right to terminate or suspend your access to our services if you violate these Terms & Conditions or fail to pay any amounts due." %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "Modifications to Terms" %}</h2>
+    <ul>
+        <li>{% trans "Stregasoft may modify these Terms & Conditions at any time." %}</li>
+        <li>{% trans "Changes will be effective upon posting on our website." %}</li>
+        <li>{% trans "Your continued use of our services after any modifications constitutes acceptance of the new terms." %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "Governing Law and Jurisdiction" %}</h2>
+    <ul>
+        <li>{% trans "These Terms & Conditions are governed by and construed in accordance with the laws of Nicaragua." %}</li>
+        <li>{% trans "Any disputes arising from these terms will be subject to the exclusive jurisdiction of the courts in Nicaragua." %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "Web Browser Cookies" %}</h2>
+    <p>{% trans "Our site may use “cookies” to enhance user experience. Users’ web browsers place cookies on their hard drive for record-keeping purposes and sometimes to track information about them. Users may choose to set their web browser to refuse cookies or to alert them when cookies are being sent. If they do so, note that some parts of the site may not function properly." %}</p>
+</section>
+
+<section>
+    <h2>{% trans "How We Use Collected Information" %}</h2>
+    <p>{% trans "Stregasoft may collect and use users’ personal information for the following purposes:" %}</p>
+    <ul>
+        <li>{% trans "To personalize user experience: We may use information in the aggregate to understand how our users as a group use the services and resources provided on our site." %}</li>
+        <li>{% trans "To improve our site: We may use feedback you provide to improve our products and services." %}</li>
+        <li>{% trans "To send periodic emails: We may use the email address to respond to inquiries, questions, and/or other requests." %}</li>
+    </ul>
+</section>
+
+<section>
+    <h2>{% trans "How We Protect Your Information" %}</h2>
+    <p>{% trans "We adopt appropriate data collection, storage, and processing practices and security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information and data stored on our site." %}</p>
+</section>
+
+<section>
+    <h2>{% trans "Sharing Your Personal Information" %}</h2>
+    <p>{% trans "We do not sell, trade, or rent users’ personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners, trusted affiliates, and advertisers for the purposes outlined above." %}</p>
+</section>
+
+<section>
+    <h2>{% trans "Changes to these Terms & Conditions" %}</h2>
+    <p>{% trans "Stregasoft has the discretion to update these Terms & Conditions at any time. We encourage users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review these Terms & Conditions periodically and become aware of modifications." %}</p>
+</section>
+
+<section>
+    <h2>{% trans "Your Acceptance of These Terms" %}</h2>
+    <p>{% trans "By using this site, you signify your acceptance of these Terms & Conditions. If you do not agree to this Terms & Conditions, please do not use our site. Your continued use of the site following the posting of changes to this Terms & Conditions will be deemed your acceptance of those changes." %}</p>
+</section>
+
+<section>
+    <h2>{% trans "Contact Information" %}</h2>
+    <p>{% trans "If you have any questions about these Terms & Conditions, please contact us at:" %}</p>
+    <p>
+
+        <br>
+        {% trans "info@stregasoft.com" %}<br>
+    </p>
+</section>
+
+<p>{% trans "© Stregasoft 2024" %}</p>
+</section>
+</main>
+
+    
+    <!-- Footer -->
+    <footer class="footer03">
+        <div class="footer-area">
+            <div class="container">
+                <div class="row align-items-lg-baseline">
+                    <div class="col-lg-4 col-md-12 order-lg-0 order-4">
+                        <div class="footer-area-about" data-aos="fade-up">
+                            <a href="{% url 'index' %}">
+                                <img src="{% static 'img/logo/logo03.png' %}" alt="{% trans 'Logo' %}" class="img-fluid" />
+                            </a>
+    
+                            <div class="footer-area-links">
+                                <a href="javascript:void(0)" onclick="goToURL('https://www.facebook.com/stregasoft')"><i class="fab fa-facebook-f"></i></a>
+                                <a href="javascript:void(0)" onclick="goToURL('https://www.instagram.com/stregasoft')"><i class="fab fa-instagram"></i></a>
+                                <a href="javascript:void(0)" onclick="goToURL('https://www.linkedin.com/company/stregasoft/')"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="javascript:void(0)" onclick="goToURL('https://www.youtube.com/@stregasoft')"><i class="fab fa-youtube"></i></a>
+                                <a href="javascript:void(0)" onclick="goToURL('https://www.tiktok.com/@stregasoft')"><i class="fab fa-tiktok"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mr-lg-65 col-md-4 col-6 order-lg-0 order-md-1">
+                        <div class="footer-area-lists mb-30" data-aos="fade-up" data-aos-delay="300">
+                            <h4>{% trans "Company" %}</h4>
+                            <ul>
+                                <li><a href="{% url 'about' %}">{% trans "About" %}</a></li>
+                                <li><a href="{% url 'contact' %}">{% trans "Contact us" %}</a></li>
+                                <li><a href="{% url 'blog_list' %}">{% trans "Blog" %}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mr-lg-65 col-md-4 col-6 order-lg-0 order-2">
+                        <div class="footer-area-lists mb-30" data-aos="fade-up" data-aos-delay="400">
+                            <h4>{% trans "Services" %}</h4>
+                            <ul>
+                                <li><a href="{% url 'webservices' %}">{% trans "Web Services" %}</a></li>
+                                <li><a href="{% url 'crmservices' %}">{% trans "CRM Services" %}</a></li>
+                                <li><a href="{% url 'chatbotservices' %}">{% trans "Chatbot Services" %}</a></li>
+                                <li><a href="{% url 'itservices' %}">{% trans "IT Services" %}</a></li>
+                            </ul>                        
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 order-lg-0 order-md-3">
+                        <div class="footer-area-lists" data-aos="fade-up" data-aos-delay="500">
+                            <h4>{% trans "Legal" %}</h4>
+                            <ul>
+                                <li><a href="{% url 'privacy' %}">{% trans "Privacy Policy" %}</a></li>
+                                <li><a href="{% url 'terms' %}">{% trans "Terms & Conditions" %}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row align-items-center copyright-area">
+                    <div class="col-sm-12 d-flex justify-content-between align-items-center">
+                        <div class="copyright-area-text">
+                            <p class="text-white">{% trans "© Stregasoft 2024" %}</p>
+                        </div>
+                        <div class="copyright-area-top text-lg-right">
+                            <a class="text-white" href="#header" id="to-top">{% trans "Back to Top" %} <i class="fas fa-angle-up"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+        <!-- JS here -->
+        <script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
+        <script src="{% static 'js/popper.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/aos.js' %}"></script>
+        <script src="{% static 'js/main.js' %}"></script>
+        <script>
+        function goToURL(url) {
+            window.open(url, '_blank');
+        }
+        </script>
+        
+        <!-- Purchase Button -->
+        </body>
+        </html>
+        

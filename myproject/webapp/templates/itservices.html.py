@@ -1,0 +1,528 @@
+BBBB BBBBBB
+
+BBBB BBBB
+
+XXXXXXXXX XXXXX
+XXXXX XXXXXXXXXXX
+
+XXXXXX
+    XXXXX XXXXXXXXXXXXXXX XX
+    XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXX XX
+    XXXXXXXXX X XXXXXXXXXXXXXXXXXX
+    XXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXX XX
+    XXXXX XXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXX
+
+    XXXX XXXXX XXXXXXXXXXX XX XXX XXXX XXXXXXXXX XXX
+    XXXXX XXXXXXXXXXXXX XXXXX XXXXXXXXXXXXXXXXXXX XXXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBX XX
+    XXXX XXX XXXX XXX
+    XXXXX XXXXXXXXXXXXXXXX XXXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBX XX
+    XXXXX XXXXXXXXXXXXXXXX XXXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBBX XX
+    XXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+    XXXXX XXXXXXXXXXXXXXXX XXXXXXBBBBBB BBBBBBBBBBBBBBBX XX
+    XXXXX XXXXXXXXXXXXXXXX XXXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBX XX
+    XXXXX XXXXXXXXXXXXXXXX XXXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBX XX
+    XXXXX XXXXXXXXXXXXXXXX XXXXXXBBBBBB BBBBBBBBBBBBBBBBBX XX
+    XXXXX XXXXXXXXXXXXXXXX XXXXXXBBBBBB BBBBBBBBBBBBBX XX
+    XXXXX XXXXXXXXXXXXXXXX XXXXXXBBBBBB BBBBBBBBBBBBBBBX XX
+    XXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXX XXXXXXXXXXXXXXX
+    XXXXXXX
+        XXXXXXXXXXXXXXXXX X
+            XXXXXX XXXXXX
+            XXXXXXX XXXXX
+        X
+
+        XXXXXXXXXXXXX X
+            XXXXXXXXXXX XXXXXXX
+            XXXXXXXXXX XXXXX
+            XXXXXX XXXX
+
+            XX XXXXXX XXXXX XXXX XXXXXXXXXX XX
+            XXXXXXXX XXXXXXXXXXXX
+            XXXXXXXX XXXXXXXXXXXX
+            XXXXXXXX XXXXXXXXXXXXX
+            XXXXXXXX XXXXX
+            XXXXXXXXXXXXXXXXX XXXXXXX
+            XXXXXXXXXXXXXX XXXXXXX
+            XXXXXXXXXXXXXXXXXXXXXXXX XXXXXXX
+            XXXXXXXXXXXXXXXX XXXXXXX
+            XXXXXXXXXXXXXXXXXX XXXXXXX
+            XXXXXXXXXXXXXXX XXXXXXX
+            XXXXXXXXXXXXXXXXXXXX XXXXXXX
+            XXXXXXXXXXXX XXXXXXX
+        X
+    XXXXXXXX
+
+XXXXXXX
+
+XXXXX XXXXXXXXXXXXXXXXXXX
+    XXXXXXX XXX XX XXX
+            XX XXXXXXXXXXXXXXXXXXXXXXXXXX XXX XXXXX XX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXX XXXXXX XX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXX XXXXXXXXXXX XX XXXXXXX XXXX XXXXXXXXXX XXX XXXXXXXXXXXXX
+        XXXXXXXXXXXX
+    XXXX XXX XXXX XXXX XX XXXXXXXXXXX XXXXXXX XXXX XXX
+    XXXX  XXXXXX XXXX XXX
+    XXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXX
+    XXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX
+        XXXX XXXXXXXXXXXXXXXX XXXXXX XXXXXXXXXXXXXXXXXXXX
+            XXXX XXXXXXXXXXXXX
+                XX XXXXXXBBB BBBBBBBXX
+                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'brandLogo') X XXXXXXXXXXXXXXX XX
+                XXXX
+            XXXXXX
+            XXX XXXXXXXXXXXXXXXX XXXXXX XXXXXXXXXXXXXXXXXXXX
+                XXXX
+                    XX  XXXXXXBBB BBBBBBBXX gettext(u'Home') XXXX
+                XXXXX
+                XXXX
+                    XX XXXXXXXXXXXXXX XXXXXXBBB BBBBBBBBBBXX gettext(u'Services') XXXX
+                    XXX XXXXXXXXXXXXXXXXX
+                        XXXXXX XXXXXXBBB BBBBBBBBBBBBBXX gettext(u'Web Services') XXXXXXXXX
+                        XXXXXX XXXXXXBBB BBBBBBBBBBBBBXX gettext(u'CRM Services') XXXXXXXXX
+                        XXXXXX XXXXXXBBB BBBBBBBBBBBBBBBBBXX gettext(u'Chatbot Services') XXXXXXXXX
+                        XXXXXX  XXXXXXBBB BBBBBBBBBBBBXX gettext(u'IT Services') XXXXXXXXX
+                    XXXXX
+                XXXXX
+                XXXX
+                    XX XXXXXXBBB BBBBBBBXX gettext(u'About') XXXX
+                XXXXX
+                XXXX XXXX
+                    XX XXXXXXXXXXXXXXXXXXXXXXXXXX gettext(u'Portfolio') XXXX
+                    XXX XXXXXXXXXXXXXXXXX
+                        XXXXXX XXXXXXXXXXXXXXXXXXXX gettext(u'Project') XXXXXXXXX
+                        XXXX
+                            XX XXXXXXXXXXXXXXXXXXXXXXXXXXXX gettext(u'Project Detail') XXXX
+                        XXXXX
+                    XXXXX
+                XXXXX XXX
+                XXXX
+                    XX XXXXXXBBB BBBBBBBBBBBXX gettext(u'Blog') XXXX
+                XXXXX
+                XXXX
+                    XX XXXXXXBBB BBBBBBBBBXX gettext(u'Contact') XXXX
+                XXXXX
+            XXXXX
+
+            XXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXX
+                XXXX XXXXXXXXXXXXXXXXXXXX
+                    XX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'facebook') X XXXXXXXXXXXXXX XXXXX XXXXXXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXX
+                    XX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'instagram') X XXXXXXXXXXXXXX XXXXX XXXXXXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXX
+                    XX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'linkedin') X XXXXXXXXXXXXXX XXXXX XXXXXXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXX
+                    XX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'youtube') X XXXXXXXXXXXXXX XXXXX XXXXXXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXX
+                XXXXXX
+                XXXX XXXXXXXX XX XX XXXXXXX XXXX XXXXXXXXXXX XXX
+                BB BBBBBBBBBBBBBBBBBBBBB
+                    XXXX XXXXXXX XXXX XXXXXXXXXXX XXX
+                    XXXX XXXXXXXXXXXXXXXXXXXXX
+                        XX XXXXXXBBB BBBBBBBBBBBXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'account') X XXXXXXXXXXXXXX XXXXX XXXXXXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXX
+                    XXXXXX
+                BBBB
+                    XXXX XXXXXXX XX XXXX XXXXXXXXXXX XXX
+                    XXXX XXXXXXXXXXXXXXXXXXXXX
+                        XX XXXXXXBBB BBBBBBBXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'account') X XXXXXXXXXXXXXX XXXXX XXXXXXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXX
+                    XXXXXX
+                BBBBB
+            XXXXXX
+            XXXX XXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXXXXXXXXX
+                    XX XXXXXXXX XXXXXXXXXXXXXXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBX XXXXXXXXXXXXXX XXXXX XXXXXXXXXXXX XXXXXXXX XXXXX gettext(u'Language Selector') XXXXXX
+                XXXXXX
+                XXX XXXXXXXXXXXXXXX
+                    XXXX
+                        XXXXX XXXXXXXXBBB BBBBBBBBBBBBBBX XXXXXXXXXXXXXX
+                            BBBBBBBBBB
+                            XXXXXX XXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXXX
+                            XXXXXX XXXXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXXXXX
+                            XXXXXXX XXXXXXXXXXXXXX
+                                XXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXX gettext(u'Flag of Spain') X XXXXXXXXXXXXX XXXXX XXXXXXX XXXXX XXXXXXXXXXXXX XXXXXX
+                                 gettext(u'ESP') 
+                            XXXXXXXXX
+                        XXXXXXX
+                    XXXXX
+                    XXXX
+                        XXXXX XXXXXXXXBBB BBBBBBBBBBBBBBX XXXXXXXXXXXXXX
+                            BBBBBBBBBB
+                            XXXXXX XXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXXX
+                            XXXXXX XXXXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXXXXXXX
+                            XXXXXXX XXXXXXXXXXXXXX
+                                XXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXX gettext(u'Flag of UK') X XXXXXXXXXXXXX XXXXX XXXXXXX XXXXX XXXXXXXXXXXXX XXXXXX
+                                 gettext(u'ENG') 
+                            XXXXXXXXX
+                        XXXXXXX
+                    XXXXX
+                XXXXX
+            XXXXXX
+            
+            XXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        XXXXXX
+        XXXXXXX
+                       XXXX XXXXXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXX
+                    XX XXXXXXBBB BBBBBBBXX
+                        XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'logo') X XX
+                    XXXX
+                XXXXXX
+                XXX XXXXXXXXXXXXXXXXXX
+                    XXXX
+                        XX XXXXXXXXXXXXXX XXXXXXBBB BBBBBBBXX gettext(u'Home') XXXX
+                    XXXXX
+                    XXX XXXXXXXXXXXXXXXXXXXX
+                        XX XXXXXXXXX gettext(u'Services')  XXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XXX XXXXXXXXXXXXXXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBBXX gettext(u'Our Services') XXXXXXXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBBBBBXX gettext(u'Web Services') XXXXXXXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBBBBBXX gettext(u'CRM Services') XXXXXXXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBBBBBBBBBXX gettext(u'Chatbot Services') XXXXXXXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBBBBXX gettext(u'IT Services') XXXXXXXXX
+                        XXXXX
+                    XXXXX
+                    XXXXXX XXXXXXBBB BBBBBBBXX gettext(u'About Us') XXXXXXXXX
+                    XXXXXX XXXXXXBBB BBBBBBBBBBBXX gettext(u'Blog') XXXXXXXXX
+                    XXXXXX XXXXXXBBB BBBBBBBBBXX gettext(u'Contact Us') XXXXXXXXX
+                    
+                    XXXX XXXXX XX XXXXXXX XX XX XXXX XXXXX XXX
+                    XXX XXXXXXXXXXXXXXXXXXXXX
+                        BB BBBBBBBBBBBBBBBBBBBBB
+                            XX XXXXXXBBB BBBBBBBBBBBXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'account') X XXXXXXXXXXXXXX XXXXX XXXXXXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXX
+                        BBBB
+                            XX XXXXXXBBB BBBBBBBXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'account') X XXXXXXXXXXXXXX XXXXX XXXXXXXXXXXXXXX XXXXXXX XXXXXXX XXXXXXXXXXX
+                        BBBBB
+                    XXXXX
+                XXXXX
+            XXXXXX
+            
+            XXXX XXXXXXXXXXXXXXXXXXXXXX
+        XXXXXXXX
+    XXXXXX
+XXXXXXXXX
+XXXXXX
+        XXXX  XXXXXXXXXX XXXX XXX
+        XXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXX XXXXXX
+            XXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXXXXXXXXXXX XXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBXXX XXXXXXXXXXXXXXXXXXXXXXXXX
+                    XXXX XXXXXXXXXX XXXXXX XXXXXXXXXXXXXXXXXXXX
+                        XXXX XXXXXXXXXXXXXXX XXXXXXX XXXXXXXXXXXX
+                            XXXX XXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXX
+                                XXXX XXXXXXXXXXXXXXXXXXXXXXXXXX
+                                    XXXX gettext(u'IT Services') XXXXX
+                                XXXXXX
+                                XXX
+                                     gettext(u'At Stregasoft, we provide advanced IT solutions with a focus on exceptional service and support.') 
+                                XXXX
+                            XXXXXX
+                        XXXXXX
+                        XXXX XXXXXXXXXXXXXXX XXXXXXX XXXXXXXXXXXX
+                            XXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXX
+                                XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXXXXXXXXXXXXXXX XXXXXXXXXXX XX
+                            XXXXXX
+                        XXXXXX
+                    XXXXXX
+                XXXXXX
+            XXXXXX
+        XXXXXXXXXX
+        
+        XXXX  XXX XXXX XXXXXXX XXX
+        XXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX XXXXBBBBBB BBBBBBBBBBBBBBBBBBBBXXX XXXXXXXXXXXXXXXXXXXXX
+            XXXX XXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXX XXXXXXXXXXXXXXXXXXX
+                    XXX XXXXXXXXXXXXXXXX gettext(u'Our Work Process') XXXXX
+                XXXXXX
+                XXXX XXXXXXXXXXXX
+                    XXXX XXXXXXXXXXXXXXXXX
+                        XXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXX
+                            XXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXX
+                                XXXX XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXX
+                                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBX XXXXXXXXX XXXXXXXX XXXXXXXXXXXXXXXXX XX
+                                XXXXXX
+                            XXXXXX
+                            XXXX XXXXXXXXXXXXXXXXXXXXX
+                                XXX XXXXXXXXXXXXXX gettext(u'Discuss') XXXXX
+                                XXX
+                                     gettext(u'In this phase, we engage in detailed conversations to fully understand their vision and requirements of the IT project, ensuring that all perspectives are considered.') 
+                                XXXX
+                            XXXXXX
+                        XXXXXX
+                    XXXXXX
+                    XXXX XXXXXXXXXXXXXXXXX
+                        XXXX XXXXXXXXXXXXXXXXXXX XXXX XXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+                            XXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXX
+                                XXXX XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXX
+                                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXXXXXX XXXXXXXX XXXXXXXXXXXXXXXXX XX
+                                XXXXXX
+                            XXXXXX
+                            XXXX XXXXXXXXXXXXXXXXXXXXX
+                                XXX XXXXXXXXXXXXXX gettext(u'Mapping') XXXXX
+                                XXX
+                                     gettext(u'We outline each step to create a technical solution with a clear path to success, ensuring all objectives are met efficiently.') 
+                                XXXX
+                            XXXXXX
+                        XXXXXX
+                    XXXXXX
+                    XXXX XXXXXXXXXXXXXXXXX
+                        XXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+                            XXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXX
+                                XXXX XXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXX
+                                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXXXXXX XXXXXXXX XXXXXXXXXXXXXXXXX XX
+                                XXXXXX
+                            XXXXXX
+                            XXXX XXXXXXXXXXXXXXXXXXXXX
+                                XXX XXXXXXXXXXXXXX gettext(u'Implementation') XXXXX
+                                XXX
+                                     gettext(u'We deploy the solution as planned, ensure smooth integration, provide training, and offer support for seamless operation.') 
+                                XXXX
+                            XXXXXX
+                        XXXXXX
+                    XXXXXX
+                XXXXXX
+            XXXXXX
+            XXXX XXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBX XXXXXXXXXXX XXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXX XX
+            XXXXXX
+        XXXXXXXXXX
+        
+        XXXXXXX
+            XXXXXXXXXXXXXX X
+                XXXXXXXXXX XXXXXXX XX XXXXXX XX XXXXXX XXXXXX XX
+                XXXXXXXXXXXX XXXXX XX XXXXX XX XXXXXXX XX
+                XXXXXX XXXXX XX XXXXX XXX XXXXX XX
+                XXXXXXXXXXXXXX XXXXXXX XX XXXXXXX XXXXXX XXX XXXXXXXXXX XX
+                XXXXXXX XXXXX
+                XXXXXXXX XXXX XXXXXXXXXXX
+            X
+        
+            XXXXXX XXXXXXXXXXX XXXXXX X
+                XXXXXXXXXXXXXX X
+                    XXXXXXXXXX XXXXX XX XXXXXX XX XXXXXX XXX XXXXXXX XX XXXXXXXXX XXXXXXXX XX
+                X
+            X
+        
+            XXXXXX XXXXXXXXXXX XXXXXX X
+                XXXXXXXXXXXXXX X
+                    XXXXXXXXXX XXXXXXX XX XXXXXX XX XXXXXX XXX XXX XXXXXXX XX XXXXXXXXX XXX XXXXXXXX XX
+                X
+            X
+        XXXXXXXX
+      
+    
+        XXXX XXXXXXXXXXXXXXXXXXXX XXXXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXX
+            XXXX XXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX
+                    XXXX XXXXXXXXXXXXXXX XXXXXXXXX XXXXXXXXXXXXXXXXXX
+                        XXXX XXXXXXXXXXXXXXXXXXXXXX
+                            XXXX gettext(u'Our Cloud Service') XXXXX
+                            XXXX XXXXXXXXXXXXXXXXXX
+                            XXX gettext(u'Our cloud hosting services offer scalable, secure, and high-performance solutions designed for businesses of all sizes. Leveraging top-tier infrastructure and providing personalized support, we ensure that your applications and websites operate efficiently. This allows you to focus on driving growth and success for your business.') XXXX
+                        XXXXXX
+                        XXXX XXXXXXXXXXXX
+                            XXXX XXXXXXXXXXXXXXX XXXXXXXXXX
+                                XXXX XXXXXXXXXXXX
+                                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'Managed IT Services') X XXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXX XXXXXXX
+                                     gettext(u'Managed IT Services') 
+                                XXXXXX
+                            XXXXXX
+                            XXXX XXXXXXXXXXXXXXX XXXXXXXXXX
+                                XXXX XXXXXXXXXXXX
+                                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'Cloud Computing Services') X XXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXX XXXXXXX
+                                     gettext(u'Cloud Computing Services') 
+                                XXXXXX
+                            XXXXXX
+                            XXXX XXXXXXXXXXXXXXX XXXXXXXXXX
+                                XXXX XXXXXXXXXXXX
+                                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'Cybersecurity') X XXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXX XXXXXXX
+                                     gettext(u'Cybersecurity') 
+                                XXXXXX
+                            XXXXXX
+                            XXXX XXXXXXXXXXXXXXX XXXXXXXXXX
+                                XXXX XXXXXXXXXXXX
+                                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'Network Management') X XXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXX XXXXXXX
+                                     gettext(u'Network Management') 
+                                XXXXXX
+                            XXXXXX
+                            XXXX XXXXXXXXXXXXXXX XXXXXXXXXX
+                                XXXX XXXXXXXXXXXX
+                                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'Data Backup and Recovery') X XXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXX XXXXXXX
+                                     gettext(u'Data Backup and Recovery') 
+                                XXXXXX
+                            XXXXXX
+                            XXXX XXXXXXXXXXXXXXX XXXXXXXXXX
+                                XXXX XXXXXXXXXXXX
+                                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'Technical Support') X XXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXX XXXXXXX
+                                     gettext(u'Technical Support') 
+                                XXXXXX
+                            XXXXXX
+                            XXXX XXXXXXXXXXXXXXX XXXXXXXXXX
+                                XXXX XXXXXXXXXXXX
+                                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'IT Consulting') X XXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXX XXXXXXX
+                                     gettext(u'IT Consulting') 
+                                XXXXXX
+                            XXXXXX
+                            XXXX XXXXXXXXXXXXXXX XXXXXXXXXX
+                                XXXX XXXXXXXXXXXX
+                                    XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'System Integration') X XXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXX XXXXXXX
+                                     gettext(u'System Integration') 
+                                XXXXXX
+                            XXXXXX
+                        XXXXXX
+            XXXXXX
+            XXXX XXXXXXXXXXXXXXX XXXXXXXXX XXXXXXXXXXXXXXXX
+                XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXXXXXXX XXXXXXX XXXXXXXX XXXXXXX
+            XXXXXX
+        XXXXXX
+    XXXXXX
+XXXXXX
+
+ 
+XXXX XXXXXXXXXXXXXXXXXX
+    XXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX
+        XXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXX
+            XXX XXXXXXXXXXXXXXXXXXXXXX gettext(u'Service Benefits') XXXXX
+        XXXXXX
+    XXXXXX
+XXXXXX
+XXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+    XXXX XXXXXXXXXXXXXXXXXX
+        XXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX
+            XXXX XXXXXXXXXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXXXX XXXXXXXXXXX
+                    XXXX XXXXXXXXXXXXX
+                        XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'Boost Efficiency') X XXXXXXXXXX XXXXXXXXXXXX
+                    XXXXXX
+                    XXXX gettext(u'Boost Efficiency') XXXXX
+                    XXX gettext(u'Streamline your operations with our solutions, reducing manual tasks and increasing productivity.') XXXX
+                XXXXXX
+            XXXXXX
+            XXXX XXXXXXXXXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXXXX XXXXXXXXXXX
+                    XXXX XXXXXXXXXXXXX
+                        XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'Ensure Security') X XXXXXXXXXX XXXXXXXXXXXX
+                    XXXXXX
+                    XXXX gettext(u'Ensure Security') XXXXX
+                    XXX gettext(u'Protect your business with our advanced security measures, safeguarding your data from threats.') XXXX
+                XXXXXX
+            XXXXXX
+            XXXX XXXXXXXXXXXXXXX XXXXXXXX XXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXXXX XXXXXXXXXXX
+                    XXXX XXXXXXXXXXXXX
+                        XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'Scale with Ease') X XXXXXXXXXX XXXXXXXXXXXX
+                    XXXXXX
+                    XXXX gettext(u'Scale with Ease') XXXXX
+                    XXX gettext(u'Adapt to growth effortlessly with our flexible IT solutions, designed to scale with your needs.') XXXX
+                XXXXXX
+            XXXXXX
+        XXXXXX
+    XXXXXX
+XXXXXX
+
+        
+        
+        
+          
+       XXXX  XXXX XX XXXXXX XXXX XXX
+       XXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXX
+        XXXX XXXXXXXXXXXXXXXXXX
+            XXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXX XXXXXXXXX XXXXXXX XXXXXXXXXXXX
+                    XXXX XXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXX
+                        XXXX gettext(u'Have Any Project On Mind? Contact Us!') XXXXX
+                        XXX
+                             gettext(u"Let's connect! Contact us today for expert assistance and turn your ideas into reality.") 
+                        XXXX
+                        XX XXXXXXXXXXX XXXXXXBBB BBBBBBBBBX XXXXXXXXXXXXXXXXXXXXXXXX gettext(u'Send Message') XXXX
+                    XXXXXX
+                XXXXXX
+                XXXX XXXXXXXXXXXXXXX XXXXXXXXX XXXXXXX XXXXXXXXXXXX
+                    XXXX XXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+                        XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'Call To Action') X XX
+                    XXXXXX
+                XXXXXX
+            XXXXXX
+            XXXX XXXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'mask') X XX
+            XXXXXX
+        XXXXXX
+    XXXXXXXXXX
+  XXXX  XXXXXX XXXX XXX
+  XXXXXXX XXXXXXXXXXXXXXXXX
+    XXXX XXXXXXXXXXXXXXXXXXXX
+        XXXX XXXXXXXXXXXXXXXXXX
+            XXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXX XXXXXXXXX XXXXXXXXXX XXXXXXXXX
+                    XXXX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXX
+                        XX XXXXXXBBB BBBBBBBXX
+                            XXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBX XXXXX gettext(u'Logo') X XXXXXXXXXXXXXXXXX XX
+                        XXXX
+
+                        XXXX XXXXXXXXXXXXXXXXXXXXXXXXXX
+                            XX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXX
+                            XX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXX
+                            XX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXX
+                            XX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXX
+                            XX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXXX
+                        XXXXXX
+                    XXXXXX
+                XXXXXX
+                XXXX XXXXXXXXXXXXXXX XXXXXXXX XXXXXXXX XXXXX XXXXXXXXXX XXXXXXXXXXXX
+                    XXXX XXXXXXXXXXXXXXXXXXXXXXXX XXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+                        XXXX gettext(u'Company') XXXXX
+                        XXXX
+                            XXXXXX XXXXXXBBB BBBBBBBXX gettext(u'About') XXXXXXXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBXX gettext(u'Contact us') XXXXXXXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBBBXX gettext(u'Blog') XXXXXXXXX
+                        XXXXX
+                    XXXXXX
+                XXXXXX
+                XXXX XXXXXXXXXXXXXXX XXXXXXXX XXXXXXXX XXXXX XXXXXXXXXX XXXXXXXXX
+                    XXXX XXXXXXXXXXXXXXXXXXXXXXXX XXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+                        XXXX gettext(u'Services') XXXXX
+                        XXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBBBBBXX gettext(u'Web Services') XXXXXXXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBBBBBXX gettext(u'CRM Services') XXXXXXXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBBBBBBBBBXX gettext(u'Chatbot Services') XXXXXXXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBBBBXX gettext(u'IT Services') XXXXXXXXX
+                        XXXXX                        
+                    XXXXXX
+                XXXXXX
+                XXXX XXXXXXXXXXXXXXX XXXXXXXX XXXXX XXXXXXXXXX XXXXXXXXXXXX
+                    XXXX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+                        XXXX gettext(u'Legal') XXXXX
+                        XXXX
+                            XXXXXX XXXXXXBBB BBBBBBBBBXX gettext(u'Privacy Policy') XXXXXXXXX
+                            XXXXXX XXXXXXBBB BBBBBBBXX gettext(u'Terms & Conditions') XXXXXXXXX
+                        XXXXX
+                    XXXXXX
+                XXXXXX
+            XXXXXX
+        XXXXXX
+    XXXXXX
+    XXXX XXXXXXXXXXXXXXXXXX
+        XXXX XXXXXXXXXXXXXXXXXX
+            XXXX XXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXX
+                XXXX XXXXXXXXXXXXXXXX XXXXXX XXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXX
+                    XXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                        XX XXXXXXXXXXXXXXXXXXX gettext(u'© Stregasoft 2024') XXXX
+                    XXXXXX
+                    XXXX XXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXX
+                        XX XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXX XXXXXXXXXXXX gettext(u'Back to Top')  XX XXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+                    XXXXXX
+                XXXXXX
+            XXXXXX
+        XXXXXX
+    XXXXXX
+XXXXXXXXX
+    
+    XXXX XX XXXX XXX
+    XXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBXXXXXXXXXXX
+    XXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBXXXXXXXXXXX
+    XXXXXXX XXXXXBBBBBB BBBBBBBBBBBBBBBBBBBBBXXXXXXXXXXX
+    XXXXXXX XXXXXBBBBBB BBBBBBBBBBBXXXXXXXXXXX
+    XXXXXXX XXXXXBBBBBB BBBBBBBBBBBBXXXXXXXXXXX
+    XXXXXXXX
+    XXXXXXXX XXXXXXXXXXXX X
+        XXXXXXXXXXXXXXXX XXXXXXXXXX
+    X
+    XXXXXXXXX
+    
+    XXXX XXXXXXXX XXXXXX XXX
+    XXXXXXX
+    XXXXXXX
+    

@@ -1,0 +1,70 @@
+{% extends "base_generic.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}Blog List{% endblock %}
+
+{% block content %}
+    <!-- Banner Section -->
+    <section class="banner-area breadcrumArea mb-0" >
+        <div class="container custom-container">
+            <div style="background-image: url({% static '/img/mask/mask-page-04.png' %});" class="breadcrum-banner">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 order-2 order-lg-1">
+                        <div class="bannerArea__wrapper" data-aos="fade-up" data-aos-offset="500">
+                            <div class="bannerArea__title">
+                                <h1>{% trans "Blog" %}</h1>
+                            </div>
+                            <p>
+                                {% trans "Welcome to our blog! Here, you'll find articles and updates on our latest news and events. Stay tuned to keep up with our latest developments." %}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <div class="banner-image" data-aos="fade-left" data-aos-delay="300" data-aos-offset="500">
+                            <img src="{% static 'img/banner/Blog_Stregasoft.png' %}" alt="banner-image" class="IMG" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Section -->
+
+    <!-- Blog Content Section -->
+    <div class="container10 mt-510">
+        <div class="row">
+            {% for post in posts %}
+            <div class="col-md-6 mb-410">
+                <div class="card10">
+                    {% if post.image %}
+                    <img src="{{ post.image.url }}" class="card-img-top" alt="{{ post.title }}">
+                    {% endif %}
+                    <div class="card-body10">
+                        <div class="card-meta10">
+                            <img src="{% static 'img/favicon/favicon.png' %}" alt="{{ post.author }}" class="author-avatar10">
+                            <div>
+                                <span class="author-name10">{{ post.author }}</span>
+                                <span class="post-date10">{{ post.created_at|date:"M d, Y" }} • {{ post.read_time }} min</span>
+                            </div>
+                        </div>
+                        <h2 class="card-title10">{{ post.title }}</h2>
+                        <p class="card-text10">{{ post.content|slice:":150" }}{% if post.content|length > 150 %}...{% endif %}</p>
+                        <div class="card-footer10">
+                            <a href="{% url 'blog_post_detail' post.pk %}" class="btn10 btn-primary10">Read more</a>
+                            {% if user.is_superuser %}
+                            <a href="{% url 'blog_update' post.pk %}" class="btn btn-primary">Edit</a>
+                            <a href="{% url 'blog_delete' post.pk %}" class="btn btn-danger">Delete</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% if user.is_superuser %}
+        <a href="{% url 'blog_create' %}" class="btn10 btn-success10 mt-510">Create new post</a>
+        {% endif %}
+    </div>
+    <!-- End Blog Content Section -->
+{% endblock %}

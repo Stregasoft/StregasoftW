@@ -1,0 +1,41 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% trans "Email Confirmation" %}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        h2 {
+            color: #1D4999;
+        }
+        p {
+            margin: 15px 0;
+        }
+        .btn-confirm {
+            display: inline-block;
+            background-color: #1D4999;
+            color: #fff !important;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn-confirm:hover {
+            background-color: #163B7A;
+            color: white !important;
+        }
+    </style>
+</head>
+<body>
+    <h2>{% trans "Welcome to Stregasoft!" %}</h2>
+    <p>{% trans "Hello" %} {{ name }}!!</p>
+    <p>{% trans "Please verify your email by clicking on the following link." %}</p>
+    <p><a href="http://{{ domain }}{% url 'activate' uidb64=uid token=token %}" class="btn-confirm">{% trans "Confirm your Email" %}</a></p>
+</body>
+</html>

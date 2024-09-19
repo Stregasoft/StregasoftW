@@ -1,0 +1,4590 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-03 16:39-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+
+#: .\venv\Lib\site-packages\click\_termui_impl.py:518
+#, python-brace-format
+msgid "{editor}: Editing failed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\_termui_impl.py:522
+#, python-brace-format
+msgid "{editor}: Editing failed: {e}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1120
+#: .\venv\Lib\site-packages\typer\core.py:248
+msgid "Aborted!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1309
+#: .\venv\Lib\site-packages\click\decorators.py:559
+msgid "Show this message and exit."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1340
+#: .\venv\Lib\site-packages\click\core.py:1370
+#, python-brace-format
+msgid "(Deprecated) {text}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1387
+#: .\venv\Lib\site-packages\typer\core.py:579
+#: .\venv\Lib\site-packages\typer\rich_utils.py:91
+msgid "Options"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1413
+#, python-brace-format
+msgid "Got unexpected extra argument ({args})"
+msgid_plural "Got unexpected extra arguments ({args})"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\click\core.py:1429
+msgid "DeprecationWarning: The command {name!r} is deprecated."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1636
+#: .\venv\Lib\site-packages\typer\rich_utils.py:92
+msgid "Commands"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:1668
+#, fuzzy
+#| msgid "Mission Image"
+msgid "Missing command."
+msgstr "Imagen de la Misión"
+
+#: .\venv\Lib\site-packages\click\core.py:1746
+msgid "No such command {name!r}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:2310
+msgid "Value must be an iterable."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:2331
+#, python-brace-format
+msgid "Takes {nargs} values but 1 was given."
+msgid_plural "Takes {nargs} values but {len} were given."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\click\core.py:2778
+#: .\venv\Lib\site-packages\typer\core.py:523
+#, python-brace-format
+msgid "env var: {var}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:2808
+#: .\venv\Lib\site-packages\typer\core.py:119
+msgid "(dynamic)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:2821
+#: .\venv\Lib\site-packages\typer\core.py:363
+#: .\venv\Lib\site-packages\typer\core.py:544
+#, python-brace-format
+msgid "default: {default}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\core.py:2834
+#: .\venv\Lib\site-packages\typer\core.py:365
+#: .\venv\Lib\site-packages\typer\core.py:553
+#, fuzzy
+#| msgid "Requirements"
+msgid "required"
+msgstr "Requerimientos"
+
+#: .\venv\Lib\site-packages\click\decorators.py:465
+#, python-format
+msgid "%(prog)s, version %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\decorators.py:528
+msgid "Show the version and exit."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:44
+#: .\venv\Lib\site-packages\click\exceptions.py:80
+#, fuzzy, python-brace-format
+#| msgid "Your Message"
+msgid "Error: {message}"
+msgstr "Mensaje:"
+
+#: .\venv\Lib\site-packages\click\exceptions.py:72
+#, python-brace-format
+msgid "Try '{command} {option}' for help."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:121
+#, python-brace-format
+msgid "Invalid value: {message}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:123
+#, python-brace-format
+msgid "Invalid value for {param_hint}: {message}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:179
+#, fuzzy
+#| msgid "Mission Image"
+msgid "Missing argument"
+msgstr "Imagen de la Misión"
+
+#: .\venv\Lib\site-packages\click\exceptions.py:181
+msgid "Missing option"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:183
+#, fuzzy
+#| msgid "Mission Image"
+msgid "Missing parameter"
+msgstr "Imagen de la Misión"
+
+#: .\venv\Lib\site-packages\click\exceptions.py:185
+#, python-brace-format
+msgid "Missing {param_type}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:192
+#, python-brace-format
+msgid "Missing parameter: {param_name}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:212
+#, python-brace-format
+msgid "No such option: {name}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:224
+#, python-brace-format
+msgid "Did you mean {possibility}?"
+msgid_plural "(Possible options: {possibilities})"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:262
+msgid "unknown error"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\exceptions.py:269
+msgid "Could not open file {filename!r}: {message}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\parser.py:231
+msgid "Argument {name!r} takes {nargs} values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\parser.py:413
+msgid "Option {name!r} does not take a value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\parser.py:474
+msgid "Option {name!r} requires an argument."
+msgid_plural "Option {name!r} requires {nargs} arguments."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\click\shell_completion.py:319
+msgid "Shell completion is not supported for Bash versions older than 4.4."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\shell_completion.py:326
+msgid "Couldn't detect Bash version, shell completion is not supported."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\termui.py:158
+#, fuzzy
+#| msgid "How We Use Your Information"
+msgid "Repeat for confirmation"
+msgstr "Cómo Usamos tu Información"
+
+#: .\venv\Lib\site-packages\click\termui.py:174
+msgid "Error: The value you entered was invalid."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\termui.py:176
+#, fuzzy, python-brace-format
+#| msgid "Your Message"
+msgid "Error: {e.message}"
+msgstr "Mensaje:"
+
+#: .\venv\Lib\site-packages\click\termui.py:187
+msgid "Error: The two entered values do not match."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\termui.py:243
+msgid "Error: invalid input"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\termui.py:773
+msgid "Press any key to continue..."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:266
+#, python-brace-format
+msgid ""
+"Choose from:\n"
+"\t{choices}"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:298
+msgid "{value!r} is not {choice}."
+msgid_plural "{value!r} is not one of {choices}."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\click\types.py:392
+msgid "{value!r} does not match the format {format}."
+msgid_plural "{value!r} does not match the formats {formats}."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\click\types.py:414
+msgid "{value!r} is not a valid {number_type}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:470
+#, python-brace-format
+msgid "{value} is not in the range {range}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:611
+msgid "{value!r} is not a valid boolean."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:635
+msgid "{value!r} is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:822
+msgid "file"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:824
+msgid "directory"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:826
+msgid "path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:877
+msgid "{name} {filename!r} does not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:886
+msgid "{name} {filename!r} is a file."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:894
+#, python-brace-format
+msgid "{name} '{filename}' is a directory."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:903
+msgid "{name} {filename!r} is not readable."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:912
+msgid "{name} {filename!r} is not writable."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:921
+msgid "{name} {filename!r} is not executable."
+msgstr ""
+
+#: .\venv\Lib\site-packages\click\types.py:988
+#, python-brace-format
+msgid "{len_type} values are required, but {len_value} was given."
+msgid_plural "{len_type} values are required, but {len_value} were given."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:16
+#, fuzzy
+#| msgid "Send Message"
+msgid "Messages"
+msgstr "Enviar Mensaje"
+
+#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
+#, fuzzy
+#| msgid "Dedication"
+msgid "Syndication"
+msgstr "Dedicación"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: .\venv\Lib\site-packages\django\core\paginator.py:30
+msgid "…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:32
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:33
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:34
+msgid "That page contains no results"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:152
+#: .\venv\Lib\site-packages\django\forms\fields.py:768
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:213
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:224
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv\Lib\site-packages\django\core\validators.py:307
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:315
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:327
+#: .\venv\Lib\site-packages\django\core\validators.py:336
+#: .\venv\Lib\site-packages\django\core\validators.py:350
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2215
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:329
+msgid "IPv4"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:338
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:30
+msgid "IPv6"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:352
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:393
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:399
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:434
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:443
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:452
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:459
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:509
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:532
+#: .\venv\Lib\site-packages\django\forms\fields.py:359
+#: .\venv\Lib\site-packages\django\forms\fields.py:398
+msgid "Enter a number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:534
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:539
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:544
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:615
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:677
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1571
+#: .\venv\Lib\site-packages\django\forms\models.py:908
+msgid "and"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1573
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\constraints.py:22
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1156
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1157
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1159
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1209
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1211
+msgid "String (unlimited)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1320
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1421
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1425
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1560
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1429
+msgid "Date (without time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1556
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1564
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1569
+msgid "Date (with time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1696
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1698
+msgid "Decimal number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1859
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1863
+#, fuzzy
+#| msgid "Dedication"
+msgid "Duration"
+msgstr "Dedicación"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1915
+#: .\webapp\templates\register.html:215
+msgid "Email address"
+msgstr "Correo Electrónico"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1940
+msgid "File path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2018
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2020
+msgid "Floating point number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2060
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2062
+#, fuzzy
+#| msgid "Integrity"
+msgid "Integer"
+msgstr "Integridad"
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2158
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2175
+msgid "Small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2183
+msgid "IPv4 address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2214
+msgid "IP address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2305
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2306
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2308
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2359
+msgid "Positive big integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2374
+msgid "Positive integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2389
+msgid "Positive small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2405
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2441
+msgid "Text"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2521
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2525
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2529
+msgid "Time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2637
+msgid "URL"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2661
+msgid "Raw binary data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2726
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2728
+msgid "Universally unique identifier"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:244
+msgid "File"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:420
+msgid "Image"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:932
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:934
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1228
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1285
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1287
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1335
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\venv\Lib\site-packages\django\forms\boundfield.py:185
+msgid ":?.!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:95
+msgid "This field is required."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:308
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:479
+#: .\venv\Lib\site-packages\django\forms\fields.py:1260
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:502
+#: .\venv\Lib\site-packages\django\forms\fields.py:1261
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:529
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:563
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:564
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:633
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:634
+msgid "No file was submitted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:635
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:637
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:642
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:710
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:882
+#: .\venv\Lib\site-packages\django\forms\fields.py:968
+#: .\venv\Lib\site-packages\django\forms\models.py:1592
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:970
+#: .\venv\Lib\site-packages\django\forms\fields.py:1089
+#: .\venv\Lib\site-packages\django\forms\models.py:1590
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1090
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1329
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1359
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\venv\Lib\site-packages\django\forms\forms.py:94
+msgid ":"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\forms.py:230
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:484
+#: .\venv\Lib\site-packages\django\forms\formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:901
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:906
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:913
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:922
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1359
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1450
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1594
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\utils.py:227
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:461
+msgid "Clear"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:462
+msgid "Currently"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:463
+msgid "Change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:800
+msgid "Unknown"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:801
+msgid "Yes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:802
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:873
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:903
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:920
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:922
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:924
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:926
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:928
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:930
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:25
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:26
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:27
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:28
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:29
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:30
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:31
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:32
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:33
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:34
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:35
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:36
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:39
+msgid "jan"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:40
+msgid "feb"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:41
+msgid "mar"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:42
+msgid "apr"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:43
+#, fuzzy
+#| msgid "Company"
+msgid "may"
+msgstr "Compañía"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:44
+msgid "jun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:45
+msgid "jul"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:46
+msgid "aug"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:47
+msgid "sep"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:48
+#, fuzzy
+#| msgid "Contact"
+msgid "oct"
+msgstr "Contacto"
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:49
+msgid "nov"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:50
+msgid "dec"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:75
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:286
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\venv\Lib\site-packages\django\utils\text.py:305
+#: .\venv\Lib\site-packages\django\utils\timesince.py:135
+msgid ", "
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" …> for links to third-party sites."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:64
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:115
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:349
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:68
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:8
+#: .\venv\Lib\site-packages\django\views\templates\directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_ckeditor_5\views.py:77
+msgid "Page not found."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django_ckeditor_5\widgets.py:43
+msgid "Check the correct settings.CKEDITOR_5_CONFIGS "
+msgstr ""
+
+#: .\venv\Lib\site-packages\typer\core.py:576
+#: .\venv\Lib\site-packages\typer\rich_utils.py:90
+msgid "Arguments"
+msgstr ""
+
+#: .\venv\Lib\site-packages\typer\rich_utils.py:84
+msgid "(deprecated) "
+msgstr ""
+
+#: .\venv\Lib\site-packages\typer\rich_utils.py:85
+msgid "[default: {}]"
+msgstr ""
+
+#: .\venv\Lib\site-packages\typer\rich_utils.py:86
+msgid "[env var: {}]"
+msgstr ""
+
+#: .\venv\Lib\site-packages\typer\rich_utils.py:88
+#, fuzzy
+#| msgid "Requirements"
+msgid "[required]"
+msgstr "Requerimientos"
+
+#: .\venv\Lib\site-packages\typer\rich_utils.py:93
+msgid "Error"
+msgstr ""
+
+#: .\venv\Lib\site-packages\typer\rich_utils.py:94
+msgid "Aborted."
+msgstr ""
+
+#: .\webapp\templates\404.html:8
+msgid "404 Page Not Found"
+msgstr " Error 404 Página No Encontrada"
+
+#: .\webapp\templates\404.html:26 .\webapp\templates\500.html:26
+#: .\webapp\templates\about.html:308 .\webapp\templates\base_generic.html:208
+#: .\webapp\templates\blog_post_detail.html:327
+#: .\webapp\templates\calendly.html:211
+#: .\webapp\templates\chatbotservices.html:363
+#: .\webapp\templates\contact.html:391 .\webapp\templates\crmservices.html:361
+#: .\webapp\templates\index.html:575 .\webapp\templates\itservices.html:452
+#: .\webapp\templates\portfolio.html:388 .\webapp\templates\privacy.html:298
+#: .\webapp\templates\services.html:330 .\webapp\templates\terms.html:365
+#: .\webapp\templates\webservices.html:375
+msgid "Logo"
+msgstr ""
+
+#: .\webapp\templates\404.html:29
+msgid "404"
+msgstr "404"
+
+#: .\webapp\templates\404.html:30
+msgid "Page Doesn't Exist"
+msgstr " Esta página no existe"
+
+#: .\webapp\templates\404.html:31
+msgid "The link you clicked may be broken or the page may have been removed."
+msgstr " El Link o la página a la que has entrado ha sido removida o no existe"
+
+#: .\webapp\templates\404.html:32 .\webapp\templates\500.html:32
+msgid "Go Back to Home"
+msgstr "Ir a Inicio"
+
+#: .\webapp\templates\500.html:8
+msgid "500 Internal Server Error"
+msgstr "Error interno del servidor 500"
+
+#: .\webapp\templates\500.html:29
+msgid "500"
+msgstr "500"
+
+#: .\webapp\templates\500.html:30
+msgid "Internal Server Error"
+msgstr "Error interno del servidor"
+
+#: .\webapp\templates\500.html:31
+msgid "Something went wrong on our end. Please try again later."
+msgstr "Algo salió mal. Inténtalo de nuevo más tarde."
+
+#: .\webapp\templates\about.html:68 .\webapp\templates\base_generic.html:68
+#: .\webapp\templates\blog_post_detail.html:69
+#: .\webapp\templates\calendly.html:69
+#: .\webapp\templates\chatbotservices.html:69
+#: .\webapp\templates\contact.html:69 .\webapp\templates\crmservices.html:69
+#: .\webapp\templates\index.html:78 .\webapp\templates\itservices.html:69
+#: .\webapp\templates\portfolio.html:69 .\webapp\templates\privacy.html:70
+#: .\webapp\templates\services.html:69 .\webapp\templates\terms.html:70
+#: .\webapp\templates\webservices.html:69
+msgid "brandLogo"
+msgstr "Logo"
+
+#: .\webapp\templates\about.html:73 .\webapp\templates\about.html:166
+#: .\webapp\templates\base_generic.html:73
+#: .\webapp\templates\base_generic.html:166
+#: .\webapp\templates\blog_post_detail.html:74
+#: .\webapp\templates\blog_post_detail.html:167
+#: .\webapp\templates\calendly.html:74 .\webapp\templates\calendly.html:167
+#: .\webapp\templates\chatbotservices.html:74
+#: .\webapp\templates\chatbotservices.html:167
+#: .\webapp\templates\contact.html:74 .\webapp\templates\contact.html:167
+#: .\webapp\templates\crmservices.html:74
+#: .\webapp\templates\crmservices.html:167
+#: .\webapp\templates\dashboard.html:137 .\webapp\templates\index.html:83
+#: .\webapp\templates\index.html:177 .\webapp\templates\itservices.html:74
+#: .\webapp\templates\itservices.html:167 .\webapp\templates\portfolio.html:74
+#: .\webapp\templates\portfolio.html:167 .\webapp\templates\privacy.html:75
+#: .\webapp\templates\privacy.html:168 .\webapp\templates\services.html:74
+#: .\webapp\templates\services.html:167 .\webapp\templates\terms.html:75
+#: .\webapp\templates\terms.html:168 .\webapp\templates\webservices.html:74
+#: .\webapp\templates\webservices.html:167
+msgid "Home"
+msgstr "Inicio"
+
+#: .\webapp\templates\about.html:76 .\webapp\templates\about.html:169
+#: .\webapp\templates\about.html:332 .\webapp\templates\base_generic.html:76
+#: .\webapp\templates\base_generic.html:169
+#: .\webapp\templates\base_generic.html:232
+#: .\webapp\templates\blog_post_detail.html:77
+#: .\webapp\templates\blog_post_detail.html:170
+#: .\webapp\templates\blog_post_detail.html:351
+#: .\webapp\templates\calendly.html:77 .\webapp\templates\calendly.html:170
+#: .\webapp\templates\calendly.html:235
+#: .\webapp\templates\chatbotservices.html:77
+#: .\webapp\templates\chatbotservices.html:170
+#: .\webapp\templates\chatbotservices.html:387
+#: .\webapp\templates\contact.html:77 .\webapp\templates\contact.html:170
+#: .\webapp\templates\contact.html:415 .\webapp\templates\crmservices.html:77
+#: .\webapp\templates\crmservices.html:170
+#: .\webapp\templates\crmservices.html:385 .\webapp\templates\index.html:86
+#: .\webapp\templates\index.html:180 .\webapp\templates\index.html:599
+#: .\webapp\templates\itservices.html:77 .\webapp\templates\itservices.html:170
+#: .\webapp\templates\itservices.html:476 .\webapp\templates\portfolio.html:77
+#: .\webapp\templates\portfolio.html:170 .\webapp\templates\portfolio.html:412
+#: .\webapp\templates\privacy.html:78 .\webapp\templates\privacy.html:171
+#: .\webapp\templates\privacy.html:322 .\webapp\templates\services.html:77
+#: .\webapp\templates\services.html:170 .\webapp\templates\services.html:354
+#: .\webapp\templates\terms.html:78 .\webapp\templates\terms.html:171
+#: .\webapp\templates\terms.html:389 .\webapp\templates\webservices.html:77
+#: .\webapp\templates\webservices.html:170
+#: .\webapp\templates\webservices.html:399
+msgid "Services"
+msgstr "Servicios"
+
+#: .\webapp\templates\about.html:78 .\webapp\templates\about.html:172
+#: .\webapp\templates\about.html:334 .\webapp\templates\base_generic.html:78
+#: .\webapp\templates\base_generic.html:172
+#: .\webapp\templates\base_generic.html:234
+#: .\webapp\templates\blog_post_detail.html:79
+#: .\webapp\templates\blog_post_detail.html:173
+#: .\webapp\templates\blog_post_detail.html:353
+#: .\webapp\templates\calendly.html:79 .\webapp\templates\calendly.html:173
+#: .\webapp\templates\calendly.html:237
+#: .\webapp\templates\chatbotservices.html:79
+#: .\webapp\templates\chatbotservices.html:173
+#: .\webapp\templates\chatbotservices.html:389
+#: .\webapp\templates\contact.html:79 .\webapp\templates\contact.html:173
+#: .\webapp\templates\contact.html:417 .\webapp\templates\crmservices.html:79
+#: .\webapp\templates\crmservices.html:173
+#: .\webapp\templates\crmservices.html:387 .\webapp\templates\index.html:88
+#: .\webapp\templates\index.html:183 .\webapp\templates\index.html:264
+#: .\webapp\templates\index.html:601 .\webapp\templates\itservices.html:79
+#: .\webapp\templates\itservices.html:173
+#: .\webapp\templates\itservices.html:478 .\webapp\templates\portfolio.html:79
+#: .\webapp\templates\portfolio.html:173 .\webapp\templates\portfolio.html:414
+#: .\webapp\templates\privacy.html:80 .\webapp\templates\privacy.html:174
+#: .\webapp\templates\privacy.html:324 .\webapp\templates\services.html:79
+#: .\webapp\templates\services.html:173 .\webapp\templates\services.html:230
+#: .\webapp\templates\services.html:356 .\webapp\templates\terms.html:80
+#: .\webapp\templates\terms.html:174 .\webapp\templates\terms.html:391
+#: .\webapp\templates\webservices.html:79
+#: .\webapp\templates\webservices.html:173
+#: .\webapp\templates\webservices.html:207
+#: .\webapp\templates\webservices.html:401
+msgid "Web Services"
+msgstr "Servicios Web"
+
+#: .\webapp\templates\about.html:79 .\webapp\templates\about.html:173
+#: .\webapp\templates\about.html:335 .\webapp\templates\base_generic.html:79
+#: .\webapp\templates\base_generic.html:173
+#: .\webapp\templates\base_generic.html:235
+#: .\webapp\templates\blog_post_detail.html:80
+#: .\webapp\templates\blog_post_detail.html:174
+#: .\webapp\templates\blog_post_detail.html:354
+#: .\webapp\templates\calendly.html:80 .\webapp\templates\calendly.html:174
+#: .\webapp\templates\calendly.html:238
+#: .\webapp\templates\chatbotservices.html:80
+#: .\webapp\templates\chatbotservices.html:174
+#: .\webapp\templates\chatbotservices.html:390
+#: .\webapp\templates\contact.html:80 .\webapp\templates\contact.html:174
+#: .\webapp\templates\contact.html:418 .\webapp\templates\crmservices.html:80
+#: .\webapp\templates\crmservices.html:174
+#: .\webapp\templates\crmservices.html:207
+#: .\webapp\templates\crmservices.html:388 .\webapp\templates\index.html:89
+#: .\webapp\templates\index.html:184 .\webapp\templates\index.html:279
+#: .\webapp\templates\index.html:602 .\webapp\templates\itservices.html:80
+#: .\webapp\templates\itservices.html:174
+#: .\webapp\templates\itservices.html:479 .\webapp\templates\portfolio.html:80
+#: .\webapp\templates\portfolio.html:174 .\webapp\templates\portfolio.html:415
+#: .\webapp\templates\privacy.html:81 .\webapp\templates\privacy.html:175
+#: .\webapp\templates\privacy.html:325 .\webapp\templates\services.html:80
+#: .\webapp\templates\services.html:174 .\webapp\templates\services.html:357
+#: .\webapp\templates\terms.html:81 .\webapp\templates\terms.html:175
+#: .\webapp\templates\terms.html:392 .\webapp\templates\webservices.html:80
+#: .\webapp\templates\webservices.html:174
+#: .\webapp\templates\webservices.html:402
+msgid "CRM Services"
+msgstr "Servicios CRM"
+
+#: .\webapp\templates\about.html:80 .\webapp\templates\about.html:174
+#: .\webapp\templates\about.html:336 .\webapp\templates\base_generic.html:80
+#: .\webapp\templates\base_generic.html:174
+#: .\webapp\templates\base_generic.html:236
+#: .\webapp\templates\blog_post_detail.html:81
+#: .\webapp\templates\blog_post_detail.html:175
+#: .\webapp\templates\blog_post_detail.html:355
+#: .\webapp\templates\calendly.html:81 .\webapp\templates\calendly.html:175
+#: .\webapp\templates\calendly.html:239
+#: .\webapp\templates\chatbotservices.html:81
+#: .\webapp\templates\chatbotservices.html:175
+#: .\webapp\templates\chatbotservices.html:207
+#: .\webapp\templates\chatbotservices.html:391
+#: .\webapp\templates\contact.html:81 .\webapp\templates\contact.html:175
+#: .\webapp\templates\contact.html:419 .\webapp\templates\crmservices.html:81
+#: .\webapp\templates\crmservices.html:175
+#: .\webapp\templates\crmservices.html:389 .\webapp\templates\index.html:90
+#: .\webapp\templates\index.html:185 .\webapp\templates\index.html:294
+#: .\webapp\templates\index.html:603 .\webapp\templates\itservices.html:81
+#: .\webapp\templates\itservices.html:175
+#: .\webapp\templates\itservices.html:480 .\webapp\templates\portfolio.html:81
+#: .\webapp\templates\portfolio.html:175 .\webapp\templates\portfolio.html:416
+#: .\webapp\templates\privacy.html:82 .\webapp\templates\privacy.html:176
+#: .\webapp\templates\privacy.html:326 .\webapp\templates\services.html:81
+#: .\webapp\templates\services.html:175 .\webapp\templates\services.html:264
+#: .\webapp\templates\services.html:358 .\webapp\templates\terms.html:82
+#: .\webapp\templates\terms.html:176 .\webapp\templates\terms.html:393
+#: .\webapp\templates\webservices.html:81
+#: .\webapp\templates\webservices.html:175
+#: .\webapp\templates\webservices.html:403
+msgid "Chatbot Services"
+msgstr "Servicios Chatbot"
+
+#: .\webapp\templates\about.html:81 .\webapp\templates\about.html:175
+#: .\webapp\templates\about.html:337 .\webapp\templates\base_generic.html:81
+#: .\webapp\templates\base_generic.html:175
+#: .\webapp\templates\base_generic.html:237
+#: .\webapp\templates\blog_post_detail.html:82
+#: .\webapp\templates\blog_post_detail.html:176
+#: .\webapp\templates\blog_post_detail.html:356
+#: .\webapp\templates\calendly.html:82 .\webapp\templates\calendly.html:176
+#: .\webapp\templates\calendly.html:240
+#: .\webapp\templates\chatbotservices.html:82
+#: .\webapp\templates\chatbotservices.html:176
+#: .\webapp\templates\chatbotservices.html:392
+#: .\webapp\templates\contact.html:82 .\webapp\templates\contact.html:176
+#: .\webapp\templates\contact.html:420 .\webapp\templates\crmservices.html:82
+#: .\webapp\templates\crmservices.html:176
+#: .\webapp\templates\crmservices.html:390 .\webapp\templates\index.html:91
+#: .\webapp\templates\index.html:186 .\webapp\templates\index.html:309
+#: .\webapp\templates\index.html:604 .\webapp\templates\itservices.html:82
+#: .\webapp\templates\itservices.html:176
+#: .\webapp\templates\itservices.html:207
+#: .\webapp\templates\itservices.html:481 .\webapp\templates\portfolio.html:82
+#: .\webapp\templates\portfolio.html:176 .\webapp\templates\portfolio.html:417
+#: .\webapp\templates\privacy.html:83 .\webapp\templates\privacy.html:177
+#: .\webapp\templates\privacy.html:327 .\webapp\templates\services.html:82
+#: .\webapp\templates\services.html:176 .\webapp\templates\services.html:284
+#: .\webapp\templates\services.html:359 .\webapp\templates\terms.html:83
+#: .\webapp\templates\terms.html:177 .\webapp\templates\terms.html:394
+#: .\webapp\templates\webservices.html:82
+#: .\webapp\templates\webservices.html:176
+#: .\webapp\templates\webservices.html:404
+msgid "IT Services"
+msgstr "Servicios TIC"
+
+#: .\webapp\templates\about.html:85 .\webapp\templates\about.html:324
+#: .\webapp\templates\base_generic.html:85
+#: .\webapp\templates\base_generic.html:224
+#: .\webapp\templates\blog_post_detail.html:86
+#: .\webapp\templates\blog_post_detail.html:343
+#: .\webapp\templates\calendly.html:86 .\webapp\templates\calendly.html:227
+#: .\webapp\templates\chatbotservices.html:86
+#: .\webapp\templates\chatbotservices.html:379
+#: .\webapp\templates\contact.html:86 .\webapp\templates\contact.html:407
+#: .\webapp\templates\crmservices.html:86
+#: .\webapp\templates\crmservices.html:377 .\webapp\templates\index.html:95
+#: .\webapp\templates\index.html:591 .\webapp\templates\itservices.html:86
+#: .\webapp\templates\itservices.html:468 .\webapp\templates\portfolio.html:86
+#: .\webapp\templates\portfolio.html:404 .\webapp\templates\privacy.html:87
+#: .\webapp\templates\privacy.html:314 .\webapp\templates\services.html:86
+#: .\webapp\templates\services.html:346 .\webapp\templates\terms.html:87
+#: .\webapp\templates\terms.html:381 .\webapp\templates\webservices.html:86
+#: .\webapp\templates\webservices.html:391
+msgid "About"
+msgstr "Nosotros"
+
+#: .\webapp\templates\about.html:88 .\webapp\templates\base_generic.html:88
+#: .\webapp\templates\blog_post_detail.html:89
+#: .\webapp\templates\calendly.html:89
+#: .\webapp\templates\chatbotservices.html:89
+#: .\webapp\templates\contact.html:89 .\webapp\templates\crmservices.html:89
+#: .\webapp\templates\index.html:98 .\webapp\templates\itservices.html:89
+#: .\webapp\templates\portfolio.html:89 .\webapp\templates\privacy.html:90
+#: .\webapp\templates\services.html:89 .\webapp\templates\terms.html:90
+#: .\webapp\templates\webservices.html:89
+msgid "Portfolio"
+msgstr ""
+
+#: .\webapp\templates\about.html:90 .\webapp\templates\base_generic.html:90
+#: .\webapp\templates\blog_post_detail.html:91
+#: .\webapp\templates\calendly.html:91
+#: .\webapp\templates\chatbotservices.html:91
+#: .\webapp\templates\contact.html:91 .\webapp\templates\crmservices.html:91
+#: .\webapp\templates\index.html:100 .\webapp\templates\itservices.html:91
+#: .\webapp\templates\portfolio.html:91 .\webapp\templates\privacy.html:92
+#: .\webapp\templates\services.html:91 .\webapp\templates\terms.html:92
+#: .\webapp\templates\webservices.html:91
+msgid "Project"
+msgstr ""
+
+#: .\webapp\templates\about.html:92 .\webapp\templates\base_generic.html:92
+#: .\webapp\templates\blog_post_detail.html:93
+#: .\webapp\templates\calendly.html:93
+#: .\webapp\templates\chatbotservices.html:93
+#: .\webapp\templates\contact.html:93 .\webapp\templates\crmservices.html:93
+#: .\webapp\templates\index.html:102 .\webapp\templates\itservices.html:93
+#: .\webapp\templates\portfolio.html:93 .\webapp\templates\privacy.html:94
+#: .\webapp\templates\services.html:93 .\webapp\templates\terms.html:94
+#: .\webapp\templates\webservices.html:93
+msgid "Project Detail"
+msgstr ""
+
+#: .\webapp\templates\about.html:97 .\webapp\templates\about.html:179
+#: .\webapp\templates\about.html:326 .\webapp\templates\base_generic.html:97
+#: .\webapp\templates\base_generic.html:179
+#: .\webapp\templates\base_generic.html:226
+#: .\webapp\templates\blog_list.html:16
+#: .\webapp\templates\blog_post_detail.html:98
+#: .\webapp\templates\blog_post_detail.html:180
+#: .\webapp\templates\blog_post_detail.html:345
+#: .\webapp\templates\calendly.html:98 .\webapp\templates\calendly.html:180
+#: .\webapp\templates\calendly.html:229
+#: .\webapp\templates\chatbotservices.html:98
+#: .\webapp\templates\chatbotservices.html:180
+#: .\webapp\templates\chatbotservices.html:381
+#: .\webapp\templates\contact.html:98 .\webapp\templates\contact.html:180
+#: .\webapp\templates\contact.html:409 .\webapp\templates\crmservices.html:98
+#: .\webapp\templates\crmservices.html:180
+#: .\webapp\templates\crmservices.html:379 .\webapp\templates\index.html:107
+#: .\webapp\templates\index.html:190 .\webapp\templates\index.html:593
+#: .\webapp\templates\itservices.html:98 .\webapp\templates\itservices.html:180
+#: .\webapp\templates\itservices.html:470 .\webapp\templates\portfolio.html:98
+#: .\webapp\templates\portfolio.html:180 .\webapp\templates\portfolio.html:406
+#: .\webapp\templates\privacy.html:99 .\webapp\templates\privacy.html:181
+#: .\webapp\templates\privacy.html:316 .\webapp\templates\services.html:98
+#: .\webapp\templates\services.html:180 .\webapp\templates\services.html:348
+#: .\webapp\templates\terms.html:99 .\webapp\templates\terms.html:181
+#: .\webapp\templates\terms.html:383 .\webapp\templates\webservices.html:98
+#: .\webapp\templates\webservices.html:180
+#: .\webapp\templates\webservices.html:393
+msgid "Blog"
+msgstr "Blog"
+
+#: .\webapp\templates\about.html:100 .\webapp\templates\base_generic.html:100
+#: .\webapp\templates\blog_post_detail.html:101
+#: .\webapp\templates\calendly.html:101
+#: .\webapp\templates\chatbotservices.html:101
+#: .\webapp\templates\contact.html:101 .\webapp\templates\crmservices.html:101
+#: .\webapp\templates\index.html:110 .\webapp\templates\itservices.html:101
+#: .\webapp\templates\portfolio.html:101 .\webapp\templates\privacy.html:102
+#: .\webapp\templates\services.html:101 .\webapp\templates\terms.html:102
+#: .\webapp\templates\webservices.html:101
+msgid "Contact"
+msgstr "Contacto"
+
+#: .\webapp\templates\about.html:106 .\webapp\templates\base_generic.html:106
+#: .\webapp\templates\blog_post_detail.html:107
+#: .\webapp\templates\calendly.html:107
+#: .\webapp\templates\chatbotservices.html:107
+#: .\webapp\templates\contact.html:107 .\webapp\templates\crmservices.html:107
+#: .\webapp\templates\index.html:116 .\webapp\templates\itservices.html:107
+#: .\webapp\templates\portfolio.html:107 .\webapp\templates\privacy.html:108
+#: .\webapp\templates\services.html:107 .\webapp\templates\terms.html:108
+#: .\webapp\templates\webservices.html:107
+msgid "facebook"
+msgstr ""
+
+#: .\webapp\templates\about.html:107 .\webapp\templates\base_generic.html:107
+#: .\webapp\templates\blog_post_detail.html:108
+#: .\webapp\templates\calendly.html:108
+#: .\webapp\templates\chatbotservices.html:108
+#: .\webapp\templates\contact.html:108 .\webapp\templates\crmservices.html:108
+#: .\webapp\templates\index.html:117 .\webapp\templates\itservices.html:108
+#: .\webapp\templates\portfolio.html:108 .\webapp\templates\privacy.html:109
+#: .\webapp\templates\services.html:108 .\webapp\templates\terms.html:109
+#: .\webapp\templates\webservices.html:108
+msgid "instagram"
+msgstr ""
+
+#: .\webapp\templates\about.html:108 .\webapp\templates\base_generic.html:108
+#: .\webapp\templates\blog_post_detail.html:109
+#: .\webapp\templates\calendly.html:109
+#: .\webapp\templates\chatbotservices.html:109
+#: .\webapp\templates\contact.html:109 .\webapp\templates\crmservices.html:109
+#: .\webapp\templates\index.html:118 .\webapp\templates\itservices.html:109
+#: .\webapp\templates\portfolio.html:109 .\webapp\templates\privacy.html:110
+#: .\webapp\templates\services.html:109 .\webapp\templates\terms.html:110
+#: .\webapp\templates\webservices.html:109
+msgid "linkedin"
+msgstr ""
+
+#: .\webapp\templates\about.html:109 .\webapp\templates\base_generic.html:109
+#: .\webapp\templates\blog_post_detail.html:110
+#: .\webapp\templates\calendly.html:110
+#: .\webapp\templates\chatbotservices.html:110
+#: .\webapp\templates\contact.html:110 .\webapp\templates\crmservices.html:110
+#: .\webapp\templates\index.html:119 .\webapp\templates\itservices.html:110
+#: .\webapp\templates\portfolio.html:110 .\webapp\templates\privacy.html:111
+#: .\webapp\templates\services.html:110 .\webapp\templates\terms.html:111
+#: .\webapp\templates\webservices.html:110
+msgid "youtube"
+msgstr ""
+
+#: .\webapp\templates\about.html:115 .\webapp\templates\about.html:120
+#: .\webapp\templates\about.html:185 .\webapp\templates\about.html:187
+#: .\webapp\templates\base_generic.html:115
+#: .\webapp\templates\base_generic.html:120
+#: .\webapp\templates\base_generic.html:185
+#: .\webapp\templates\base_generic.html:187
+#: .\webapp\templates\blog_post_detail.html:116
+#: .\webapp\templates\blog_post_detail.html:121
+#: .\webapp\templates\blog_post_detail.html:186
+#: .\webapp\templates\blog_post_detail.html:188
+#: .\webapp\templates\calendly.html:116 .\webapp\templates\calendly.html:121
+#: .\webapp\templates\calendly.html:186 .\webapp\templates\calendly.html:188
+#: .\webapp\templates\chatbotservices.html:116
+#: .\webapp\templates\chatbotservices.html:121
+#: .\webapp\templates\chatbotservices.html:186
+#: .\webapp\templates\chatbotservices.html:188
+#: .\webapp\templates\contact.html:116 .\webapp\templates\contact.html:121
+#: .\webapp\templates\contact.html:186 .\webapp\templates\contact.html:188
+#: .\webapp\templates\crmservices.html:116
+#: .\webapp\templates\crmservices.html:121
+#: .\webapp\templates\crmservices.html:186
+#: .\webapp\templates\crmservices.html:188 .\webapp\templates\index.html:125
+#: .\webapp\templates\index.html:130 .\webapp\templates\index.html:196
+#: .\webapp\templates\index.html:198 .\webapp\templates\itservices.html:116
+#: .\webapp\templates\itservices.html:121
+#: .\webapp\templates\itservices.html:186
+#: .\webapp\templates\itservices.html:188 .\webapp\templates\portfolio.html:116
+#: .\webapp\templates\portfolio.html:121 .\webapp\templates\portfolio.html:186
+#: .\webapp\templates\portfolio.html:188 .\webapp\templates\privacy.html:117
+#: .\webapp\templates\privacy.html:122 .\webapp\templates\privacy.html:187
+#: .\webapp\templates\privacy.html:189 .\webapp\templates\services.html:116
+#: .\webapp\templates\services.html:121 .\webapp\templates\services.html:186
+#: .\webapp\templates\services.html:188 .\webapp\templates\terms.html:117
+#: .\webapp\templates\terms.html:122 .\webapp\templates\terms.html:187
+#: .\webapp\templates\terms.html:189 .\webapp\templates\webservices.html:116
+#: .\webapp\templates\webservices.html:121
+#: .\webapp\templates\webservices.html:186
+#: .\webapp\templates\webservices.html:188
+msgid "account"
+msgstr ""
+
+#: .\webapp\templates\about.html:126 .\webapp\templates\base_generic.html:126
+#: .\webapp\templates\blog_post_detail.html:127
+#: .\webapp\templates\calendly.html:127
+#: .\webapp\templates\chatbotservices.html:127
+#: .\webapp\templates\contact.html:127 .\webapp\templates\crmservices.html:127
+#: .\webapp\templates\index.html:136 .\webapp\templates\itservices.html:127
+#: .\webapp\templates\portfolio.html:127 .\webapp\templates\privacy.html:128
+#: .\webapp\templates\services.html:127 .\webapp\templates\team.html:98
+#: .\webapp\templates\terms.html:128 .\webapp\templates\webservices.html:127
+msgid "Language Selector"
+msgstr ""
+
+#: .\webapp\templates\about.html:135 .\webapp\templates\base_generic.html:135
+#: .\webapp\templates\blog_post_detail.html:136
+#: .\webapp\templates\calendly.html:136
+#: .\webapp\templates\chatbotservices.html:136
+#: .\webapp\templates\contact.html:136 .\webapp\templates\crmservices.html:136
+#: .\webapp\templates\index.html:145 .\webapp\templates\itservices.html:136
+#: .\webapp\templates\portfolio.html:136 .\webapp\templates\privacy.html:137
+#: .\webapp\templates\services.html:136 .\webapp\templates\team.html:107
+#: .\webapp\templates\terms.html:137 .\webapp\templates\webservices.html:136
+msgid "Flag of Spain"
+msgstr ""
+
+#: .\webapp\templates\about.html:136 .\webapp\templates\base_generic.html:136
+#: .\webapp\templates\blog_post_detail.html:137
+#: .\webapp\templates\calendly.html:137
+#: .\webapp\templates\chatbotservices.html:137
+#: .\webapp\templates\contact.html:137 .\webapp\templates\crmservices.html:137
+#: .\webapp\templates\index.html:146 .\webapp\templates\itservices.html:137
+#: .\webapp\templates\portfolio.html:137 .\webapp\templates\privacy.html:138
+#: .\webapp\templates\services.html:137 .\webapp\templates\team.html:108
+#: .\webapp\templates\terms.html:138 .\webapp\templates\webservices.html:137
+msgid "ESP"
+msgstr ""
+
+#: .\webapp\templates\about.html:146 .\webapp\templates\base_generic.html:146
+#: .\webapp\templates\blog_post_detail.html:147
+#: .\webapp\templates\calendly.html:147
+#: .\webapp\templates\chatbotservices.html:147
+#: .\webapp\templates\contact.html:147 .\webapp\templates\crmservices.html:147
+#: .\webapp\templates\index.html:156 .\webapp\templates\itservices.html:147
+#: .\webapp\templates\portfolio.html:147 .\webapp\templates\privacy.html:148
+#: .\webapp\templates\services.html:147 .\webapp\templates\team.html:118
+#: .\webapp\templates\terms.html:148 .\webapp\templates\webservices.html:147
+msgid "Flag of UK"
+msgstr ""
+
+#: .\webapp\templates\about.html:147 .\webapp\templates\base_generic.html:147
+#: .\webapp\templates\blog_post_detail.html:148
+#: .\webapp\templates\calendly.html:148
+#: .\webapp\templates\chatbotservices.html:148
+#: .\webapp\templates\contact.html:148 .\webapp\templates\crmservices.html:148
+#: .\webapp\templates\index.html:157 .\webapp\templates\itservices.html:148
+#: .\webapp\templates\portfolio.html:148 .\webapp\templates\privacy.html:149
+#: .\webapp\templates\services.html:148 .\webapp\templates\team.html:119
+#: .\webapp\templates\terms.html:149 .\webapp\templates\webservices.html:148
+msgid "ENG"
+msgstr ""
+
+#: .\webapp\templates\about.html:161 .\webapp\templates\base_generic.html:161
+#: .\webapp\templates\blog_post_detail.html:162
+#: .\webapp\templates\calendly.html:162
+#: .\webapp\templates\chatbotservices.html:162
+#: .\webapp\templates\contact.html:162 .\webapp\templates\crmservices.html:162
+#: .\webapp\templates\index.html:172 .\webapp\templates\itservices.html:162
+#: .\webapp\templates\portfolio.html:162 .\webapp\templates\privacy.html:163
+#: .\webapp\templates\services.html:162 .\webapp\templates\terms.html:163
+#: .\webapp\templates\webservices.html:162
+msgid "logo"
+msgstr ""
+
+#: .\webapp\templates\about.html:171 .\webapp\templates\base_generic.html:171
+#: .\webapp\templates\blog_post_detail.html:172
+#: .\webapp\templates\calendly.html:172
+#: .\webapp\templates\chatbotservices.html:172
+#: .\webapp\templates\contact.html:172 .\webapp\templates\crmservices.html:172
+#: .\webapp\templates\index.html:182 .\webapp\templates\index.html:251
+#: .\webapp\templates\itservices.html:172 .\webapp\templates\portfolio.html:172
+#: .\webapp\templates\privacy.html:173 .\webapp\templates\services.html:172
+#: .\webapp\templates\services.html:206 .\webapp\templates\terms.html:173
+#: .\webapp\templates\webservices.html:172
+msgid "Our Services"
+msgstr "Nuestros Servicios"
+
+#: .\webapp\templates\about.html:178 .\webapp\templates\about.html:204
+#: .\webapp\templates\base_generic.html:178
+#: .\webapp\templates\blog_post_detail.html:179
+#: .\webapp\templates\calendly.html:179
+#: .\webapp\templates\chatbotservices.html:179
+#: .\webapp\templates\contact.html:179 .\webapp\templates\crmservices.html:179
+#: .\webapp\templates\index.html:189 .\webapp\templates\itservices.html:179
+#: .\webapp\templates\portfolio.html:179 .\webapp\templates\privacy.html:180
+#: .\webapp\templates\services.html:179 .\webapp\templates\terms.html:180
+#: .\webapp\templates\webservices.html:179
+msgid "About Us"
+msgstr "Nosotros"
+
+#: .\webapp\templates\about.html:180 .\webapp\templates\base_generic.html:180
+#: .\webapp\templates\blog_post_detail.html:181
+#: .\webapp\templates\calendly.html:181
+#: .\webapp\templates\chatbotservices.html:181
+#: .\webapp\templates\contact.html:181 .\webapp\templates\crmservices.html:181
+#: .\webapp\templates\index.html:191 .\webapp\templates\itservices.html:181
+#: .\webapp\templates\portfolio.html:181 .\webapp\templates\privacy.html:182
+#: .\webapp\templates\services.html:181 .\webapp\templates\terms.html:182
+#: .\webapp\templates\webservices.html:181
+msgid "Contact Us"
+msgstr "Contáctenos"
+
+#: .\webapp\templates\about.html:205
+msgid ""
+"Stregasoft is your versatile technology partner, delivering top-notch "
+"software solutions and IT services. We're dedicated to enhancing your "
+"experience through innovation and consistently exceeding market "
+"expectations. Learn more on our blog."
+msgstr ""
+"Stregasoft es su mejor socio en tecnología, ofreciendo soluciones de "
+"software y servicios informáticos de primer nivel. Nos dedicamos a servirle "
+"a través de la innovación y a superar constantemente las expectativas del "
+"mercado. Descubra más en nuestro blog."
+
+#: .\webapp\templates\about.html:214
+msgid "Our Mission"
+msgstr "Nuestra Misión"
+
+#: .\webapp\templates\about.html:215
+msgid "Mission Image"
+msgstr "Imagen de la Misión"
+
+#: .\webapp\templates\about.html:219
+msgid ""
+"At Stregasoft, we aim to empower entrepreneurs by providing seamless access "
+"to innovative technological solutions that enhance their business operations "
+"and daily life. We are dedicated to simplifying technology integration, "
+"enabling our clients to achieve their goals with ease and efficiency. Our "
+"commitment is to deliver tailored, high-quality solutions that drive growth "
+"and success."
+msgstr ""
+"En Stregasoft, nuestra misión es empoderar a los emprendedores al "
+"proporcionar acceso fácil a soluciones tecnológicas innovadoras que mejoren "
+"sus negocios y vida diaria. Nos dedicamos a simplificar la integración "
+"tecnológica para que nuestros clientes alcancen sus metas con facilidad y "
+"eficiencia, ofreciendo soluciones personalizadas de alta calidad que "
+"impulsen su crecimiento y éxito."
+
+#: .\webapp\templates\about.html:224
+msgid "Our Vision"
+msgstr "Nuestra Visión"
+
+#: .\webapp\templates\about.html:225
+msgid "Vision Image"
+msgstr "Imagen de la Visión"
+
+#: .\webapp\templates\about.html:229
+msgid ""
+"Our vision is to drive the digital transformation throughout Latin America "
+"by harnessing the expertise of our exceptional team. By driving progress and "
+"delivering innovative solutions, we aim to empower businesses and "
+"communities to excel in a dynamic and evolving digital landscape, ultimately "
+"fostering sustainable growth and success across the region."
+msgstr ""
+"Nuestra visión es impulsar la transformación digital en América Latina "
+"aprovechando la experiencia de nuestro excepcional equipo. Al fomentar el "
+"progreso y ofrecer soluciones innovadoras, nuestro objetivo es empoderar a "
+"las empresas y comunidades para que sobresalgan en un entorno digital "
+"dinámico, promoviendo así un crecimiento sostenible en toda la región."
+
+#: .\webapp\templates\about.html:237
+msgid "Our Core Values"
+msgstr "Nuestros Valores Fundamentales"
+
+#: .\webapp\templates\about.html:238
+msgid "Handshake Icon"
+msgstr "Icono de Apretones de Mano"
+
+#: .\webapp\templates\about.html:243 .\webapp\templates\about.html:244
+msgid "Innovation"
+msgstr "Innovación"
+
+#: .\webapp\templates\about.html:247
+msgid ""
+"We embrace innovation as the cornerstone of our solutions, fostering "
+"creative thinking and continuously seeking new and improved ways to serve "
+"our clients."
+msgstr ""
+"Adoptamos la innovación como base de nuestras soluciones, fomentando la "
+"creatividad y buscando siempre mejores formas de servir a nuestros clientes."
+
+#: .\webapp\templates\about.html:252 .\webapp\templates\about.html:253
+msgid "Excellence"
+msgstr "Excelencia"
+
+#: .\webapp\templates\about.html:256
+msgid ""
+"Excellence is our goal. We are dedicated to consistently delivering high-"
+"quality services and continuously improving to surpass market expectations."
+msgstr ""
+"La excelencia es nuestro objetivo. Estamos dedicados a ofrecer servicios de "
+"alta calidad y a mejorar continuamente para superar las demandas del mercado."
+
+#: .\webapp\templates\about.html:261 .\webapp\templates\about.html:262
+msgid "Integrity"
+msgstr "Integridad"
+
+#: .\webapp\templates\about.html:265
+msgid ""
+"We uphold the highest ethical standards, ensuring transparency, honesty, and "
+"trust in all our interactions. Our integrity is unwavering."
+msgstr ""
+"Mantenemos los más altos estándares éticos, asegurando transparencia, "
+"honestidad y confianza en todas nuestras interacciones."
+
+#: .\webapp\templates\about.html:270 .\webapp\templates\about.html:271
+msgid "Collaboration"
+msgstr "Colaboración"
+
+#: .\webapp\templates\about.html:274
+msgid ""
+"We value collaborative relationships with our clients, employees, and "
+"stakeholders. We believe in the power of strong partnerships to drive mutual "
+"success."
+msgstr ""
+"Valoramos las relaciones colaborativas con nuestros clientes, empleados y "
+"aliados. Creemos en el poder de asociaciones sólidas para lograr el éxito "
+"mutuo."
+
+#: .\webapp\templates\about.html:279 .\webapp\templates\about.html:280
+msgid "Dedication"
+msgstr "Dedicación"
+
+#: .\webapp\templates\about.html:283
+msgid ""
+"Our team is committed to the success of both our clients and our company. We "
+"consistently go the extra mile, with our dedication serving as the "
+"foundation of our achievements."
+msgstr ""
+"Nuestro equipo está comprometido con el éxito de nuestros clientes y de "
+"nuestra empresa. Siempre damos lo mejor de nosotros, y nuestra dedicación es "
+"la base de nuestros logros."
+
+#: .\webapp\templates\about.html:288 .\webapp\templates\about.html:289
+msgid "Adaptability"
+msgstr "Adaptabilidad"
+
+#: .\webapp\templates\about.html:292
+msgid ""
+"In a constantly evolving technological landscape, we stay agile and "
+"adaptable, embracing changes with flexibility and resilience."
+msgstr ""
+"En un panorama tecnológico en constante evolución, nos mantenemos ágiles y "
+"adaptables, afrontando los cambios con flexibilidad y resiliencia."
+
+#: .\webapp\templates\about.html:322 .\webapp\templates\base_generic.html:222
+#: .\webapp\templates\blog_post_detail.html:341
+#: .\webapp\templates\calendly.html:225
+#: .\webapp\templates\chatbotservices.html:377
+#: .\webapp\templates\contact.html:405 .\webapp\templates\crmservices.html:375
+#: .\webapp\templates\index.html:589 .\webapp\templates\itservices.html:466
+#: .\webapp\templates\portfolio.html:402 .\webapp\templates\privacy.html:312
+#: .\webapp\templates\services.html:344 .\webapp\templates\terms.html:379
+#: .\webapp\templates\webservices.html:389
+msgid "Company"
+msgstr "Compañía"
+
+#: .\webapp\templates\about.html:325 .\webapp\templates\base_generic.html:225
+#: .\webapp\templates\blog_post_detail.html:344
+#: .\webapp\templates\calendly.html:228
+#: .\webapp\templates\chatbotservices.html:380
+#: .\webapp\templates\contact.html:408 .\webapp\templates\crmservices.html:378
+#: .\webapp\templates\index.html:592 .\webapp\templates\itservices.html:469
+#: .\webapp\templates\portfolio.html:405 .\webapp\templates\privacy.html:315
+#: .\webapp\templates\services.html:347 .\webapp\templates\terms.html:382
+#: .\webapp\templates\webservices.html:392
+msgid "Contact us"
+msgstr "Contáctenos"
+
+#: .\webapp\templates\about.html:343 .\webapp\templates\base_generic.html:243
+#: .\webapp\templates\blog_post_detail.html:362
+#: .\webapp\templates\calendly.html:246
+#: .\webapp\templates\chatbotservices.html:398
+#: .\webapp\templates\contact.html:426 .\webapp\templates\crmservices.html:396
+#: .\webapp\templates\index.html:610 .\webapp\templates\itservices.html:487
+#: .\webapp\templates\portfolio.html:423 .\webapp\templates\privacy.html:333
+#: .\webapp\templates\services.html:365 .\webapp\templates\terms.html:400
+#: .\webapp\templates\webservices.html:410
+msgid "Legal"
+msgstr "Legal"
+
+#: .\webapp\templates\about.html:345 .\webapp\templates\base_generic.html:245
+#: .\webapp\templates\blog_post_detail.html:364
+#: .\webapp\templates\calendly.html:248
+#: .\webapp\templates\chatbotservices.html:400
+#: .\webapp\templates\contact.html:428 .\webapp\templates\crmservices.html:398
+#: .\webapp\templates\index.html:612 .\webapp\templates\itservices.html:489
+#: .\webapp\templates\portfolio.html:425 .\webapp\templates\privacy.html:335
+#: .\webapp\templates\services.html:367 .\webapp\templates\terms.html:402
+#: .\webapp\templates\webservices.html:412
+msgid "Privacy Policy"
+msgstr "Política de Privacidad"
+
+#: .\webapp\templates\about.html:346 .\webapp\templates\base_generic.html:246
+#: .\webapp\templates\blog_post_detail.html:365
+#: .\webapp\templates\calendly.html:249
+#: .\webapp\templates\chatbotservices.html:401
+#: .\webapp\templates\contact.html:429 .\webapp\templates\crmservices.html:399
+#: .\webapp\templates\index.html:613 .\webapp\templates\itservices.html:490
+#: .\webapp\templates\portfolio.html:426 .\webapp\templates\privacy.html:336
+#: .\webapp\templates\services.html:368 .\webapp\templates\terms.html:403
+#: .\webapp\templates\webservices.html:413
+msgid "Terms & Conditions"
+msgstr "Términos & Condiciones"
+
+#: .\webapp\templates\about.html:358 .\webapp\templates\base_generic.html:258
+#: .\webapp\templates\blog_post_detail.html:377
+#: .\webapp\templates\calendly.html:261
+#: .\webapp\templates\chatbotservices.html:413
+#: .\webapp\templates\contact.html:441 .\webapp\templates\crmservices.html:411
+#: .\webapp\templates\index.html:625 .\webapp\templates\itservices.html:502
+#: .\webapp\templates\portfolio.html:438 .\webapp\templates\privacy.html:284
+#: .\webapp\templates\privacy.html:348 .\webapp\templates\services.html:380
+#: .\webapp\templates\terms.html:352 .\webapp\templates\terms.html:415
+#: .\webapp\templates\webservices.html:425
+msgid "© Stregasoft 2024"
+msgstr ""
+
+#: .\webapp\templates\about.html:361 .\webapp\templates\base_generic.html:261
+#: .\webapp\templates\blog_post_detail.html:380
+#: .\webapp\templates\calendly.html:264
+#: .\webapp\templates\chatbotservices.html:416
+#: .\webapp\templates\contact.html:444 .\webapp\templates\crmservices.html:414
+#: .\webapp\templates\index.html:628 .\webapp\templates\itservices.html:505
+#: .\webapp\templates\portfolio.html:441 .\webapp\templates\privacy.html:351
+#: .\webapp\templates\services.html:383 .\webapp\templates\terms.html:418
+#: .\webapp\templates\webservices.html:428
+msgid "Back to Top"
+msgstr "Volver Arriba"
+
+#: .\webapp\templates\blog_list.html:19
+msgid ""
+"Welcome to our blog! Here, you'll find articles and updates on our latest "
+"news and events. Stay tuned to keep up with our latest developments."
+msgstr ""
+"¡Bienvenido a nuestro blog! Aquí encontrarás las últimas noticias y "
+"actualizaciones. Mantente atento para no perderte los nuevos desarrollos."
+
+#: .\webapp\templates\chatbotservices.html:210
+msgid ""
+"At Stregasoft, we create chatbot services that improve customer interactions "
+"by automating sales, marketing, and support tasks, delivering faster, more "
+"personalized communication."
+msgstr ""
+"En Stregasoft, desarrollamos servicios de chatbots que mejoran las "
+"interacciones con los clientes al automatizar tareas de ventas, marketing y "
+"soporte, ofreciendo una comunicación más rápida y personalizada."
+
+#: .\webapp\templates\chatbotservices.html:228
+msgid "Our Chatbot Services include:"
+msgstr "Nuestros Servicios Chatbot incluyen:"
+
+#: .\webapp\templates\chatbotservices.html:234
+msgid "Natural Language Processing (NLP)"
+msgstr "Procesamiento Natural de Lenguaje (NLP)"
+
+#: .\webapp\templates\chatbotservices.html:236
+msgid ""
+"Ability to understand and process human language, allowing for more natural "
+"and effective interactions."
+msgstr ""
+"Capacidad de comprender y procesar el lenguaje humano, permitiendo "
+"interacciones más naturales y efectivas."
+
+#: .\webapp\templates\chatbotservices.html:241
+msgid "24/7 Availability"
+msgstr "Disponibilidad 24/7"
+
+#: .\webapp\templates\chatbotservices.html:243
+msgid ""
+"Chatbots can operate around the clock, ensuring customers receive support "
+"anytime they need it."
+msgstr ""
+"Los chatbots pueden operar las 24 horas, asegurando que los clientes reciban "
+"soporte en cualquier momento."
+
+#: .\webapp\templates\chatbotservices.html:248
+msgid "Multi-Channel Support"
+msgstr "Soporte Multicanal"
+
+#: .\webapp\templates\chatbotservices.html:250
+msgid ""
+"Integration with various platforms such as websites, mobile apps, social "
+"media, and messaging services."
+msgstr ""
+"Integración con diversas plataformas como sitios web, aplicaciones móviles, "
+"redes sociales y servicios de mensajería."
+
+#: .\webapp\templates\chatbotservices.html:255
+msgid "Personalization"
+msgstr "Personalización"
+
+#: .\webapp\templates\chatbotservices.html:257
+msgid ""
+"Capability to provide tailored responses based on user data, preferences, "
+"and previous interactions."
+msgstr ""
+"Capacidad de ofrecer respuestas personalizadas basadas en datos del usuario, "
+"preferencias e interacciones previas."
+
+#: .\webapp\templates\chatbotservices.html:262
+msgid "Automated Responses & Workflows"
+msgstr "Flujos de Trabajo Automatizados"
+
+#: .\webapp\templates\chatbotservices.html:264
+msgid ""
+"Efficiently handle common queries, automate routine tasks, and trigger "
+"workflows without human intervention."
+msgstr ""
+"Automatización de tareas rutinarias y activación de flujos de trabajo sin "
+"intervención humana."
+
+#: .\webapp\templates\chatbotservices.html:269
+msgid "Analytics & Reporting"
+msgstr "Analítica e Informes"
+
+#: .\webapp\templates\chatbotservices.html:271
+msgid ""
+"Track performance metrics, user interactions, and feedback to continually "
+"improve the chatbot's effectiveness."
+msgstr ""
+"Seguimiento de métricas de rendimiento, interacciones con usuarios y "
+"retroalimentación para mejorar continuamente la efectividad del chatbot."
+
+#: .\webapp\templates\chatbotservices.html:275
+#: .\webapp\templates\crmservices.html:275
+msgid "Schedule a free expert session"
+msgstr "Agenda una consulta gratuita con un experto."
+
+#: .\webapp\templates\chatbotservices.html:283
+msgid "Why choose Stregasoft Chatbot Services?"
+msgstr "¿Por qué elegir los servicios Chatbot de Stregasoft?"
+
+#: .\webapp\templates\chatbotservices.html:284
+msgid ""
+"Choose Stregasoft Chatbot Services for powerful automation that streamlines "
+"customer interactions, reduces response times, and frees up your team to "
+"focus on more strategic tasks."
+msgstr ""
+"Elige los servicios de chatbots de Stregasoft por su poderosa "
+"automatización, que optimiza las interacciones con los clientes, reduce los "
+"tiempos de respuesta y libera a tu equipo para que se enfoque en tareas más "
+"estratégicas."
+
+#: .\webapp\templates\chatbotservices.html:290
+#: .\webapp\templates\crmservices.html:288
+msgid "How it works?"
+msgstr "¿Cómo funciona?"
+
+#: .\webapp\templates\chatbotservices.html:301
+#: .\webapp\templates\crmservices.html:299
+msgid "Consultation icon"
+msgstr "Icono de Consulta"
+
+#: .\webapp\templates\chatbotservices.html:303
+#: .\webapp\templates\crmservices.html:301
+msgid "Consultation"
+msgstr "Consulta"
+
+#: .\webapp\templates\chatbotservices.html:304
+#: .\webapp\templates\crmservices.html:302
+msgid ""
+"Let's schedule a free 30-minute consultation to discuss your CRM software "
+"requirements."
+msgstr ""
+"Agendemos una consulta gratuita de 30 minutos para discutir los requisitos "
+"de tu software CRM."
+
+#: .\webapp\templates\chatbotservices.html:311
+#: .\webapp\templates\crmservices.html:309
+msgid "Requirements icon"
+msgstr "Icono de Requerimientos"
+
+#: .\webapp\templates\chatbotservices.html:313
+#: .\webapp\templates\crmservices.html:311
+msgid "Requirements"
+msgstr "Requerimientos"
+
+#: .\webapp\templates\chatbotservices.html:314
+#: .\webapp\templates\crmservices.html:312
+msgid ""
+"We will review your requirements and provide a quotation based on your needs."
+msgstr ""
+"Revisaremos tus requerimientos y te brindaremos una cotización basada en tus "
+"necesidades."
+
+#: .\webapp\templates\chatbotservices.html:321
+#: .\webapp\templates\crmservices.html:319
+msgid "Implementation icon"
+msgstr "Icono de Implementación"
+
+#: .\webapp\templates\chatbotservices.html:323
+#: .\webapp\templates\crmservices.html:321
+#: .\webapp\templates\itservices.html:269
+msgid "Implementation"
+msgstr "Implementación"
+
+#: .\webapp\templates\chatbotservices.html:324
+#: .\webapp\templates\crmservices.html:322
+msgid ""
+"We’ll customize the CRM solution to your needs and integrate it into your "
+"business ecosystem."
+msgstr ""
+"Personalizaremos la solución CRM a tus necesidades e integrarla en tu "
+"ecosistema empresarial."
+
+#: .\webapp\templates\chatbotservices.html:337
+#: .\webapp\templates\crmservices.html:335
+#: .\webapp\templates\itservices.html:426 .\webapp\templates\portfolio.html:362
+#: .\webapp\templates\webservices.html:348
+msgid "Have Any Project On Mind? Contact Us!"
+msgstr "¿Tienes un proyecto en mente? ¡Contáctanos!"
+
+#: .\webapp\templates\chatbotservices.html:339
+#: .\webapp\templates\crmservices.html:337
+#: .\webapp\templates\itservices.html:428 .\webapp\templates\portfolio.html:364
+#: .\webapp\templates\services.html:304 .\webapp\templates\webservices.html:350
+msgid ""
+"Let's connect! Contact us today for expert assistance and turn your ideas "
+"into reality."
+msgstr ""
+"¡Conectémonos! Contáctanos hoy para recibir asistencia experta y convertir "
+"tus ideas en realidad."
+
+#: .\webapp\templates\chatbotservices.html:341
+#: .\webapp\templates\contact.html:283 .\webapp\templates\crmservices.html:339
+#: .\webapp\templates\index.html:487 .\webapp\templates\itservices.html:430
+#: .\webapp\templates\portfolio.html:366 .\webapp\templates\services.html:306
+#: .\webapp\templates\webservices.html:352
+msgid "Send Message"
+msgstr "Enviar Mensaje"
+
+#: .\webapp\templates\chatbotservices.html:346
+#: .\webapp\templates\crmservices.html:344
+#: .\webapp\templates\itservices.html:435 .\webapp\templates\portfolio.html:371
+#: .\webapp\templates\services.html:311 .\webapp\templates\webservices.html:357
+msgid "Call To Action"
+msgstr "Action"
+
+#: .\webapp\templates\chatbotservices.html:351
+#: .\webapp\templates\crmservices.html:349 .\webapp\templates\index.html:215
+#: .\webapp\templates\itservices.html:440 .\webapp\templates\portfolio.html:376
+#: .\webapp\templates\services.html:316 .\webapp\templates\webservices.html:362
+msgid "mask"
+msgstr ""
+
+#: .\webapp\templates\contact.html:205 .\webapp\templates\index.html:409
+msgid "Leave us a message!"
+msgstr "¡Déjanos un Mensaje!"
+
+#: .\webapp\templates\contact.html:221 .\webapp\templates\index.html:425
+msgid "Your Name"
+msgstr "Nombre:"
+
+#: .\webapp\templates\contact.html:232 .\webapp\templates\index.html:436
+msgid "Your Last Name"
+msgstr "Apellido:"
+
+#: .\webapp\templates\contact.html:243 .\webapp\templates\index.html:447
+msgid "Your Email"
+msgstr "Correo Electrónico:"
+
+#: .\webapp\templates\contact.html:254 .\webapp\templates\index.html:458
+msgid "Phone (optional)"
+msgstr "Teléfono (opcional):"
+
+#: .\webapp\templates\contact.html:265 .\webapp\templates\index.html:469
+msgid "Your Message"
+msgstr "Mensaje:"
+
+#: .\webapp\templates\contact.html:288 .\webapp\templates\index.html:492
+msgid "Get in Touch"
+msgstr "Contáctenos"
+
+#: .\webapp\templates\contact.html:297 .\webapp\templates\index.html:501
+msgid "Chat on Whatsapp"
+msgstr "Chatea por Whatsapp"
+
+#: .\webapp\templates\contact.html:306 .\webapp\templates\index.html:509
+msgid "Email:"
+msgstr "Correo Electrónico:"
+
+#: .\webapp\templates\contact.html:315 .\webapp\templates\index.html:518
+msgid "Website:"
+msgstr "Sitio Web:"
+
+#: .\webapp\templates\contact.html:317 .\webapp\templates\index.html:520
+msgid "Feel free to contact us for any inquiries or assistance."
+msgstr "No dude en contactarnos para cualquier consulta o ayuda."
+
+#: .\webapp\templates\contact.html:320 .\webapp\templates\index.html:523
+msgid "Our Business Hours"
+msgstr "Horario de Operaciones"
+
+#: .\webapp\templates\contact.html:323 .\webapp\templates\index.html:526
+msgid "Mon-Fri"
+msgstr "Lun-Vie"
+
+#: .\webapp\templates\contact.html:327 .\webapp\templates\index.html:530
+msgid "Sat-Sun"
+msgstr "Sab-Dom"
+
+#: .\webapp\templates\contact.html:328 .\webapp\templates\index.html:531
+msgid "Closed"
+msgstr "Cerrado"
+
+#: .\webapp\templates\crmservices.html:210
+msgid ""
+"At Stregasoft, we develop CRM (Customer Relationship Management) software "
+"that enhances customer and lead management while efficiently automating "
+"sales, marketing, and customer service operations."
+msgstr ""
+"En Stregasoft, desarrollamos software CRM (Gestión de Relaciones con los "
+"Clientes) que mejora la gestión de clientes y leads, y automatiza de manera "
+"eficiente las operaciones de ventas, marketing y servicio al cliente."
+
+#: .\webapp\templates\crmservices.html:228
+msgid "Our CRM Services include:"
+msgstr "Nuestros Servicios CRM incluyen:"
+
+#: .\webapp\templates\crmservices.html:235
+msgid "Contact Management"
+msgstr "Gestión de Contactos"
+
+#: .\webapp\templates\crmservices.html:237
+msgid ""
+"Organize and access all your customer and lead information in one place with "
+"our CRM. It offers efficient contact management, advanced data management "
+"tools, and robust security features."
+msgstr ""
+"Organiza y accede a toda la información de tus clientes y leads en un solo "
+"lugar con nuestro CRM. Este ofrece gestión eficiente de contactos, "
+"herramientas de administración de datos y seguridad robusta."
+
+#: .\webapp\templates\crmservices.html:242
+msgid "Sales & Marketing Automation"
+msgstr "Automatización de Ventas & Marketing"
+
+#: .\webapp\templates\crmservices.html:244
+msgid ""
+"Automate your marketing & sales campaigns with our CRM tool to reach the "
+"right audience at the right time. Segment audiences, track your leads, "
+"personalize messages, and measure the results."
+msgstr ""
+"Automatiza tus campañas de marketing y ventas con nuestra herramienta CRM "
+"para llegar a la audiencia adecuada en el momento adecuado. Segmenta "
+"audiencias, rastrea tus leads, personaliza mensajes y mide los resultados."
+
+#: .\webapp\templates\crmservices.html:249
+msgid "Sales Management"
+msgstr "Gestión de Ventas"
+
+#: .\webapp\templates\crmservices.html:251
+msgid ""
+"Optimize your sales process with our CRM, offering detailed tracking of "
+"opportunities and progress for each deal. Facilitate team collaboration and "
+"close more deals faster."
+msgstr ""
+"Optimiza tu proceso de ventas con nuestro CRM, que ofrece un seguimiento "
+"detallado de oportunidades y progreso para cada trato. Facilita la "
+"colaboración en equipo y cierra más tratos más rápido."
+
+#: .\webapp\templates\crmservices.html:256
+msgid "Customer Support"
+msgstr "Atención al Cliente"
+
+#: .\webapp\templates\crmservices.html:258
+msgid ""
+"Provide exceptional customer service with integrated tools for case tracking "
+"and issue management. Resolve problems quickly and keep your customers "
+"satisfied."
+msgstr ""
+"Brinda un servicio al cliente excepcional con herramientas integradas para "
+"el seguimiento de casos y la gestión de problemas. Resuelve problemas "
+"rápidamente y mantiene a tus clientes satisfechos."
+
+#: .\webapp\templates\crmservices.html:263
+msgid "Reporting & Analytics"
+msgstr "Informes & Análisis"
+
+#: .\webapp\templates\crmservices.html:265
+msgid ""
+"Gain valuable insights with custom reports and analytics. Measure the "
+"performance of your sales and marketing strategies, and make data-driven "
+"decisions to optimize your business success."
+msgstr ""
+"Obtén información valiosa con informes y análisis personalizados. Mide el "
+"rendimiento de tus estrategias de ventas y marketing, y toma decisiones "
+"basadas en datos para optimizar el éxito de tu negocio."
+
+#: .\webapp\templates\crmservices.html:270
+msgid "Integrations & Customization"
+msgstr "Integraciones y Personalización"
+
+#: .\webapp\templates\crmservices.html:272
+msgid ""
+"Integrate our CRM tool with your existing tools and applications for a "
+"seamless experience. Customize the CRM tool to meet your business's specific "
+"needs and maximize its utility."
+msgstr ""
+"Integra nuestra herramienta CRM con tus herramientas y aplicaciones "
+"existentes para una experiencia fluida. Personalízala para satisfacer las "
+"necesidades específicas de tu negocio y maximizar su utilidad."
+
+#: .\webapp\templates\crmservices.html:281
+msgid "Why choose Stregasoft CRM Services?"
+msgstr "¿Por qué elegir los servicios CRM de Stregasoft?"
+
+#: .\webapp\templates\crmservices.html:282
+msgid ""
+"With a focus on exceptional customer support and robust security, Stregasoft "
+"provides a reliable, efficient, and secure CRM experience that drives your "
+"success."
+msgstr ""
+"Con un enfoque en un soporte al cliente excepcional y una seguridad robusta, "
+"Stregasoft ofrece una experiencia CRM confiable, eficiente y segura que "
+"impulsa tu éxito."
+
+#: .\webapp\templates\dashboard.html:133
+msgid "Welcome, "
+msgstr "Bienvenido, "
+
+#: .\webapp\templates\dashboard.html:134
+msgid "This is your dashboard. You can see your profile details here."
+msgstr ""
+"Este es tu panel de control. Aquí puedes ver los detalles de tu perfil."
+
+#: .\webapp\templates\dashboard.html:136
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: .\webapp\templates\email_confirmation.html:7
+msgid "Email Confirmation"
+msgstr "Correo de confirmación:"
+
+#: .\webapp\templates\email_confirmation.html:36 .\webapp\views.py:127
+msgid "Welcome to Stregasoft!"
+msgstr "¡Bienvenido a Stregasoft!"
+
+#: .\webapp\templates\email_confirmation.html:37
+#: .\webapp\templates\password_reset_email.html:37 .\webapp\views.py:139
+msgid "Hello"
+msgstr "Hola"
+
+#: .\webapp\templates\email_confirmation.html:38
+msgid "Please verify your email by clicking on the following link."
+msgstr ""
+"Por favor, verifica tu correo electrónico haciendo clic en el siguiente "
+"enlace."
+
+#: .\webapp\templates\email_confirmation.html:39
+msgid "Confirm your Email"
+msgstr "¡Confirma tu correo en Stregasoft!"
+
+#: .\webapp\templates\index.html:61 .\webapp\templates\login.html:198
+msgid "Message"
+msgstr "Mensaje"
+
+#: .\webapp\templates\index.html:62 .\webapp\templates\register.html:193
+msgid "Close"
+msgstr "Cerrar"
+
+#: .\webapp\templates\index.html:218
+msgid "Welcome!"
+msgstr "¡Bienvenido!"
+
+#: .\webapp\templates\index.html:219
+msgid "Technology at your Service"
+msgstr "Tecnología a su Servicio"
+
+#: .\webapp\templates\index.html:221
+msgid "Start Now!"
+msgstr "¡Empezar!"
+
+#: .\webapp\templates\index.html:228 .\webapp\templates\index.html:391
+msgid "Your browser does not support the video tag."
+msgstr "Su navegador no soporta la etiqueta de video."
+
+#: .\webapp\templates\index.html:231
+msgid "Website Logo"
+msgstr "Logo del Sitio Web"
+
+#: .\webapp\templates\index.html:260
+msgid "Web Services logo"
+msgstr "Logo de Servicios TIC"
+
+#: .\webapp\templates\index.html:266
+msgid ""
+"At Stregasoft, our web development services provide tailored, innovative "
+"solutions with responsive design, ensuring a seamless user experience and "
+"robust functionality for your business growth."
+msgstr ""
+"En Stregasoft, nuestros servicios de desarrollo web ofrecen soluciones "
+"personalizadas e innovadoras con un diseño responsivo, garantizando una "
+"experiencia de usuario fluida y una funcionalidad robusta para el "
+"crecimiento de su negocio."
+
+#: .\webapp\templates\index.html:275
+msgid "CRM Services logo"
+msgstr "Logo de Servicios CRM"
+
+#: .\webapp\templates\index.html:281
+msgid ""
+"At Stregasoft, our CRM Services optimize customer management, enhance sales "
+"processes, and boost satisfaction with efficient, user-friendly tools "
+"customized to meet your business needs."
+msgstr ""
+"En Stregasoft, nuestras soluciones CRM optimizan la gestión de clientes, "
+"mejoran los procesos de ventas y aumentan la satisfacción con herramientas "
+"eficientes y fáciles de usar, personalizadas para satisfacer las necesidades "
+"de su negocio."
+
+#: .\webapp\templates\index.html:290
+msgid "Chatbot Services logo"
+msgstr "Logo de Servicios de Chatbot"
+
+#: .\webapp\templates\index.html:296
+msgid ""
+"At Stregasoft, our chatbot services offer advanced automation for customer "
+"interactions, improving engagement and operational efficiency with "
+"intelligent, real-time support tailored to your needs."
+msgstr ""
+"En Stregasoft, nuestros servicios de chatbot ofrecen automatización avanzada "
+"para interacciones con clientes, mejorando el compromiso y la eficiencia "
+"operativa con soporte inteligente y en tiempo real, adaptado a sus "
+"necesidades."
+
+#: .\webapp\templates\index.html:305
+msgid "IT Services logo"
+msgstr "Logo de Servicios TIC"
+
+#: .\webapp\templates\index.html:311
+msgid ""
+"At Stregasoft, our IT services deliver comprehensive support, from managing "
+"your infrastructure to implementing robust cybersecurity solutions, ensuring "
+"your technology operates securely and smoothly."
+msgstr ""
+"En Stregasoft, nuestros servicios TIC ofrecen un soporte integral, desde la "
+"gestión de su infraestructura hasta la implementación de soluciones robustas "
+"de ciberseguridad, garantizando que su tecnología opere de manera segura y "
+"fluida."
+
+#: .\webapp\templates\index.html:327
+msgid "Our Company"
+msgstr "Nuestra Compañía"
+
+#: .\webapp\templates\index.html:328
+msgid ""
+"Welcome to Stregasoft, your gateway to a world of innovative tech solutions "
+"and digital excellence."
+msgstr ""
+"Bienvenido a Stregasoft, su puerta de entrada a un mundo de soluciones "
+"tecnológicas innovadoras y excelencia digital."
+
+#: .\webapp\templates\index.html:334 .\webapp\templates\index.html:337
+msgid "Leading Technology Solutions"
+msgstr "Soluciones Tecnológicas de Primera Clase"
+
+#: .\webapp\templates\index.html:338
+msgid ""
+"Our company leads the way in technology, providing a wide array of services "
+"to cater to your distinctive software and IT requirements."
+msgstr ""
+"Nuestra empresa está a la vanguardia de la tecnología, ofreciendo una amplia "
+"gama de servicios para satisfacer sus necesidades únicas de software y TIC."
+
+#: .\webapp\templates\index.html:345 .\webapp\templates\index.html:348
+msgid "Industry Leading Experts"
+msgstr "Expertos Líderes en la Industria"
+
+#: .\webapp\templates\index.html:349
+msgid ""
+"Our exceptional team consists of engineers, programmers, designers, and "
+"marketing experts, all dedicated to driving your ideas to the top of your "
+"industry."
+msgstr ""
+"Nuestro equipo excepcional está compuesto por ingenieros, programadores, "
+"diseñadores y expertos en marketing, todos dedicados a llevar sus ideas a la "
+"cima de su industria."
+
+#: .\webapp\templates\index.html:356 .\webapp\templates\index.html:359
+msgid "Excellent Customer Service"
+msgstr "Excelente Atención al Cliente"
+
+#: .\webapp\templates\index.html:360
+msgid ""
+"Our excellent customer service provides you unparalleled support and "
+"guidance. We prioritize your satisfaction and aim to build lasting "
+"relationships through our exceptional service."
+msgstr ""
+"Nuestro excelente servicio al cliente le brinda un apoyo y orientación "
+"incomparables. Priorizamos su satisfacción y buscamos construir relaciones "
+"duraderas a través de nuestro servicio excepcional."
+
+#: .\webapp\templates\index.html:367 .\webapp\templates\index.html:370
+msgid "Custom Solutions"
+msgstr "Soluciones Personalizadas"
+
+#: .\webapp\templates\index.html:371
+msgid ""
+"We are a premier provider of software services, offering personalized "
+"software solutions, expert advisory, and cutting-edge app and web design."
+msgstr ""
+"Somos un proveedor líder de servicios de software, ofreciendo soluciones "
+"personalizadas, asesoramiento experto y diseño de aplicaciones y sitios web "
+"de vanguardia."
+
+#: .\webapp\templates\index.html:394
+msgid ""
+"Innovation is the lifeline of entrepreneurship. It's about solving problems "
+"and creating opportunities."
+msgstr ""
+"La innovación es la esencia del emprendimiento. Se trata de resolver "
+"problemas y crear oportunidades."
+
+#: .\webapp\templates\index.html:399
+msgid "Read More"
+msgstr "Leer Más"
+
+#: .\webapp\templates\itservices.html:210
+msgid ""
+"At Stregasoft, we provide advanced IT solutions with a focus on exceptional "
+"service and support."
+msgstr ""
+"En Stregasoft, ofrecemos soluciones informáticas avanzadas con un enfoque en "
+"servicio y soporte excepcionales."
+
+#: .\webapp\templates\itservices.html:228
+msgid "Our Work Process"
+msgstr "Nuestro Proceso"
+
+#: .\webapp\templates\itservices.html:239
+msgid "Discuss"
+msgstr "Discusión"
+
+#: .\webapp\templates\itservices.html:241
+msgid ""
+"In this phase, we engage in detailed conversations to fully understand their "
+"vision and requirements of the IT project, ensuring that all perspectives "
+"are considered."
+msgstr ""
+"En esta fase, mantenemos conversaciones detalladas para entender la visión y "
+"requisitos del proyecto."
+
+#: .\webapp\templates\itservices.html:254
+msgid "Mapping"
+msgstr "Mapeo"
+
+#: .\webapp\templates\itservices.html:256
+msgid ""
+"We outline each step to create a technical solution with a clear path to "
+"success, ensuring all objectives are met efficiently."
+msgstr ""
+"Describimos cada paso para crear una solución técnica con un camino claro "
+"hacia el éxito, asegurando que todos los objetivos se cumplan de manera "
+"eficiente."
+
+#: .\webapp\templates\itservices.html:271
+msgid ""
+"We deploy the solution as planned, ensure smooth integration, provide "
+"training, and offer support for seamless operation."
+msgstr ""
+"Implementamos la solución, garantizamos una integración fluida y ofrecemos "
+"capacitación y soporte para un funcionamiento óptimo."
+
+#: .\webapp\templates\itservices.html:312
+msgid "Our Cloud Service"
+msgstr "Nuestro Servicio en la Nube"
+
+#: .\webapp\templates\itservices.html:314
+msgid ""
+"Our cloud hosting services offer scalable, secure, and high-performance "
+"solutions designed for businesses of all sizes. Leveraging top-tier "
+"infrastructure and providing personalized support, we ensure that your "
+"applications and websites operate efficiently. This allows you to focus on "
+"driving growth and success for your business."
+msgstr ""
+"Nuestros servicios de hosting en la nube proporcionan soluciones escalables, "
+"seguras y de alto rendimiento para empresas de todos los tamaños. Con "
+"infraestructura de primera y soporte personalizado, garantizamos un "
+"funcionamiento fluido para que puedas enfocarte en hacer crecer tu negocio."
+
+#: .\webapp\templates\itservices.html:319
+#: .\webapp\templates\itservices.html:320
+msgid "Managed IT Services"
+msgstr "Servicios TIC"
+
+#: .\webapp\templates\itservices.html:325
+#: .\webapp\templates\itservices.html:326
+msgid "Cloud Computing Services"
+msgstr "Servicios de Computación en la Nube"
+
+#: .\webapp\templates\itservices.html:331
+#: .\webapp\templates\itservices.html:332
+msgid "Cybersecurity"
+msgstr "Ciberseguridad"
+
+#: .\webapp\templates\itservices.html:337
+#: .\webapp\templates\itservices.html:338
+msgid "Network Management"
+msgstr "Gestión de Redes"
+
+#: .\webapp\templates\itservices.html:343
+#: .\webapp\templates\itservices.html:344
+msgid "Data Backup and Recovery"
+msgstr "Copia de Seguridad y Recuperación de Datos"
+
+#: .\webapp\templates\itservices.html:349
+#: .\webapp\templates\itservices.html:350
+msgid "Technical Support"
+msgstr "Soporte Técnico"
+
+#: .\webapp\templates\itservices.html:355
+#: .\webapp\templates\itservices.html:356
+msgid "IT Consulting"
+msgstr "Consultoría TIC"
+
+#: .\webapp\templates\itservices.html:361
+#: .\webapp\templates\itservices.html:362
+msgid "System Integration"
+msgstr "Integración de Sistemas"
+
+#: .\webapp\templates\itservices.html:378
+msgid "Service Benefits"
+msgstr "Beneficios del Servicio"
+
+#: .\webapp\templates\itservices.html:388
+#: .\webapp\templates\itservices.html:390
+msgid "Boost Efficiency"
+msgstr "Aumenta la Eficiencia"
+
+#: .\webapp\templates\itservices.html:391
+msgid ""
+"Streamline your operations with our solutions, reducing manual tasks and "
+"increasing productivity."
+msgstr ""
+"Optimice sus operaciones, y aumente la productividad con nuestras soluciones."
+
+#: .\webapp\templates\itservices.html:397
+#: .\webapp\templates\itservices.html:399
+msgid "Ensure Security"
+msgstr "Garantiza la Seguridad"
+
+#: .\webapp\templates\itservices.html:400
+msgid ""
+"Protect your business with our advanced security measures, safeguarding your "
+"data from threats."
+msgstr ""
+"Protege tu negocio con nuestras avanzadas medidas de seguridad, "
+"salvaguardando tus datos de amenazas."
+
+#: .\webapp\templates\itservices.html:406
+#: .\webapp\templates\itservices.html:408
+msgid "Scale with Ease"
+msgstr "Escala con Facilidad"
+
+#: .\webapp\templates\itservices.html:409
+msgid ""
+"Adapt to growth effortlessly with our flexible IT solutions, designed to "
+"scale with your needs."
+msgstr ""
+"Adáptese al crecimiento con nuestras soluciones diseñadas para escalar según "
+"tus necesidades."
+
+#: .\webapp\templates\login.html:11
+msgid "Sign In"
+msgstr "Iniciar sesión"
+
+#: .\webapp\templates\login.html:199
+#, fuzzy
+#| msgid "Close"
+msgid " Close"
+msgstr "Cerrar"
+
+#: .\webapp\templates\login.html:206
+#, fuzzy
+#| msgid "Logout"
+msgid " Logo"
+msgstr "Cerrar sesión"
+
+#: .\webapp\templates\login.html:208
+msgid "Log In to Your Account!"
+msgstr "¡Inicia sesión en tu cuenta!"
+
+#: .\webapp\templates\login.html:212 .\webapp\templates\register.html:203
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: .\webapp\templates\login.html:213
+msgid "Enter Your Username"
+msgstr "Introduce tu nombre de usuario"
+
+#: .\webapp\templates\login.html:217 .\webapp\templates\register.html:219
+msgid "Password"
+msgstr "Contraseña"
+
+#: .\webapp\templates\login.html:219
+msgid "Enter Your Password"
+msgstr "Introduce tu contraseña"
+
+#: .\webapp\templates\login.html:223 .\webapp\templates\register.html:244
+msgid "Log In"
+msgstr "Iniciar sesión"
+
+#: .\webapp\templates\login.html:231
+msgid "Continue with Facebook"
+msgstr "Continuar con Facebook"
+
+#: .\webapp\templates\login.html:236
+msgid "Continue with Microsoft"
+msgstr "Continuar con Microsoft"
+
+#: .\webapp\templates\login.html:293
+msgid "Don't have an account?"
+msgstr "¿No tienes una cuenta?"
+
+#: .\webapp\templates\login.html:293
+msgid "Register Here!"
+msgstr "¡Regístrate aquí!"
+
+#: .\webapp\templates\login.html:296
+msgid "Forgot your password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: .\webapp\templates\password_reset.html:155
+msgid "Reset Password"
+msgstr "Restablecer Contraseña"
+
+#: .\webapp\templates\password_reset.html:165
+msgid "Email Address:"
+msgstr "Correo Electrónico:"
+
+#: .\webapp\templates\password_reset.html:167
+msgid "Send Reset Link"
+msgstr "Enviar Enlace de Restablecimiento"
+
+#: .\webapp\templates\password_reset_complete.html:78
+msgid "Password Reset Complete"
+msgstr "Restablecimiento de Contraseña Enviado"
+
+#: .\webapp\templates\password_reset_complete.html:80
+msgid "Your password has been successfully reset. Please"
+msgstr ""
+"Tu contraseña ha sido restablecida exitosamente. Ahora puedes iniciar sesión "
+"con tu nueva contraseña."
+
+#: .\webapp\templates\password_reset_complete.html:80
+msgid "log in"
+msgstr ""
+
+#: .\webapp\templates\password_reset_complete.html:80
+msgid ""
+"with your new password using your username. If you have forgotten your "
+"username, please check the email sent to you earlier as it contains your "
+"username. If you have any issues, please contact support."
+msgstr ""
+
+#: .\webapp\templates\password_reset_complete.html:82
+msgid "Go to Login"
+msgstr " Ir la Login"
+
+#: .\webapp\templates\password_reset_confirm.html:9
+#: .\webapp\templates\password_reset_confirm.html:148
+msgid "Enter New Password"
+msgstr "Introduce Nueva Contraseña"
+
+#: .\webapp\templates\password_reset_confirm.html:152
+msgid "New Password"
+msgstr "Nueva Contraseña"
+
+#: .\webapp\templates\password_reset_confirm.html:156
+msgid "Confirm New Password"
+msgstr "Confirmar Nueva Contraseña"
+
+#: .\webapp\templates\password_reset_confirm.html:159
+msgid "Set New Password"
+msgstr "Establecer Nueva Contraseña"
+
+#: .\webapp\templates\password_reset_done.html:102
+msgid "Password Reset Sent"
+msgstr "Restablecimiento de Contraseña Enviado"
+
+#: .\webapp\templates\password_reset_done.html:103
+msgid ""
+"We've emailed you instructions for resetting your password. You should "
+"receive them shortly."
+msgstr ""
+"Te hemos enviado por correo electrónico las instrucciones para restablecer "
+"tu contraseña. Deberías recibirlas en breve."
+
+#: .\webapp\templates\password_reset_email.html:7
+#: .\webapp\templates\password_reset_email.html:36 .\webapp\views.py:364
+msgid "Password Reset Request"
+msgstr "Solicitud de restablecimiento de contraseña"
+
+#: .\webapp\templates\password_reset_email.html:38
+msgid "You requested a password reset."
+msgstr "Has solicitado un restablecimiento de contraseña."
+
+#: .\webapp\templates\password_reset_email.html:39
+msgid "If you forgot your username, it is:"
+msgstr "Si has olvidado tu nombre de usuario, es el siguiente:"
+
+#: .\webapp\templates\password_reset_email.html:40
+msgid "Click the link below to set a new password:"
+msgstr ""
+"Haz clic en el enlace a continuación para establecer una nueva contraseña:"
+
+#: .\webapp\templates\password_reset_email.html:41
+msgid "Reset my password."
+msgstr "Restablecer mi contraseña."
+
+#: .\webapp\templates\password_reset_email.html:42
+msgid "If you did not request this change, please ignore this email."
+msgstr ""
+"Si no solicitaste este cambio, por favor ignora este correo electrónico."
+
+#: .\webapp\templates\password_reset_email.html:43
+msgid "Thank you,"
+msgstr "Gracias,"
+
+#: .\webapp\templates\password_reset_email.html:44
+msgid "The Stregasoft Team"
+msgstr "El equipo de Stregasoft"
+
+#: .\webapp\templates\portfolio.html:207
+msgid "Web Portfolio"
+msgstr "Portafolio Web"
+
+#: .\webapp\templates\portfolio.html:210
+msgid ""
+"Explore our diverse portfolio showcasing the range of web solutions we "
+"offer. From dynamic websites to innovative digital platforms, each project "
+"reflects our commitment to excellence and our ability to tailor solutions to "
+"meet specific client needs."
+msgstr ""
+"Explora nuestro diverso portafolio que muestra la gama de soluciones web que "
+"ofrecemos. Desde sitios web dinámicos hasta plataformas digitales "
+"innovadoras, cada proyecto refleja nuestro compromiso con la excelencia y "
+"nuestra capacidad para adaptar soluciones a las necesidades específicas de "
+"cada cliente."
+
+#: .\webapp\templates\privacy.html:201
+msgid "© Stregasoft Privacy Policy"
+msgstr " © Stregasoft Política de Privacidad"
+
+#: .\webapp\templates\privacy.html:204 .\webapp\templates\terms.html:205
+msgid "Effective Date"
+msgstr "Fecha de Vigencia"
+
+#: .\webapp\templates\privacy.html:205 .\webapp\templates\terms.html:206
+msgid "Effective Date: 07/23/2024"
+msgstr "Fecha de Vigencia: 23/07/2024"
+
+#: .\webapp\templates\privacy.html:209
+msgid "Introduction"
+msgstr "Introducción"
+
+#: .\webapp\templates\privacy.html:210
+msgid ""
+"Welcome to Stregasoft. We are committed to protecting your privacy. This "
+"Privacy Policy explains how we collect, use, disclose, and safeguard your "
+"information when you use our services, including: Web Services, CRM "
+"Services, Chatbot Services, and IT Services. By using our services, you "
+"agree to the terms of this Privacy Policy."
+msgstr ""
+"Bienvenido a Stregasoft. Estamos comprometidos con la protección de tu "
+"privacidad. Esta Política de Privacidad explica cómo recopilamos, "
+"utilizamos, divulgamos y protegemos tu información cuando usas nuestros "
+"servicios, que incluyen: Servicios Web, Servicios CRM, Servicios de Chatbot "
+"y Servicios de TI. Al utilizar nuestros servicios, aceptas los términos de "
+"esta Política de Privacidad."
+
+#: .\webapp\templates\privacy.html:214
+msgid "Information We Collect"
+msgstr "Información que Recopilamos"
+
+#: .\webapp\templates\privacy.html:215
+msgid "We may collect and process the following types of information:"
+msgstr "Podemos recopilar y procesar los siguientes tipos de información:"
+
+#: .\webapp\templates\privacy.html:217
+msgid "Personal Identification Information"
+msgstr "Información de Identificación Personal"
+
+#: .\webapp\templates\privacy.html:217
+msgid "Name, email address, phone number, and other contact details."
+msgstr ""
+"Nombre, dirección de correo electrónico, número de teléfono y otros detalles "
+"de contacto."
+
+#: .\webapp\templates\privacy.html:218
+msgid "Technical Data"
+msgstr "Datos Técnicos"
+
+#: .\webapp\templates\privacy.html:218
+msgid ""
+"IP address, browser type, operating system, and usage data related to our "
+"services."
+msgstr ""
+"Dirección IP, tipo de navegador, sistema operativo y datos de uso "
+"relacionados con nuestros servicios."
+
+#: .\webapp\templates\privacy.html:219
+msgid "Transaction Data"
+msgstr "Datos de Transacción"
+
+#: .\webapp\templates\privacy.html:219
+msgid "Payment details and service usage information."
+msgstr "Detalles de pago e información sobre el uso de servicios."
+
+#: .\webapp\templates\privacy.html:220
+msgid "Feedback and Communication"
+msgstr "Retroalimentación y Comunicación"
+
+#: .\webapp\templates\privacy.html:220
+msgid "Any information you provide when contacting us or providing feedback."
+msgstr ""
+"Cualquier información que proporciones al contactarnos o brindar "
+"retroalimentación."
+
+#: .\webapp\templates\privacy.html:221 .\webapp\templates\terms.html:308
+msgid "Web Browser Cookies"
+msgstr "Cookies del Navegador Web"
+
+#: .\webapp\templates\privacy.html:221
+msgid ""
+"Our site may use cookies to enhance user experience. Users' web browsers "
+"place cookies on their hard drive for record-keeping purposes and sometimes "
+"to track information about them. Users may choose to set their web browser "
+"to refuse cookies or to alert them when cookies are being sent. Note that "
+"some parts of the site may not function properly if cookies are refused."
+msgstr ""
+"Nuestro sitio puede usar cookies para mejorar la experiencia del usuario. "
+"Los navegadores web de los usuarios colocan cookies en su disco duro para "
+"fines de mantenimiento de registros y, a veces, para rastrear información "
+"sobre ellos. Los usuarios pueden elegir configurar su navegador web para "
+"rechazar cookies o para alertarlos cuando se envían cookies. Ten en cuenta "
+"que algunas partes del sitio pueden no funcionar correctamente si las "
+"cookies son rechazadas."
+
+#: .\webapp\templates\privacy.html:226
+msgid "How We Use Your Information"
+msgstr "Cómo Usamos tu Información"
+
+#: .\webapp\templates\privacy.html:227
+msgid "We use your information for the following purposes:"
+msgstr "Usamos tu información para los siguientes propósitos:"
+
+#: .\webapp\templates\privacy.html:229
+msgid "To provide and maintain our services."
+msgstr "Para proporcionar y mantener nuestros servicios."
+
+#: .\webapp\templates\privacy.html:230
+msgid "To process transactions and manage billing."
+msgstr "Para procesar transacciones y gestionar la facturación."
+
+#: .\webapp\templates\privacy.html:231
+msgid ""
+"To personalize user experience by using information in the aggregate to "
+"understand how our users as a group use the services and resources provided "
+"on our site."
+msgstr ""
+"Para personalizar la experiencia del usuario utilizando información agregada "
+"para entender cómo nuestros usuarios como grupo utilizan los servicios y "
+"recursos proporcionados en nuestro sitio."
+
+#: .\webapp\templates\privacy.html:232
+msgid ""
+"To communicate with you, including responding to inquiries and providing "
+"customer support."
+msgstr ""
+"Para comunicarnos contigo, incluyendo responder a consultas y proporcionar "
+"soporte al cliente."
+
+#: .\webapp\templates\privacy.html:233
+msgid ""
+"To improve our services and develop new offerings based on the feedback you "
+"provide."
+msgstr ""
+"Para mejorar nuestros servicios y desarrollar nuevas ofertas basadas en la "
+"retroalimentación que proporcionas."
+
+#: .\webapp\templates\privacy.html:234
+msgid ""
+"To send periodic emails, such as responding to inquiries, questions, and/or "
+"other requests."
+msgstr ""
+"Para enviar correos electrónicos periódicos, como responder a consultas, "
+"preguntas y/u otras solicitudes."
+
+#: .\webapp\templates\privacy.html:235
+msgid "To comply with legal obligations and protect our rights."
+msgstr "Para cumplir con obligaciones legales y proteger nuestros derechos."
+
+#: .\webapp\templates\privacy.html:240
+msgid "How We Share Your Information"
+msgstr "Cómo Compartimos tu Información"
+
+#: .\webapp\templates\privacy.html:241
+msgid "We may share your information in the following circumstances:"
+msgstr "Podemos compartir tu información en las siguientes circunstancias:"
+
+#: .\webapp\templates\privacy.html:243
+msgid "With Service Providers"
+msgstr "Con Proveedores de Servicios"
+
+#: .\webapp\templates\privacy.html:243
+msgid ""
+"We may share your information with third-party service providers who assist "
+"us in operating our business and providing our services."
+msgstr ""
+"Podemos compartir tu información con proveedores de servicios de terceros "
+"que nos ayudan a operar nuestro negocio y proporcionar nuestros servicios."
+
+#: .\webapp\templates\privacy.html:244
+msgid "For Legal Reasons"
+msgstr "Por Razones Legales"
+
+#: .\webapp\templates\privacy.html:244
+msgid ""
+"We may disclose your information if required by law or to protect our "
+"rights, property, or safety, or that of others."
+msgstr ""
+"Podemos divulgar tu información si la ley lo requiere o para proteger "
+"nuestros derechos, propiedad o seguridad, o la de otros."
+
+#: .\webapp\templates\privacy.html:245
+msgid "Business Transfers"
+msgstr "Transferencias Comerciales"
+
+#: .\webapp\templates\privacy.html:245
+msgid ""
+"If we undergo a merger, acquisition, or any form of sale of some or all of "
+"our assets, your information may be transferred as part of that transaction."
+msgstr ""
+"Si experimentamos una fusión, adquisición o cualquier forma de venta de "
+"algunos o todos nuestros activos, tu información puede ser transferida como "
+"parte de esa transacción."
+
+#: .\webapp\templates\privacy.html:246
+msgid "Aggregated Information"
+msgstr "Información Agregada"
+
+#: .\webapp\templates\privacy.html:246
+msgid ""
+"We may share generic aggregated demographic information not linked to any "
+"personal identification information regarding visitors and users with our "
+"business partners, trusted affiliates, and advertisers for the purposes "
+"outlined above."
+msgstr ""
+"Podemos compartir información demográfica genérica agregada que no esté "
+"vinculada a ninguna información de identificación personal sobre visitantes "
+"y usuarios con nuestros socios comerciales, afiliados de confianza y "
+"anunciantes para los propósitos mencionados anteriormente."
+
+#: .\webapp\templates\privacy.html:251
+msgid "Security"
+msgstr "Garantiza la Seguridad"
+
+#: .\webapp\templates\privacy.html:252
+msgid ""
+"We adopt appropriate data collection, storage, and processing practices and "
+"security measures to protect against unauthorized access, alteration, "
+"disclosure, or destruction of your personal information and data stored on "
+"our site. However, no method of transmission over the Internet or electronic "
+"storage is completely secure, so we cannot guarantee absolute security."
+msgstr ""
+"Adoptamos prácticas de recolección, almacenamiento y procesamiento de datos "
+"adecuadas y medidas de seguridad para proteger contra el acceso no "
+"autorizado, alteración, divulgación o destrucción de tu información personal "
+"y datos almacenados en nuestro sitio. Sin embargo, ningún método de "
+"transmisión a través de Internet o almacenamiento electrónico es "
+"completamente seguro, por lo que no podemos garantizar la seguridad absoluta."
+
+#: .\webapp\templates\privacy.html:256
+msgid "Your Rights"
+msgstr "Tus Derechos"
+
+#: .\webapp\templates\privacy.html:257
+msgid ""
+"Depending on your location, you may have certain rights regarding your "
+"personal information, including:"
+msgstr ""
+"Dependiendo de tu ubicación, puedes tener ciertos derechos respecto a tu "
+"información personal, incluyendo:"
+
+#: .\webapp\templates\privacy.html:259
+msgid "The right to access and update your information."
+msgstr "El derecho a acceder y actualizar tu información."
+
+#: .\webapp\templates\privacy.html:260
+msgid "The right to request deletion of your information."
+msgstr "El derecho a solicitar la eliminación de tu información."
+
+#: .\webapp\templates\privacy.html:261
+msgid "The right to object to or restrict the processing of your information."
+msgstr "El derecho a oponerte o restringir el procesamiento de tu información."
+
+#: .\webapp\templates\privacy.html:262
+msgid "The right to withdraw consent, where applicable."
+msgstr "El derecho a retirar el consentimiento, cuando sea aplicable."
+
+#: .\webapp\templates\privacy.html:264
+msgid ""
+"If you wish to exercise any of these rights, please contact us using the "
+"information provided below."
+msgstr ""
+"Si deseas ejercer cualquiera de estos derechos, por favor contáctanos usando "
+"la información proporcionada a continuación."
+
+#: .\webapp\templates\privacy.html:268
+msgid "Changes to This Privacy Policy"
+msgstr "Cambios en esta Política de Privacidad"
+
+#: .\webapp\templates\privacy.html:269
+msgid ""
+"We may update this Privacy Policy from time to time. Changes will be "
+"effective upon posting on our website. Your continued use of our services "
+"after any changes constitutes acceptance of the updated policy. We encourage "
+"users to frequently check this page for any changes to stay informed about "
+"how we are helping to protect the personal information we collect. You "
+"acknowledge and agree that it is your responsibility to review this Privacy "
+"Policy periodically and become aware of modifications."
+msgstr ""
+"Podemos actualizar esta Política de Privacidad de vez en cuando. Los cambios "
+"serán efectivos al ser publicados en nuestro sitio web. Tu uso continuado de "
+"nuestros servicios después de cualquier cambio constituye aceptación de la "
+"política actualizada. Animamos a los usuarios a revisar frecuentemente esta "
+"página para estar informados sobre cómo estamos ayudando a proteger la "
+"información personal que recopilamos. Reconoces y aceptas que es tu "
+"responsabilidad revisar esta Política de Privacidad periódicamente y estar "
+"al tanto de las modificaciones."
+
+#: .\webapp\templates\privacy.html:273 .\webapp\templates\terms.html:338
+msgid "Your Acceptance of These Terms"
+msgstr "Tu Aceptación de Estos Términos"
+
+#: .\webapp\templates\privacy.html:274
+msgid ""
+"By using this site, you signify your acceptance of this Privacy Policy. If "
+"you do not agree to this Privacy Policy, please do not use our site. Your "
+"continued use of the site following the posting of changes to this Privacy "
+"Policy will be deemed your acceptance of those changes."
+msgstr ""
+"Al usar este sitio, manifiestas tu aceptación de esta Política de "
+"Privacidad. Si no estás de acuerdo con esta Política de Privacidad, por "
+"favor no uses nuestro sitio. Tu uso continuado del sitio después de la "
+"publicación de cambios a esta Política de Privacidad se considerará como tu "
+"aceptación de esos cambios."
+
+#: .\webapp\templates\privacy.html:278 .\webapp\templates\terms.html:343
+msgid "Contact Information"
+msgstr "Información de Contacto"
+
+#: .\webapp\templates\privacy.html:279
+msgid ""
+"If you have any questions about this Privacy Policy, please contact us at:"
+msgstr ""
+"Si tienes alguna pregunta sobre esta Política de Privacidad, por favor "
+"contáctanos en:"
+
+#: .\webapp\templates\privacy.html:281 .\webapp\templates\terms.html:348
+msgid "info@stregasoft.com"
+msgstr "info@stregasoft.com"
+
+#: .\webapp\templates\register.html:11 .\webapp\templates\register.html:188
+msgid "Sign Up"
+msgstr "Regístrate"
+
+#: .\webapp\templates\register.html:207
+msgid "First Name"
+msgstr "Nombre"
+
+#: .\webapp\templates\register.html:211
+msgid "Last Name"
+msgstr "Apellido"
+
+#: .\webapp\templates\register.html:226
+msgid "Confirm Password"
+msgstr "Confirmar Contraseña"
+
+#: .\webapp\templates\register.html:233
+msgid "Register"
+msgstr "Registrarse"
+
+#: .\webapp\templates\register.html:244
+msgid "Already have an account?"
+msgstr "¿Ya tienes una cuenta?"
+
+#: .\webapp\templates\services.html:209
+msgid "Delivering All the Solutions your Business Needs"
+msgstr "Ofreciendo todas las soluciones que su negocio necesita"
+
+#: .\webapp\templates\services.html:215 .\webapp\templates\webservices.html:214
+msgid "banner-image"
+msgstr "imagen-banner"
+
+#: .\webapp\templates\services.html:234
+msgid ""
+"Our company provides cutting-edge web development solutions. Our web "
+"development services include website design, application development, search "
+"engine optimization (SEO), and e-commerce. Our outstanding team of experts "
+"is driven by a relentless pursuit of excellence to continuously enhance the "
+"digital performance of our clients. Our goal is to supply your digital "
+"needs, ensuring that our technology elevates your business to its full "
+"potential."
+msgstr ""
+"Nuestra empresa ofrece soluciones de desarrollo web de vanguardia. Nuestros "
+"servicios de desarrollo web incluyen diseño de sitios web, desarrollo de "
+"aplicaciones, optimización de motores de búsqueda (SEO) y comercio "
+"electrónico. Nuestro destacado equipo de expertos se caracteriza por su "
+"excelente profesionalismo con la finalidad de mejorar continuamente el "
+"rendimiento digital de nuestros clientes. Nuestro objetivo es satisfacer sus "
+"necesidades digitales, asegurando que nuestra tecnología eleve su negocio a "
+"su máximo potencial."
+
+#: .\webapp\templates\services.html:250
+msgid "CRM Servicios"
+msgstr "Servicios CRM"
+
+#: .\webapp\templates\services.html:254
+msgid ""
+"Our company delivers innovative customer relationship management (CRM) "
+"software. Our CRM service is designed to encompass sales funnel management, "
+"client management, data analytics, automated marketing tools, and customer "
+"support systems. We customize our software to meet and exceed your demands, "
+"ensuring that our CRM Services take your business to the next level."
+msgstr ""
+"Nuestra empresa ofrece software de gestión de relaciones con clientes (CRM). "
+"Nuestro innovador servicio de CRM está diseñado para abarcar la gestión del "
+"embudo de ventas, la gestión de clientes, el análisis de datos, las "
+"herramientas de marketing automatizado y los sistemas de soporte al cliente. "
+"Personalizamos nuestro software para satisfacer y superar sus demandas, "
+"asegurando que nuestras soluciones de CRM lleven su negocio al siguiente "
+"nivel."
+
+#: .\webapp\templates\services.html:268
+msgid ""
+"Our company provides Chatbot Services that automate the customer engagement "
+"process within your business. Our chatbot system enhances the customer "
+"experience and improves the efficiency of your operations. Our advanced "
+"chatbot applications are designed to understand and respond to customer "
+"service queries in real-time, providing accurate and timely solutions. "
+"Additionally, our chatbots are capable of handling a wide range of tasks, "
+"from processing transactions to connecting with your CRM platform and "
+"gathering customer feedback."
+msgstr ""
+"Nuestra empresa ofrece Servicios de Chatbot que automatizan el proceso de "
+"interacción con los clientes dentro de su negocio. Nuestro sistema de "
+"Chatbot mejora la experiencia del cliente y aumenta la eficiencia de sus "
+"operaciones. Nuestras aplicaciones de chatbot están diseñadas para entender "
+"y responder a las consultas de servicio al cliente en tiempo real, "
+"proporcionando soluciones precisas y oportunas para su negocio. Además, "
+"nuestros chatbots son capaces de manejar una amplia gama de tareas, desde "
+"procesar transacciones hasta conectarse con su plataforma CRM y recopilar "
+"comentarios de los clientes."
+
+#: .\webapp\templates\services.html:288
+msgid ""
+"Our company delivers comprehensive IT solutions, including infrastructure "
+"management, cybersecurity, and IT consulting. Our dedicated team of network "
+"engineers, programmers, and designer experts provides the full spectrum of "
+"support your business needs to thrive. We ensure seamless technology "
+"integration into your operations, enhance your security posture, and offer "
+"strategic guidance to help you navigate the ever-evolving IT landscape. With "
+"Stregasoft, you can count on reliable IT solutions tailored to drive your "
+"business forward."
+msgstr ""
+"Nuestra empresa ofrece soluciones integrales de tecnologías de la "
+"información (TI), incluyendo gestión de infraestructura, ciberseguridad y "
+"consultoría de TI. Nuestro dedicado equipo de ingenieros de redes, "
+"programadores y expertos en diseño proporciona todo el apoyo que su negocio "
+"necesita para prosperar. Aseguramos una integración tecnológica sin "
+"problemas en sus operaciones, mejoramos su seguridad en línea y ofrecemos "
+"orientación estratégica para ayudarlo a navegar en el cambiante panorama de "
+"TI. Con Stregasoft, puede contar con soluciones de TI confiables y adaptadas "
+"para impulsar su negocio."
+
+#: .\webapp\templates\services.html:302
+msgid "Have a Project in Mind? Contact Us!"
+msgstr "¿Tienes un proyecto en mente? ¡Contáctanos!"
+
+#: .\webapp\templates\terms.html:202
+msgid "© Stregasoft Terms & Conditions"
+msgstr "© Stregasoft Términos & Condiciones"
+
+#: .\webapp\templates\terms.html:210
+msgid "Welcome to Stregasoft"
+msgstr "Bienvenido a Stregasoft"
+
+#: .\webapp\templates\terms.html:211
+msgid ""
+"These terms & conditions (“Terms”, “Agreement”) are an agreement between "
+"Stregasoft (“Website”, “us”, “we”, or “our”) and you (“User”, “you”, or "
+"“your”). This Agreement sets forth the general terms & conditions of your "
+"use of the Stregasoft website located at https://www.stregasoft.com and any "
+"of its related products and services (collectively, “Website” or “Services”)."
+msgstr ""
+"Estos términos y condiciones (“Términos”, “Acuerdo”) son un acuerdo entre "
+"Stregasoft (“Sitio web”, “nosotros”, “nuestro”) y usted (“Usuario”, “usted”, "
+"“su”). Este Acuerdo establece los términos y condiciones generales de su uso "
+"del sitio web de Stregasoft ubicado en https://www.stregasoft.com y "
+"cualquiera de sus productos y servicios relacionados (colectivamente, “Sitio "
+"web” o “Servicios”)."
+
+#: .\webapp\templates\terms.html:215
+msgid "Services Provided"
+msgstr "Con Proveedores de Servicios"
+
+#: .\webapp\templates\terms.html:216
+msgid "Stregasoft offers the following services:"
+msgstr "Stregasoft ofrece los siguientes servicios:"
+
+#: .\webapp\templates\terms.html:218
+msgid "Web Services:"
+msgstr "Servicios Web"
+
+#: .\webapp\templates\terms.html:218
+msgid "Design, development, and maintenance of websites."
+msgstr "Diseño, desarrollo y mantenimiento de sitios web."
+
+#: .\webapp\templates\terms.html:219
+msgid "CRM Services:"
+msgstr "Servicios CRM"
+
+#: .\webapp\templates\terms.html:219
+msgid "Customer relationship management software and support."
+msgstr "Software de gestión de relaciones con el cliente y soporte."
+
+#: .\webapp\templates\terms.html:220
+msgid "Chatbot Services:"
+msgstr "Servicios Chatbot"
+
+#: .\webapp\templates\terms.html:220
+msgid "Automation of the customer engagement process within your business."
+msgstr ""
+"Automatización del proceso de interacción con los clientes dentro de su "
+"empresa."
+
+#: .\webapp\templates\terms.html:221
+msgid "IT Services:"
+msgstr "Servicios TIC"
+
+#: .\webapp\templates\terms.html:221
+msgid "Comprehensive IT support and consulting."
+msgstr "Soporte y consultoría de TI integral."
+
+#: .\webapp\templates\terms.html:226
+msgid "Use of Services and Website"
+msgstr "Uso de los Servicios y del Sitio Web"
+
+#: .\webapp\templates\terms.html:227
+msgid "By using our services, you agree to the following:"
+msgstr "Al utilizar nuestros servicios, usted acepta lo siguiente:"
+
+#: .\webapp\templates\terms.html:229
+msgid ""
+"You will use our services only for lawful purposes and in accordance with "
+"these Terms & Conditions."
+msgstr ""
+"Utilizará nuestros servicios solo para fines legales y de acuerdo con estos "
+"Términos y Condiciones."
+
+#: .\webapp\templates\terms.html:230
+msgid ""
+"You must not use our services or website to violate any applicable laws or "
+"regulations, transmit harmful or disruptive content, or engage in any "
+"activity that disrupts or interferes with our services or the website."
+msgstr ""
+"No debe utilizar nuestros servicios o sitio web para violar ninguna ley o "
+"regulación aplicable, transmitir contenido dañino o disruptivo, o participar "
+"en cualquier actividad que interrumpa o interfiera con nuestros servicios o "
+"el sitio web."
+
+#: .\webapp\templates\terms.html:231
+msgid ""
+"You may not use the website for the purpose of exploiting, harming, or "
+"attempting to exploit or harm minors in any way, transmitting any "
+"advertising or promotional material without permission, including any “junk "
+"mail,” “chain letter,” or “spam.”"
+msgstr ""
+"No puede utilizar el sitio web con el propósito de explotar, dañar o "
+"intentar explotar o dañar a menores de ninguna manera, transmitir cualquier "
+"material publicitario o promocional sin permiso, incluyendo cualquier "
+"“correo basura,” “cadena de cartas,” o “spam.”"
+
+#: .\webapp\templates\terms.html:236
+msgid "Client Responsibilities"
+msgstr "Responsabilidades del Cliente"
+
+#: .\webapp\templates\terms.html:237
+msgid "As a client, you agree to:"
+msgstr "Como cliente, usted acepta:"
+
+#: .\webapp\templates\terms.html:239
+msgid ""
+"Provide accurate and complete information required for the provision of "
+"services."
+msgstr ""
+"Proporcionar información precisa y completa requerida para la prestación de "
+"los servicios."
+
+#: .\webapp\templates\terms.html:240
+msgid ""
+"Ensure that you have the necessary rights and permissions to provide any "
+"materials or information you supply to us."
+msgstr ""
+"Asegurarse de que tiene los derechos y permisos necesarios para proporcionar "
+"cualquier material o información que nos proporcione."
+
+#: .\webapp\templates\terms.html:241
+msgid "Pay all applicable fees in a timely manner."
+msgstr "Pagar todas las tarifas aplicables de manera oportuna."
+
+#: .\webapp\templates\terms.html:246
+msgid "Fees and Payment"
+msgstr "Gestión de Ventas"
+
+#: .\webapp\templates\terms.html:248
+msgid "Fees for our services will be outlined in the service agreement."
+msgstr ""
+"Las tarifas por nuestros servicios se detallarán en el acuerdo de servicio."
+
+#: .\webapp\templates\terms.html:249
+msgid ""
+"Payment terms are specified in the agreement, and late payments may incur "
+"additional charges."
+msgstr ""
+"Los términos de pago se especifican en el acuerdo, y los pagos atrasados "
+"pueden incurrir en cargos adicionales."
+
+#: .\webapp\templates\terms.html:254
+msgid "Intellectual Property"
+msgstr "Propiedad Intelectual"
+
+#: .\webapp\templates\terms.html:256
+msgid ""
+"The website and its entire contents, features, and functionality (including "
+"but not limited to all information, software, text, displays, images, video, "
+"and audio, and the design, selection, and arrangement thereof), are owned by "
+"Stregasoft, its licensors, or other providers of such material and are "
+"protected by international copyright, trademark, patent, trade secret, and "
+"other intellectual property or proprietary rights laws."
+msgstr ""
+"El sitio web y su contenido completo, características y funcionalidades "
+"(incluyendo, entre otros, toda la información, software, texto, pantallas, "
+"imágenes, video y audio, y el diseño, selección y disposición de los "
+"mismos), son propiedad de Stregasoft, sus licenciantes u otros proveedores "
+"de dicho material y están protegidos por derechos de autor internacionales, "
+"marcas registradas, patentes, secretos comerciales y otras leyes de "
+"propiedad intelectual o derechos de propiedad."
+
+#: .\webapp\templates\terms.html:257
+msgid ""
+"You are granted a non-exclusive, non-transferable license to use these "
+"materials only for the purposes for which they are provided."
+msgstr ""
+"Se le otorga una licencia no exclusiva e intransferible para usar estos "
+"materiales solo para los fines para los cuales se proporcionan."
+
+#: .\webapp\templates\terms.html:262
+msgid "Confidentiality"
+msgstr "Confidencialidad"
+
+#: .\webapp\templates\terms.html:264
+msgid ""
+"We will maintain the confidentiality of your information and will not "
+"disclose it to third parties except as required by law or as necessary to "
+"provide our services."
+msgstr ""
+"Mantendremos la confidencialidad de su información y no la divulgaremos a "
+"terceros, excepto cuando lo requiera la ley o sea necesario para "
+"proporcionar nuestros servicios."
+
+#: .\webapp\templates\terms.html:269
+msgid "Limitation of Liability"
+msgstr "Limitación de Responsabilidad"
+
+#: .\webapp\templates\terms.html:271
+msgid ""
+"To the fullest extent permitted by law, Stregasoft will not be liable for "
+"any indirect, incidental, or consequential damages arising from the use of "
+"or inability to use our services or the website."
+msgstr ""
+"En la mayor medida permitida por la ley, Stregasoft no será responsable de "
+"ningún daño indirecto, incidental o consecuente que surja del uso o la "
+"imposibilidad de usar nuestros servicios o el sitio web."
+
+#: .\webapp\templates\terms.html:272
+msgid ""
+"Our liability is limited to the amount paid by you for the services in "
+"question."
+msgstr ""
+"Nuestra responsabilidad se limita al monto pagado por usted por los "
+"servicios en cuestión."
+
+#: .\webapp\templates\terms.html:277
+msgid "Disclaimer of Warranties"
+msgstr "Descargo de Responsabilidad de Garantías"
+
+#: .\webapp\templates\terms.html:279
+msgid ""
+"The website is provided “as is” and without warranty of any kind, either "
+"expressed or implied, including, but not limited to, the implied warranties "
+"of merchantability, fitness for a particular purpose, or non-infringement. "
+"We do not warrant that the website will be uninterrupted or error-free, that "
+"defects will be corrected, or that the website or the server that makes it "
+"available are free of viruses or other harmful components."
+msgstr ""
+"El sitio web se proporciona “tal cual” y sin garantía de ningún tipo, ya sea "
+"expresa o implícita, incluidas, pero no limitadas a, las garantías "
+"implícitas de comerciabilidad, idoneidad para un propósito particular o no "
+"infracción. No garantizamos que el sitio web será ininterrumpido o libre de "
+"errores, que los defectos serán corregidos, o que el sitio web o el servidor "
+"que lo hace disponible están libres de virus u otros componentes dañinos."
+
+#: .\webapp\templates\terms.html:284
+msgid "Termination"
+msgstr "Dedicación"
+
+#: .\webapp\templates\terms.html:286
+msgid ""
+"We reserve the right to terminate or suspend your access to our services if "
+"you violate these Terms & Conditions or fail to pay any amounts due."
+msgstr ""
+"Nos reservamos el derecho de terminar o suspender su acceso a nuestros "
+"servicios si viola estos Términos y Condiciones o no paga las cantidades "
+"adeudadas."
+
+#: .\webapp\templates\terms.html:291
+msgid "Modifications to Terms"
+msgstr "Cambios en los Términos"
+
+#: .\webapp\templates\terms.html:293
+msgid "Stregasoft may modify these Terms & Conditions at any time."
+msgstr ""
+"Stregasoft puede modificar estos Términos y Condiciones en cualquier momento."
+
+#: .\webapp\templates\terms.html:294
+msgid "Changes will be effective upon posting on our website."
+msgstr "Los cambios serán efectivos al publicarse en nuestro sitio web."
+
+#: .\webapp\templates\terms.html:295
+msgid ""
+"Your continued use of our services after any modifications constitutes "
+"acceptance of the new terms."
+msgstr ""
+"Su uso continuado de nuestros servicios después de cualquier modificación "
+"constituye la aceptación de los nuevos términos."
+
+#: .\webapp\templates\terms.html:300
+msgid "Governing Law and Jurisdiction"
+msgstr "Ley Aplicable"
+
+#: .\webapp\templates\terms.html:302
+msgid ""
+"These Terms & Conditions are governed by and construed in accordance with "
+"the laws of Nicaragua."
+msgstr ""
+"Estos Términos y Condiciones se rigen e interpretan de acuerdo con las leyes "
+"de Nicaragua."
+
+#: .\webapp\templates\terms.html:303
+msgid ""
+"Any disputes arising from these terms will be subject to the exclusive "
+"jurisdiction of the courts in Nicaragua."
+msgstr ""
+"Cualquier disputa que surja de estos términos estará sujeta a la "
+"jurisdicción exclusiva de los tribunales de Nicaragua."
+
+#: .\webapp\templates\terms.html:309
+msgid ""
+"Our site may use “cookies” to enhance user experience. Users’ web browsers "
+"place cookies on their hard drive for record-keeping purposes and sometimes "
+"to track information about them. Users may choose to set their web browser "
+"to refuse cookies or to alert them when cookies are being sent. If they do "
+"so, note that some parts of the site may not function properly."
+msgstr ""
+"Nuestro sitio puede usar cookies para mejorar la experiencia del usuario. "
+"Los navegadores web de los usuarios colocan cookies en su disco duro para "
+"fines de mantenimiento de registros y, a veces, para rastrear información "
+"sobre ellos. Los usuarios pueden elegir configurar su navegador web para "
+"rechazar cookies o para alertarlos cuando se envían cookies. Ten en cuenta "
+"que algunas partes del sitio pueden no funcionar correctamente si las "
+"cookies son rechazadas."
+
+#: .\webapp\templates\terms.html:313
+msgid "How We Use Collected Information"
+msgstr "Cómo Usamos tu Información"
+
+#: .\webapp\templates\terms.html:314
+msgid ""
+"Stregasoft may collect and use users’ personal information for the following "
+"purposes:"
+msgstr "Usamos tu información para los siguientes propósitos:"
+
+#: .\webapp\templates\terms.html:316
+msgid ""
+"To personalize user experience: We may use information in the aggregate to "
+"understand how our users as a group use the services and resources provided "
+"on our site."
+msgstr ""
+"Para personalizar la experiencia del usuario utilizando información agregada "
+"para entender cómo nuestros usuarios como grupo utilizan los servicios y "
+"recursos proporcionados en nuestro sitio."
+
+#: .\webapp\templates\terms.html:317
+msgid ""
+"To improve our site: We may use feedback you provide to improve our products "
+"and services."
+msgstr ""
+"Para mejorar nuestro sitio: Podemos usar los comentarios que proporcione "
+"para mejorar nuestros productos y servicios."
+
+#: .\webapp\templates\terms.html:318
+msgid ""
+"To send periodic emails: We may use the email address to respond to "
+"inquiries, questions, and/or other requests."
+msgstr ""
+"Para enviar correos electrónicos periódicos, como responder a consultas, "
+"preguntas y/u otras solicitudes."
+
+#: .\webapp\templates\terms.html:323
+msgid "How We Protect Your Information"
+msgstr "Cómo Compartimos tu Información"
+
+#: .\webapp\templates\terms.html:324
+msgid ""
+"We adopt appropriate data collection, storage, and processing practices and "
+"security measures to protect against unauthorized access, alteration, "
+"disclosure, or destruction of your personal information and data stored on "
+"our site."
+msgstr ""
+"Adoptamos prácticas de recolección, almacenamiento y procesamiento de datos "
+"adecuadas y medidas de seguridad para proteger contra el acceso no "
+"autorizado, alteración, divulgación o destrucción de tu información personal "
+"y datos almacenados en nuestro sitio. Sin embargo, ningún método de "
+"transmisión a través de Internet o almacenamiento electrónico es "
+"completamente seguro, por lo que no podemos garantizar la seguridad absoluta."
+
+#: .\webapp\templates\terms.html:328
+msgid "Sharing Your Personal Information"
+msgstr "Cómo Compartimos tu Información"
+
+#: .\webapp\templates\terms.html:329
+msgid ""
+"We do not sell, trade, or rent users’ personal identification information to "
+"others. We may share generic aggregated demographic information not linked "
+"to any personal identification information regarding visitors and users with "
+"our business partners, trusted affiliates, and advertisers for the purposes "
+"outlined above."
+msgstr ""
+"Podemos compartir información demográfica genérica agregada que no esté "
+"vinculada a ninguna información de identificación personal sobre visitantes "
+"y usuarios con nuestros socios comerciales, afiliados de confianza y "
+"anunciantes para los propósitos mencionados anteriormente."
+
+#: .\webapp\templates\terms.html:333
+msgid "Changes to these Terms & Conditions"
+msgstr "Términos & Condiciones"
+
+#: .\webapp\templates\terms.html:334
+msgid ""
+"Stregasoft has the discretion to update these Terms & Conditions at any "
+"time. We encourage users to frequently check this page for any changes to "
+"stay informed about how we are helping to protect the personal information "
+"we collect. You acknowledge and agree that it is your responsibility to "
+"review these Terms & Conditions periodically and become aware of "
+"modifications."
+msgstr ""
+"Podemos actualizar esta Política de Privacidad de vez en cuando. Los cambios "
+"serán efectivos al ser publicados en nuestro sitio web. Tu uso continuado de "
+"nuestros servicios después de cualquier cambio constituye aceptación de la "
+"política actualizada. Animamos a los usuarios a revisar frecuentemente esta "
+"página para estar informados sobre cómo estamos ayudando a proteger la "
+"información personal que recopilamos. Reconoces y aceptas que es tu "
+"responsabilidad revisar esta Política de Privacidad periódicamente y estar "
+"al tanto de las modificaciones."
+
+#: .\webapp\templates\terms.html:339
+msgid ""
+"By using this site, you signify your acceptance of these Terms & Conditions. "
+"If you do not agree to this Terms & Conditions, please do not use our site. "
+"Your continued use of the site following the posting of changes to this "
+"Terms & Conditions will be deemed your acceptance of those changes."
+msgstr ""
+"Al usar este sitio, manifiestas tu aceptación de esta Política de "
+"Privacidad. Si no estás de acuerdo con esta Política de Privacidad, por "
+"favor no uses nuestro sitio. Tu uso continuado del sitio después de la "
+"publicación de cambios a esta Política de Privacidad se considerará como tu "
+"aceptación de esos cambios."
+
+#: .\webapp\templates\terms.html:344
+msgid ""
+"If you have any questions about these Terms & Conditions, please contact us "
+"at:"
+msgstr ""
+"Si tienes alguna pregunta sobre esta Política de Privacidad, por favor "
+"contáctanos en:"
+
+#: .\webapp\templates\webservices.html:209
+msgid ""
+"At Stregasoft, we design and build industry-leading web-based products that "
+"deliver value to your customers.Our experts guide you in building your "
+"website with ease."
+msgstr ""
+"En Stregasoft, diseñamos y desarrollamos productos web líderes en la "
+"industria que aportan valor a sus clientes. Nuestros expertos lo guían para "
+"construir su sitio web con facilidad."
+
+#: .\webapp\templates\webservices.html:226
+msgid "Our Web Services include:"
+msgstr "Nuestros Servicios Web incluyen:"
+
+#: .\webapp\templates\webservices.html:235
+msgid "UI/UX Design Card"
+msgstr ""
+
+#: .\webapp\templates\webservices.html:237
+msgid "UI & UX Design"
+msgstr "Diseño de UI & UX"
+
+#: .\webapp\templates\webservices.html:238
+msgid ""
+"Our team helps you create visually stunning and user-friendly interfaces "
+"through our expert UI (User Interface) and UX (User Experience) design "
+"services."
+msgstr ""
+"Nuestro equipo le ayuda a crear interfaces visualmente impactantes y fáciles "
+"de usar a través de nuestros servicios expertos en diseño UI (Interfaz de "
+"Usuario) y UX (Experiencia de Usuario)."
+
+#: .\webapp\templates\webservices.html:245
+msgid "Branding Card"
+msgstr ""
+
+#: .\webapp\templates\webservices.html:247
+msgid "Branding"
+msgstr "Marca"
+
+#: .\webapp\templates\webservices.html:248
+msgid ""
+"Our custom design style provides tailored solutions that perfectly align "
+"with your business's brand identity and unique requirements."
+msgstr ""
+"Nuestro estilo de diseño personalizado ofrece soluciones a la medida que se "
+"alinean perfectamente con la identidad de la marca de su empresa y sus "
+"requisitos únicos."
+
+#: .\webapp\templates\webservices.html:255
+msgid "Scalability Card"
+msgstr ""
+
+#: .\webapp\templates\webservices.html:257
+msgid "Scalability"
+msgstr "Escalabilidad"
+
+#: .\webapp\templates\webservices.html:258
+msgid ""
+"Our web services ensure your website can grow and adapt to your business "
+"needs. Our integration capabilities enable seamless expansion with third-"
+"party tools and services."
+msgstr ""
+"Nuestras soluciones web aseguran que su sitio web pueda escalar según las "
+"necesidades de su negocio. Permitiendo integración con herramientas y "
+"servicios de terceros."
+
+#: .\webapp\templates\webservices.html:265
+msgid "Website Optimization Card"
+msgstr ""
+
+#: .\webapp\templates\webservices.html:267
+msgid "Website Optimization"
+msgstr "Optimización Web"
+
+#: .\webapp\templates\webservices.html:268
+msgid ""
+"Our web optimization services include ongoing support and maintenance, SSL, "
+"SEO, robust security, and fast loading speeds to enhance user satisfaction."
+msgstr ""
+"Nuestros servicios de optimización web incluyen soporte continuo, SSL, SEO, "
+"seguridad robusta y velocidades de carga rápidas para mejorar la "
+"satisfacción del usuario."
+
+#: .\webapp\templates\webservices.html:275
+msgid "Responsive Design Card"
+msgstr ""
+
+#: .\webapp\templates\webservices.html:277
+msgid "Responsive Design"
+msgstr "Diseño Responsivo"
+
+#: .\webapp\templates\webservices.html:278
+msgid ""
+"We create flexible web layouts that adjust to different screen sizes and "
+"orientations, providing an optimal user experience. This ensures that your "
+"site performs well on any device."
+msgstr ""
+"Creamos diseños web flexibles que se ajustan a diferentes tamaños de "
+"pantalla, para una experiencia de usuario óptima. Esto asegura que su sitio "
+"funcione bien en todo dispositivo."
+
+#: .\webapp\templates\webservices.html:285
+msgid "Content Management Card"
+msgstr ""
+
+#: .\webapp\templates\webservices.html:287
+msgid "Content Management"
+msgstr "Manejo de Contenido"
+
+#: .\webapp\templates\webservices.html:288
+msgid ""
+"We implement a robust database management system for integrity and security. "
+"Our Content Management System (CMS) lets you easily manage and update "
+"content."
+msgstr ""
+"Implementamos un sistema de gestión de bases de datos robusto. Nuestro "
+"Sistema de Gestión de Contenidos (CMS) le permite actualizar su contenido "
+"fácilmente."
+
+#: .\webapp\templates\webservices.html:299
+msgid "Why choose Stregasoft Web Services?"
+msgstr "¿Por qué elegir los servicios web de Stregasoft?"
+
+#: .\webapp\templates\webservices.html:300
+msgid ""
+"Stregasoft is committed to delivering web solutions that align perfectly "
+"with your business needs and vision. Our expert team offers exceptional "
+"support to ensure your website stands out and performs at its best."
+msgstr ""
+"Stregasoft se compromete a ofrecer soluciones web que se alineen "
+"perfectamente con las necesidades y visión de su negocio. Nuestro equipo de "
+"expertos brinda un soporte excepcional para garantizar que su sitio web se "
+"destaque y funcione de manera óptima."
+
+#: .\webapp\templates\webservices.html:305
+msgid "Achieve your business goals with our web development solutions."
+msgstr ""
+"Alcanza los objetivos de tu negocio con nuestras soluciones de desarrollo "
+"web."
+
+#: .\webapp\templates\webservices.html:309
+msgid "Frontend Development icon"
+msgstr "Logo de Desarrollo Web"
+
+#: .\webapp\templates\webservices.html:310
+msgid "Domains & Websites"
+msgstr "Dominios y Sitios Web"
+
+#: .\webapp\templates\webservices.html:311
+msgid ""
+"We secure your online presence with our domain registration and website "
+"development services."
+msgstr ""
+"Aseguramos tu presencia en línea con nuestros servicios de registro de "
+"dominios y desarrollo de sitios web."
+
+#: .\webapp\templates\webservices.html:314
+msgid "Backend Development icon"
+msgstr "Logo de Desarrollo Web"
+
+#: .\webapp\templates\webservices.html:315
+msgid "E-commerce"
+msgstr "E-commerce"
+
+#: .\webapp\templates\webservices.html:316
+msgid ""
+"We design and develop online stores, integrating secure payment options to "
+"drive your sales and growth."
+msgstr ""
+"Desarrollamos tiendas en línea, integrando opciones de pago seguras para "
+"impulsar tus ventas y crecimiento."
+
+#: .\webapp\templates\webservices.html:319
+msgid "Full Stack Development icon"
+msgstr ""
+
+#: .\webapp\templates\webservices.html:320
+msgid "Marketing"
+msgstr "Publicidad"
+
+#: .\webapp\templates\webservices.html:321
+msgid ""
+"We create and execute strategies for your website to boost your visibility, "
+"and drive measurable results."
+msgstr ""
+"Creamos y ejecutamos estrategias para tu sitio web para aumentar tu "
+"visibilidad y obtener resultados medibles."
+
+#: .\webapp\templates\webservices.html:324
+msgid "Low-Code Development icon"
+msgstr "Logo de Desarrollo Web"
+
+#: .\webapp\templates\webservices.html:325
+msgid "Web Applications"
+msgstr "Aplicaciones Web"
+
+#: .\webapp\templates\webservices.html:326
+msgid ""
+"We deliver web projects using technologies like JavaScript, HTML, CSS, "
+"Python, Ruby, PHP, and MySQL."
+msgstr ""
+"Nuestros proyectos web usan tecnologías como JavaScript, HTML, CSS, Python, "
+"Ruby, PHP y MySQL."
+
+#: .\webapp\templates\webservices.html:329
+#: .\webapp\templates\webservices.html:334
+msgid "Cloud Development icon"
+msgstr "Logo de Desarrollo Web"
+
+#: .\webapp\templates\webservices.html:330
+msgid "Front-End Web Development"
+msgstr "Desarrollo Web Front-End"
+
+#: .\webapp\templates\webservices.html:331
+msgid ""
+"Our front-end developers work together to create cohesive and responsive "
+"sites using technologies like JavaScript, HTML, CSS, Bootstrap, React, and "
+"Vue."
+msgstr ""
+"Nuestros desarrolladores front-end trabajan juntos para crear sitios "
+"cohesivos y responsivos utilizando tecnologías como JavaScript, HTML, CSS, "
+"Bootstrap, React y Vue."
+
+#: .\webapp\templates\webservices.html:335
+msgid "Back-End Web Development"
+msgstr "Desarrollo Web Back-End"
+
+#: .\webapp\templates\webservices.html:336
+msgid ""
+"Our back-end developers work together to build robust and efficient systems "
+"using technologies like Python, Ruby, PHP, and databases like MySQL."
+msgstr ""
+"Nuestros desarrolladores back-end trabajan juntos para construir sistemas "
+"robustos y eficientes utilizando tecnologías como Python, Ruby, PHP, y bases "
+"de datos como MySQL."
+
+#: .\webapp\templates\webservices.html:339
+msgid "Our Portfolio"
+msgstr "Nuestro Portafolio"
+
+#: .\webapp\views.py:65
+#, python-brace-format
+msgid "Successfully logged in as {0}."
+msgstr ""
+
+#: .\webapp\views.py:69
+msgid "Bad credentials!"
+msgstr "¡Credenciales incorrectas!"
+
+#: .\webapp\views.py:96 .\webapp\views.py:240
+msgid "Invalid reCAPTCHA. Please try again."
+msgstr "reCAPTCHA inválido. Por favor, inténtalo de nuevo."
+
+#: .\webapp\views.py:100
+msgid "Username already exists! Please try some other username."
+msgstr ""
+"¡El nombre de usuario ya existe! Por favor, intenta con otro nombre de "
+"usuario."
+
+#: .\webapp\views.py:104
+msgid "Email Already Registered!"
+msgstr "¡Correo electrónico ya registrado!"
+
+#: .\webapp\views.py:108
+msgid "Username must be under 20 characters!"
+msgstr "¡El nombre de usuario debe tener menos de 20 caracteres!"
+
+#: .\webapp\views.py:112
+msgid "Passwords didn't match!"
+msgstr "¡Las contraseñas no coinciden!"
+
+#: .\webapp\views.py:116
+msgid "Username must be Alpha-Numeric!"
+msgstr "¡El nombre de usuario debe ser alfanumérico!"
+
+#: .\webapp\views.py:124
+msgid ""
+"Your Account has been created successfully! Please check your email to "
+"confirm your email address in order to activate your account."
+msgstr ""
+"¡Tu cuenta ha sido creada exitosamente! Por favor, revisa tu correo "
+"electrónico para confirmar tu dirección de correo y activar tu cuenta."
+
+#: .\webapp\views.py:141
+msgid ""
+"Welcome to Stregasoft! Thank you for visiting our website. We have also sent "
+"you a confirmation email, please confirm your email address."
+msgstr ""
+"¡Bienvenido a Stregasoft!\n"
+"Gracias por visitar nuestro sitio web. También te hemos enviado un correo de "
+"confirmación, por favor, confirma tu dirección de correo electrónico.\n"
+
+#: .\webapp\views.py:142
+msgid "Thanking You"
+msgstr "Gracias,"
+
+#: .\webapp\views.py:161
+msgid "Confirm your Email @ Stregasoft!"
+msgstr "¡Confirma tu correo en Stregasoft!"
+
+#: .\webapp\views.py:197
+msgid "Your Account has been activated!"
+msgstr "¡Tu cuenta ha sido activada!"
+
+#: .\webapp\views.py:204
+msgid "Logged out successfully!"
+msgstr "¡Cierre de sesión exitoso!"
+
+#: .\webapp\views.py:226
+msgid "Name, Last Name, and Message are required fields."
+msgstr ""
+
+#: .\webapp\views.py:258
+msgid "N/A"
+msgstr "N/A"
+
+#: .\webapp\views.py:266
+msgid "Contact Form Submission"
+msgstr "Envío del formulario de contacto"
+
+#: .\webapp\views.py:273
+msgid "The message has been sent successfully. We will reach back soon!"
+msgstr "El mensaje ha sido enviado exitosamente. ¡Le contactaremos pronto!"
+
+#: .\webapp\views.py:275
+#, python-brace-format
+msgid "Error sending email: {0}"
+msgstr "Error al enviar el correo: {0}"
+
+#: .\webapp\views.py:358
+msgid "You have exceeded the password reset limit. Please contact support."
+msgstr ""
+"Has excedido el límite de restablecimientos de contraseña. Por favor, "
+"contacta al soporte técnico."
+
+#: .\webapp\views.py:382
+msgid "A password reset link has been sent to your email."
+msgstr ""
+"Un enlace para restablecer la contraseña ha sido enviado a tu correo "
+"electrónico."
+
+#: .\webapp\views.py:385
+msgid "Email address not found. Please check and try again."
+msgstr ""
+"Dirección de correo electrónico no encontrada. Por favor, revisa y vuelve a "
+"intentarlo."
+
+#: .\webapp\views.py:406
+msgid ""
+"Your password has been reset successfully. You can now log in with your new "
+"password."
+msgstr ""
+"Tu contraseña ha sido restablecida exitosamente. Ahora puedes iniciar sesión "
+"con tu nueva contraseña."
+
+#: .\webapp\views.py:409
+msgid "Passwords do not match or are empty. Please try again."
+msgstr ""
+"Las contraseñas no coinciden o están vacías. Por favor, inténtalo de nuevo."
+
+#: .\webapp\views.py:414
+msgid ""
+"The reset link is invalid or has expired. Please try resetting your password "
+"again."
+msgstr ""
+"El enlace de restablecimiento es inválido o ha expirado. Por favor, intenta "
+"restablecer tu contraseña nuevamente."
+
+#~ msgid "Confirm your Email  @ Stregasoft!"
+#~ msgstr "¡Confirma tu correo en Stregasoft!"
+
+#, python-brace-format
+#~ msgid ""
+#~ "Name: {0} {1}\n"
+#~ "Email: {2}\n"
+#~ "Phone: {3}\n"
+#~ "\n"
+#~ "Message:\n"
+#~ "{4}"
+#~ msgstr ""
+#~ "Nombre: {0} {1}\n"
+#~ "Correo electrónico: {2}\n"
+#~ "Teléfono: {3}\n"
+#~ "\n"
+#~ "Mensaje:\n"
+#~ "{4}"
+
+#~ msgid "Enhance Your Business with Cutting-Edge Chatbot Services"
+#~ msgstr "Mejora tu negocio con servicios Chatbot de vanguardia"
+
+#~ msgid "Enhance Your Business with Cutting-Edge CRM Services"
+#~ msgstr "Mejora tu negocio con servicios CRM de vanguardia"
+
+#~ msgid "CRM Serviices"
+#~ msgstr "Servicios CRM"
+
+#~ msgid "admin/"
+#~ msgstr "admin"
+
+#~ msgid ""
+#~ "These Terms are governed by and construed in accordance with the laws of "
+#~ "Spain, and you submit to the exclusive jurisdiction of the courts located "
+#~ "in Spain for the resolution of any disputes."
+#~ msgstr ""
+#~ "Estos Términos se rigen por y se interpretan de acuerdo con las leyes de "
+#~ "España, y usted se somete a la jurisdicción exclusiva de los tribunales "
+#~ "ubicados en España para la resolución de cualquier disputa."
+
+#~ msgid ""
+#~ "We reserve the right to amend these Terms at any time. Any such "
+#~ "amendments will be effective immediately upon posting on the website. "
+#~ "Your continued use of the website after any changes to these Terms will "
+#~ "constitute your acceptance of such changes."
+#~ msgstr ""
+#~ "Nos reservamos el derecho de modificar estos Términos en cualquier "
+#~ "momento. Cualquier enmienda de este tipo será efectiva inmediatamente "
+#~ "después de su publicación en el sitio web. Su uso continuado del sitio "
+#~ "web después de cualquier cambio en estos Términos constituirá su "
+#~ "aceptación de dichos cambios."
+
+#~ msgid ""
+#~ "If you have any questions about these Terms, please contact us at "
+#~ "support@stregasoft.com."
+#~ msgstr ""
+#~ "Si tiene alguna pregunta sobre estos Términos, contáctenos en "
+#~ "support@stregasoft.com."

@@ -1,0 +1,313 @@
+{% load static %}
+{% load socialaccount %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% trans "Sign In" %}</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/favicon/favicon.png' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url("{% static 'img/banner/back.webp' %}");
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 0px 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+        }
+
+        .form-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+            font-size: 24px;
+            color: #1D4999;
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #333;
+            text-align: left;
+            width: 100%;
+        }
+
+        .form-group input {
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .form-group input:focus {
+            box-shadow: 0 0 5px rgba(29, 73, 153, 0.3);
+            border-color: #1D4999;
+        }
+
+        .btn-primary {
+            border-radius: 10px;
+            width: 100%;
+            background-color: #1D4999;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .btn-primary:hover {
+            background-color: #163766;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .signup-link {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .signup-link a {
+            color: #1D4999;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .alert {
+            background-color: #fc6f6f;
+            color: white;
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: calc(100% - 40px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+        }
+
+        .alert .close {
+            line-height: 1;
+            float: right;
+            color: #888;
+            text-shadow: none;
+            opacity: 1;
+        }
+
+        .alert .close:hover {
+            color: #555;
+        }
+
+        .alert-success {
+            background-color: #e7f5e6;
+            border-color: #d4edda;
+            color: #155724;
+        }
+
+        .alert-danger {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
+        }
+
+        .alert-warning {
+            background-color: #fff3cd;
+            border-color: #ffeeba;
+            color: #856404;
+        }
+
+        .alert-info {
+            background-color: #d1ecf1;
+            border-color: #bee5eb;
+            color: #0c5460;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .close-btn:hover {
+            color: #1D4999;
+        }
+
+        .password-group {
+            position: relative;
+        }
+
+        .password-wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        .password-wrapper input {
+            flex: 1;
+            padding-right: 40px;
+        }
+
+        .toggle-password {
+            position: absolute;
+            right: 10px;
+            cursor: pointer;
+            color: #007bff;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <a href="{% url 'index' %}" class="close-btn">&times;</a>
+        <!-- Display Alert Messages -->
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+            <strong>{% trans "Message" %}:</strong> {{ message }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="{% trans " Close" %}">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        {% endfor %}
+
+        <!-- Logo -->
+        <img src="{% static 'img/logo/logo05.png' %}" alt="{% trans " Logo" %}" class="logo">
+
+        <h3 class="form-title">{% trans "Log In to Your Account!" %}</h3>
+        <form method="post" action="{% url 'login' %}" class="mb-2">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="username">{% trans "Username" %}</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="{% trans 'Enter Your Username' %}" required>
+
+            </div>
+            <div class="form-group password-group">
+                <label for="pass1">{% trans "Password" %}</label>
+                <div class="password-wrapper">
+                    <input type="password" class="form-control" id="pass1" name="pass1" placeholder="{% trans 'Enter Your Password' %}" required>
+                    <span class="toggle-password" onclick="togglePassword('pass1')"><i class="fas fa-eye"></i></span>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">{% trans "Log In" %}</button>
+        </form>
+
+
+
+       <!-- Botón de Facebook -->
+<!-- Botón de Facebook -->
+<a href="{% url 'social:begin' 'facebook' %}?next={{ request.path }}" class="btn btn-facebook">
+    <i class="fab fa-facebook-f"></i> {% trans "Continue with Facebook" %}
+</a>
+
+<!-- Botón de Microsoft -->
+<a href="{% url 'microsoft_login' %}" class="btn btn-microsoft">
+    <i class="fab fa-microsoft"></i> {% trans "Continue with Microsoft" %}
+</a>
+
+
+<!-- Estilos personalizados -->
+<style>
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 12px 20px;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        margin-bottom: 10px;
+    }
+
+    .btn i {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .btn-facebook {
+        background-color: #1D4999;
+    }
+
+    .btn-facebook:hover {
+        background-color: #2d4373;
+        color: white;
+    }
+
+    .btn-facebook:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(29, 73, 153, 0.3);
+    }
+
+    .btn-microsoft {
+        background-color: #1D4999;
+    }
+
+    .btn-microsoft:hover {
+        background-color: #2d4373;
+        color: white;
+    }
+
+    .btn-microsoft:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+</style>
+<script>
+    function togglePassword(id) {
+        const passwordField = document.getElementById(id);
+        const type = passwordField.type === 'password' ? 'text' : 'password';
+        passwordField.type = type;
+    }
+    
+</script>
+<!-- Signup and Password Reset Links -->
+<div class="signup-link mt-3">
+    {% trans "Don't have an account?" %}<a href="{% url 'register' %}">{% trans "Register Here!" %}</a>
+</div>
+<div class="signup-link mt-2">
+    <a href="{% url 'password_reset' %}">{% trans "Forgot your password?" %}</a>
+</div>
+
+
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

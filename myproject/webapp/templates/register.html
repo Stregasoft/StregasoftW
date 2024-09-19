@@ -1,0 +1,313 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% trans "Sign Up" %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/favicon/favicon.png' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url("{% static 'img/banner/back.webp' %}");
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+        }
+
+        .form-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+            font-size: 24px;
+            color: #1D4999; /* Main color for your branding */
+        }
+
+        .form-group label {
+            font-weight: bold;
+            color: #333;
+            text-align: left;
+            width: 100%;
+        }
+
+        .form-group input {
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .form-group input:focus {
+            box-shadow: 0 0 5px rgba(29, 73, 153, 0.3);
+            border-color: #1D4999;
+        }
+
+        .btn-primary {
+            border-radius: 10px;
+            width: 100%;
+            background-color: #1D4999;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .btn-primary:hover {
+            background-color: #163766;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .signup-link {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .signup-link a {
+            color: #1D4999;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* Logo styles */
+        .logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        /* Alert styles */
+        .alert {
+            background-color: #ff9999; /* Rojo más claro */
+            color: white;
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: calc(100% - 40px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .alert .close {
+            line-height: 1;
+            float: right;
+            color: #888;
+            text-shadow: none;
+            opacity: 1;
+        }
+        
+        .alert .close:hover {
+            color: #555;
+        }
+        
+        .alert-success {
+            background-color: rgba(231, 245, 230, 0.7); /* Verde transparente */
+            border-color: rgba(212, 237, 218, 0.7); /* Verde transparente */
+            color: #155724;
+        }
+        
+        .alert-danger {
+            background-color: rgba(248, 215, 218, 0.7); /* Rojo transparente */
+            border-color: rgba(245, 198, 203, 0.7); /* Rojo transparente */
+            color: #721c24;
+        }
+        
+        .alert-warning {
+            background-color: #fff3cd;
+            border-color: #ffeeba;
+            color: #856404;
+        }
+        
+        .alert-info {
+            background-color: #d1ecf1;
+            border-color: #bee5eb;
+            color: #0c5460;
+        }
+        
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            text-decoration: none;
+            color: #000;
+          }
+          .close-btn:hover {
+              color: #1D4999;
+            }
+            .password-group {
+                position: relative;
+            }
+            
+            .password-wrapper {
+                display: flex;
+                align-items: center;
+            }
+            
+            .toggle-password {
+                position: absolute;
+                right: 10px;
+                cursor: pointer;
+                font-size: 20px; /* Ajusta el tamaño según sea necesario */
+                color: #007bff;  /* Ajusta el color según tu diseño */
+            }
+    </style>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <a href="{% url 'index' %}" class="close-btn">&times;</a>
+        <img src="{% static 'img/logo/logo05.png' %}" alt="Logo" class="logo">
+        <div class="form-title">{% trans "Sign Up" %}</div>
+        {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="{% trans "Close" %}">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        {% endfor %}
+        {% endif %}
+        
+        <form method="POST">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="username">{% trans "Username" %}</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="fname">{% trans "First Name" %}</label>
+                <input type="text" class="form-control" id="fname" name="fname" required>
+            </div>
+            <div class="form-group">
+                <label for="lname">{% trans "Last Name" %}</label>
+                <input type="text" class="form-control" id="lname" name="lname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">{% trans "Email address" %}</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group password-group">
+                <label for="pass1">{% trans "Password" %}</label>
+                <div class="password-wrapper">
+                    <input type="password" class="form-control" id="pass1" name="pass1" required>
+                    <span class="toggle-password" onclick="togglePassword('pass1')"><i class="fas fa-eye"></i></span>
+                </div>
+            </div>
+            <div class="form-group password-group">
+                <label for="pass2">{% trans "Confirm Password" %}</label>
+                <div class="password-wrapper">
+                    <input type="password" class="form-control" id="pass2" name="pass2" required>
+                    <span class="toggle-password" onclick="togglePassword('pass2')"><i class="fas fa-eye"></i></span>
+                </div>
+            </div>
+            <div class="g-recaptcha" data-sitekey="{{ RECAPTCHA_SITE_KEY }}"></div>
+            <button type="submit" class="btn btn-primary">{% trans "Register" %}</button>
+        </form>
+        <a href="{% url 'facebook_register' %}" class="btn btn-facebook">
+            <i class="fab fa-facebook-f"></i> {% trans "Continue with Facebook" %}
+        </a>
+        
+        <!-- Botón de Microsoft -->
+        <a href="{% url 'microsoft_register' %}" class="btn btn-microsoft">
+            <i class="fab fa-microsoft"></i> {% trans "Continue with Microsoft" %}
+        </a>
+        
+        <style>
+            .btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                padding: 12px 20px;
+                border-radius: 8px;
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: bold;
+                transition: background-color 0.3s ease;
+                margin-bottom: 10px;
+            }
+        
+            .btn i {
+                margin-right: 10px;
+                font-size: 18px;
+            }
+        
+            /* Estilos para el botón de Facebook */
+            .btn-facebook {
+                background-color: #1D4999;
+                color: white; /* Color azul de Facebook */
+            }
+        
+            .btn-facebook:hover {
+                background-color: #2d4373;
+                color: white; /* Color de hover más oscuro */
+            }
+        
+            .btn-facebook:focus {
+                outline: none;
+                box-shadow: 0 0 5px rgba(24, 119, 242, 0.3);
+            }
+        
+            /* Estilos para el botón de Microsoft */
+            .btn-microsoft {
+                background-color: #1D4999;
+                color: white; /* Color púrpura de Microsoft Teams */
+            }
+        
+            .btn-microsoft:hover {
+                background-color: #2d4373;
+                color: white; /* Color de hover más oscuro */
+            }
+        
+            .btn-microsoft:focus {
+                outline: none;
+                box-shadow: 0 0 5px rgba(98, 100, 167, 0.3);
+            }
+        </style>
+        
+        <script>
+            function togglePassword(id) {
+                const passwordField = document.getElementById(id);
+                const type = passwordField.type === 'password' ? 'text' : 'password';
+                passwordField.type = type;
+            }
+            
+        </script>
+        
+        <div class="signup-link">{% trans "Already have an account?" %} <a href="{% url 'login' %}">{% trans "Log In" %}</a></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

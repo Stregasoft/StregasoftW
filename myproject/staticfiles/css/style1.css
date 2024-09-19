@@ -1,0 +1,444 @@
+.banner45 {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#mission {
+    color: white !important;
+}
+
+#mission {
+    color: white !important;
+}
+
+.banner45-section {
+    padding-top: 80px;
+    flex: 1 1 50%;
+    padding: 20px;
+    background-color: #2d2d2d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.banner45-mission,
+.banner45-vision {
+    margin-bottom: 20px;
+}
+
+.banner45-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.banner45-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.banner45-button {
+    background-color: #0a9bdf;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.banner45-button i {
+    font-size: 1.5em;
+}
+
+.banner45-mission-text,
+.banner45-vision-text {
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: justify;
+    width: 400px;
+    transition: transform 0.2s;
+}
+
+.banner45-mission-text:hover {
+    transform: translateY(-10px);
+}
+
+.banner45-vision-text:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+    .banner45 {
+        height: auto;
+    }
+
+    .banner45-section {
+        flex: 1 1 100%;
+    }
+
+    .banner45-title {
+        font-size: 1.5em;
+    }
+
+    .banner45-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .banner45-button {
+        padding: 8px 16px;
+    }
+
+    .banner45-mission-text,
+    .banner45-vision-text {
+        font-size: 0.9em;
+        padding: 50px;
+        text-align: center;
+        margin: auto;
+        width: auto;
+    }
+}
+
+/* Estilos generales para pantallas grandes */
+.banner46 {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 500px
+}
+
+.banner-overlay46 {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+.content46 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 800px;
+    max-height: 800px;
+    width: 100%;
+    /* Ajustar al ancho del contenedor */
+    height: 100%;
+    /* Ajustar a la altura del contenedor */
+    position: absolute;
+    /* Posicionamiento absoluto dentro del banner */
+    margin: 0 auto;
+    /* Centra el contenido */
+}
+
+.content46 .logo46 {
+    max-width: 150px;
+    margin: 2px;
+}
+
+.content46 h1 {
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+}
+
+.content46 p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.content46 a {
+    color: #1D4999;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog-button46 {
+    background-color: #1D4999;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    /* margin: 20px; */
+    /* padding-top: 10px; */
+}
+
+.blog-button46:hover {
+    background-color: #15366c;
+}
+
+/* Consultas de medios para pantallas pequeñas */
+/* Estilos generales (se aplican a todas las resoluciones) */
+.content46 p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: justify;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+/* Estilos para pantallas menores a 992px */
+@media (max-width: 992px) {
+    .content46 p {
+        font-size: 1em;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/* Estilos para pantallas menores a 768px */
+@media (max-width: 768px) {
+    .content46 p {
+        font-size: 1em;
+        line-height: 1.5;
+        margin-bottom: 30px;
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Estilos para pantallas menores a 576px */
+@media (max-width: 576px) {
+    .content46 p {
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .blog-button46 {
+        background-color: #1D4999;
+        color: white;
+        padding: 10px 10px;
+        font-size: 1em;
+        cursor: pointer;
+        /* border-radius: 5px; */
+        transition: background-color 0.3s ease;
+        /* margin: 20px; */
+        /* padding-top: 10px; */
+    }
+}
+
+/*/banner 48/*/
+.banner48 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner48-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 90px;
+
+    width: auto;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
+    /* Prevents content from overflowing on small screens */
+}
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.handshake-icon {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.title-section h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns */
+    grid-template-rows: auto auto;
+    /* Two rows */
+    gap: 15px;
+   
+    max-width: 800px;
+}
+
+.card-grid>.card2:nth-child(n+4) {
+    grid-column: span 1;
+    /* Ensure 4 cards in the second row */
+    grid-row: 2;
+    /* Place these cards on the second row */
+}
+
+.card2 {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 280px;
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.card2:hover {
+    transform: translateY(-10px);
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+.icon-container img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.icon-container p {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 240px;
+    background-color: #acf3f3;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: none;
+    text-align: center;
+    font-size: 0.9rem;
+    z-index: 10;
+    /* Ensure the hover text appears above other elements */
+}
+
+.card2:hover .hover-text {
+    text-align: center;
+    display: block;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+.scroll-down a {
+    font-size: 1.5rem;
+    color: #1d4999;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.scroll-down a:hover {
+    color: #333;
+}
+
+/* Responsive styles for tablets and smaller screens */
+@media (max-width: 768px) {
+    .banner48-content {
+        height: auto;
+        width: auto;
+        padding: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    .handshake-icon {
+        height: 60px;
+    }
+
+    .title-section h2 {
+        font-size: 2rem;
+    }
+
+    .card2 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .icon-container img {
+        width: 30px;
+    }
+
+    .hover-text {
+        height: 80px;
+        padding: 0%;
+        width: 80px;
+    }
+}
+
+/* Responsive styles for mobile phones */
+@media (max-width: 480px) {
+    .title-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .card2 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .icon-container img {
+        width: 25px;
+    }
+
+    .hover-text p {
+        /* text-align: center; */
+        font-size: 7px;
+        line-height: normal !important;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* Adjust to 2 columns for smaller screens */
+        grid-template-rows: auto auto auto auto;
+        /* Allow for multiple rows */
+    }
+
+    .card-grid>.card2:nth-child(n+4) {
+        grid-column: span 1;
+    }
+}

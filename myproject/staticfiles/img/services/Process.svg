@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <title>Process</title>
+  <g class="nc-icon-wrapper" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" fill="#1D4999" stroke="#1D4999">
+    <polygon points="16 16 23 12 30 16 23 20 16 16" fill="none" stroke-miterlimit="10" data-color="color-2"/>
+    <rect x="2" y="2" width="12" height="6" fill="none" stroke="#1D4999" stroke-miterlimit="10"/>
+    <rect x="2" y="24" width="12" height="6" fill="none" stroke="#1D4999" stroke-miterlimit="10"/>
+    <line x1="8" y1="11" x2="8" y2="21" fill="none" stroke="#1D4999" stroke-miterlimit="10"/>
+    <polyline points="17 5 23 5 23 9" fill="none" stroke="#1D4999" stroke-miterlimit="10"/>
+    <polyline points="17 27 23 27 23 23" fill="none" stroke="#1D4999" stroke-miterlimit="10"/>
+  </g>
+</svg>

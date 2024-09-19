@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 512 512"
+   version="1.1"
+   sodipodi:docname="Growth.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs50035" />
+  <sodipodi:namedview
+     id="namedview50033"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.5703125"
+     inkscape:cx="232.75622"
+     inkscape:cy="256.95522"
+     inkscape:window-width="2400"
+     inkscape:window-height="1261"
+     inkscape:window-x="2391"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <title
+     id="title50024">globe-arrow-increase</title>
+  <path
+     d="M512,256c0,141.39-114.61,256-256,256S0,397.39,0,256,114.61,0,256,0,512,114.62,512,256Z"
+     fill="#58595b"
+     id="path50026"
+     style="fill:#1d4999;fill-opacity:1" />
+  <path
+     d="m 373.5207,128.39933 -55.78934,36.74631 c -6.71326,4.41962 -5.97217,10.76673 1.63667,14.08946 l 18.83588,8.22202 -60.65145,116.56347 -103.4439,-78.91098 a 13.902217,12.913431 10.735413 0 0 -20.83825,3.55449 l -66.815069,115.8429 24.503489,12.76144 59.02044,-102.32293 104.01016,79.32273 a 13.838517,12.854263 10.735437 0 0 11.17598,2.82414 l 0.53061,-0.0809 a 13.838517,12.854263 10.735437 0 0 9.35465,-6.78454 l 68.54654,-131.72887 19.06253,8.30821 c 7.61775,3.36665 13.12035,-0.27973 12.22182,-8.03674 l -7.4956,-64.36378 c -0.90521,-7.71071 -7.15487,-10.44071 -13.86516,-6.00644 z"
+     fill="#ffffff"
+     id="path50030"
+     style="stroke-width:1.53479" />
+</svg>

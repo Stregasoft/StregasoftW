@@ -1,0 +1,464 @@
+{% load static %}
+
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Portfolio | Stregasoft</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/favicon/favicon.png' %}" />
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/fontawesome-all.min.css' %}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/default.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/aos.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <style>
+        .swiper-container {
+            width: 650px;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            width: 75%;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body class="homepage04">
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+    <!-- Add your site or application content here -->
+    <!--  HEADER AREA -->
+    <header id="header" class="header-area header-area04">
+    <div class="container custom-container02">
+        <nav class="menu-area d-flex align-items-center">
+            <div class="logo">
+                <a href="{% url 'index' %}">
+                    <img src="{% static 'img/logo/logo03.png' %}" alt="{% trans 'brandLogo' %}" class="logo-04" />
+                </a>
+            </div>
+            <ul class="main-menu d-flex align-items-center">
+                <li>
+                    <a  href="{% url 'index' %}">{% trans 'Home' %}</a>
+                </li>
+                <li>
+                    <a class="active" href="{% url 'services' %}">{% trans 'Services' %}</a>
+                    <ul class="sub-menu">
+                        <li><a href="{% url 'webservices' %}">{% trans 'Web Services' %}</a></li>
+                        <li><a  href="{% url 'crmservices' %}">{% trans 'CRM Services' %}</a></li>
+                        <li><a  href="{% url 'chatbotservices' %}">{% trans 'Chatbot Services' %}</a></li>
+                        <li><a href="{% url 'itservices' %}">{% trans 'IT Services' %}</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="{% url 'about' %}">{% trans 'About' %}</a>
+                </li>
+                <!-- <li>
+                    <a href="javascript:void(0)">{% trans 'Portfolio' %}</a>
+                    <ul class="sub-menu">
+                        <li><a href="project.html">{% trans 'Project' %}</a></li>
+                        <li>
+                            <a href="project-details.html">{% trans 'Project Detail' %}</a>
+                        </li>
+                    </ul>
+                </li> -->
+                <li>
+                    <a href="{% url 'blog_list' %}">{% trans 'Blog' %}</a>
+                </li>
+                <li>
+                    <a href="{% url 'contact' %}">{% trans 'Contact' %}</a>
+                </li>
+            </ul>
+
+            <div class="right-content ml-auto">
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/stregasoft"><img src="{% static 'img/icon/facebook-f.svg' %}" alt="{% trans 'facebook' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    <a href="https://www.instagram.com/stregasoft"><img src="{% static 'img/icon/instagram.svg' %}" alt="{% trans 'instagram' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    <a href="https://www.linkedin.com/company/stregasoft"><img src="{% static 'img/icon/linkedin-in.svg' %}" alt="{% trans 'linkedin' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    <a href="https://www.youtube.com/@stregasoft"><img src="{% static 'img/icon/youtube.svg' %}" alt="{% trans 'youtube' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                </div>
+                <!-- Verifica si el usuario está autenticado -->
+                {% if user.is_authenticated %}
+                    <!-- Usuario está autenticado -->
+                    <div class="social-icon1">
+                        <a href="{% url 'dashboard' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    </div>
+                {% else %}
+                    <!-- Usuario no está autenticado -->
+                    <div class="social-icon1">
+                        <a href="{% url 'login' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                    </div>
+                {% endif %}
+            </div>
+            <div class="lang-menu">
+                <div class="selected-lang">
+                    <a href="#" id="globe-btn"><img src="{% static 'img/avatar/globe.png' %}" style="height: 30px; align-items: center;" alt="{% trans 'Language Selector' %}"></a>
+                </div>
+                <ul id="lang-list">
+                    <li>
+                        <form action="{% url 'set_language' %}" method="post">
+                            {% csrf_token %}
+                            <input name="next" type="hidden" value="{{ request.path }}">
+                            <input name="language" type="hidden" value="es">
+                            <button type="submit">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrSRVRdUmc2ieu8m1t95LYvaSkxr0eRJ2kPw&s" alt="{% trans 'Flag of Spain' %}" style="width: 20px; height: 15px; margin-right: 5px;">
+                                {% trans 'ESP' %}
+                            </button>
+                        </form>
+                    </li>
+                    <li>
+                        <form action="{% url 'set_language' %}" method="post">
+                            {% csrf_token %}
+                            <input name="next" type="hidden" value="{{ request.path }}">
+                            <input name="language" type="hidden" value="en">
+                            <button type="submit">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/1200px-Flag_of_the_United_Kingdom_%281-2%29.svg.png" alt="{% trans 'Flag of UK' %}" style="width: 20px; height: 15px; margin-right: 5px;">
+                                {% trans 'ENG' %}
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="hamburger-menu"><span></span><span></span><span></span></div>
+        </nav>
+        <aside>
+            <div class="sidebar-menu">
+                <div class="close-sidebar"><span></span><span></span></div>
+                <div class="logo">
+                    <a href="{% url 'index' %}">
+                        <img src="{% static 'img/logo/logo08.png' %}" alt="{% trans 'logo' %}" />
+                    </a>
+                </div>
+                <ul class="main-menu">
+                    <li>
+                        <a class="active" href="{% url 'index' %}">{% trans 'Home' %}</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#">{% trans 'Services' %} <span class="arrow">&#9662;</span></a>
+                        <ul class="submenu">
+                            <li><a href="{% url 'services' %}">{% trans 'Our Services' %}</a></li>
+                            <li><a href="{% url 'webservices' %}">{% trans 'Web Services' %}</a></li>
+                            <li><a href="{% url 'crmservices' %}">{% trans 'CRM Services' %}</a></li>
+                            <li><a href="{% url 'chatbotservices' %}">{% trans 'Chatbot Services' %}</a></li>
+                            <li><a href="{% url 'itservices' %}">{% trans 'IT Services' %}</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="{% url 'about' %}">{% trans 'About Us' %}</a></li>
+                    <li><a href="{% url 'blog_list' %}">{% trans 'Blog' %}</a></li>
+                    <li><a href="{% url 'contact' %}">{% trans 'Contact Us' %}</a></li>
+                    
+                    <!-- Icono de cuentas en el menú móvil -->
+                    <li class="social-icon1">
+                        {% if user.is_authenticated %}
+                            <a href="{% url 'dashboard' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                        {% else %}
+                            <a href="{% url 'login' %}"><img src="{% static 'img/avatar/account.png' %}" alt="{% trans 'account' %}" style="height: 20px; vertical-align: middle; border: none;"></a>
+                        {% endif %}
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="overlay"></div>
+        </aside>
+    </div>
+</header>
+<main>
+        <!--  BREADCRUMB AREA -->
+        <section class="banner-area breadcrumArea mb-0" >
+            <div class="container custom-container">
+                <div style="background-image: url({% static '/img/mask/mask-page-04.png' %});" class="breadcrum-banner">
+                  <div class="row d-flex align-items-center">
+                      <div class="col-lg-6 order-2 order-lg-1">
+                          <div class="bannerArea__wrapper" data-aos="fade-up" data-aos-offset="500">
+                              <div class="bannerArea__title">
+                                  <h1>{% trans "Web Portfolio" %} </h1>
+                              </div>
+                              <p>
+                                {% trans "Explore our diverse portfolio showcasing the range of web solutions we offer. From dynamic websites to innovative digital platforms, each project reflects our commitment to excellence and our ability to tailor solutions to meet specific client needs." %}
+                              </p>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 order-1 order-lg-2">
+                          <div class="banner-image" data-aos="fade-left" data-aos-delay="300" data-aos-offset="500">
+                            <img src="{% static '/img/banner/Portfolio_Stregasoft.png' %}" alt="banner-image" class="IMG" />
+                          </div>
+                      </div>
+                  </div>
+                  
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        
+
+<!-- aqui viene la implementacion del portfolio -->
+<section class="portfolio-section35">
+    <div class="container35">
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v1' %}">
+                    <img src="{% static 'img/avatar/home.png' %}" alt="Home V1" />
+                </a>
+            </div>
+  
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v1' %}">Rubén Darío </a></h3>
+        </div>
+
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v2' %}">
+                    <img src="{% static 'img/avatar/home2.png' %}" alt="Home V2" />
+                </a>
+            </div>
+          
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v2' %}">Ometepe </a></h3>
+        </div>
+
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v3' %}">
+                    <img src="{% static 'img/avatar/home3.png' %}" alt="Home V3" />
+                </a>
+            </div>
+          
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v3' %}">Momotombo </a></h3>
+        </div>
+
+
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v4' %}">
+                    <img src="{% static 'img/avatar/home4.png' %}" alt="Home V4" />
+                </a>
+            </div>
+          
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v4' %}">Solentiname </a></h3>
+        </div>
+
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v5' %}">
+                    <img src="{% static 'img/avatar/home5.png' %}" alt="Home V5" />
+                </a>
+            </div>
+            
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v5' %}">Masaya </a></h3>
+        </div>
+
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v6' %}">
+                    <img src="{% static 'img/avatar/home6.png' %}" alt="Home V6" />
+                </a>
+            </div>
+            
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v6' %}">Granada </a></h3>
+        </div>
+
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v7' %}">
+                    <img src="{% static 'img/avatar/home7.png' %}" alt="Home V7" />
+                </a>
+            </div>
+           
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v7' %}">San Juan</a></h3>
+        </div>
+
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v8' %}">
+                    <img src="{% static 'img/avatar/home8.png' %}" alt="Home V8" />
+                </a>
+            </div>
+            
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v8' %}">Mombacho </a></h3>
+        </div>
+
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v9' %}">
+                    <img src="{% static 'img/avatar/home9.png' %}" alt="Home V9" />
+                </a>
+            </div>
+            
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v9' %}">Xolotlán </a></h3>
+        </div>
+
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v10' %}">
+                    <img src="{% static 'img/avatar/home10.png' %}" alt="Home V10" />
+                </a>
+            </div>
+            
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v10' %}">Cocibolca </a></h3>
+        </div>
+
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v11' %}">
+                    <img src="{% static 'img/avatar/home11.png' %}" alt="Home V11" />
+                </a>
+            </div>
+            
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v11' %}">Bluefields </a></h3>
+        </div>
+
+        <div class="portfolio-item35">
+            <div class="demo__box__thumb35">
+                <a href="{% url 'portfolio_home_v12' %}">
+                    <img src="{% static 'img/avatar/home12.png' %}" alt="Home V12" />
+                </a>
+            </div>
+            <h3 class="demo__box__title35"><a href="{% url 'portfolio_home_v12' %}">Corn Island</a></h3>
+        </div>
+
+    </div>
+</section>
+
+
+ 
+        <!--  CALL TO ACTION AREA -->
+        <section class="callto-action callto-action-modifi">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12 order-2 order-lg-1">
+                        <div class="callto-action-text" data-aos="fade-up">
+                            <h2>{% trans "Have Any Project On Mind? Contact Us!" %}</h2>
+                            <p>
+                                {% trans "Let's connect! Contact us today for expert assistance and turn your ideas into reality." %}
+                            </p>
+                            <a id="buttom" href="{% url 'contact' %}" class="primary__button">{% trans "Send Message" %}</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 order-1 order-lg-2">
+                        <div class="callto-action-image" data-aos="fade-left" data-aos-delay="500">
+                            <img src="{% static 'img/action/image.svg' %}" alt="{% trans 'Call To Action' %}" />
+                        </div>
+                    </div>
+                </div>
+                <div class="mask-group">
+                    <img class="mask01" src="{% static 'img/mask/mask5.png' %}" alt="{% trans 'mask' %}" />
+                </div>
+            </div>
+        </section>
+   <!--  FOOTER AREA -->
+   <footer class="footer03">
+    <div class="footer-area">
+        <div class="container">
+            <div class="row align-items-lg-baseline">
+                <div class="col-lg-4 col-md-12 order-lg-0 order-4">
+                    <div class="footer-area-about" data-aos="fade-up">
+                        <a href="{% url 'index' %}">
+                            <img src="{% static 'img/logo/logo03.png' %}" alt="{% trans 'Logo' %}" class="img-fluid" />
+                        </a>
+
+                        <div class="footer-area-links">
+                            <a href="javascript:void(0)" onclick="goToURL('https://www.facebook.com/stregasoft')"><i class="fab fa-facebook-f"></i></a>
+                            <a href="javascript:void(0)" onclick="goToURL('https://www.instagram.com/stregasoft')"><i class="fab fa-instagram"></i></a>
+                            <a href="javascript:void(0)" onclick="goToURL('https://www.linkedin.com/company/stregasoft/')"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="javascript:void(0)" onclick="goToURL('https://www.youtube.com/@stregasoft')"><i class="fab fa-youtube"></i></a>
+                            <a href="javascript:void(0)" onclick="goToURL('https://www.tiktok.com/@stregasoft')"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 mr-lg-65 col-md-4 col-6 order-lg-0 order-md-1">
+                    <div class="footer-area-lists mb-30" data-aos="fade-up" data-aos-delay="300">
+                        <h4>{% trans "Company" %}</h4>
+                        <ul>
+                            <li><a href="{% url 'about' %}">{% trans "About" %}</a></li>
+                            <li><a href="{% url 'contact' %}">{% trans "Contact us" %}</a></li>
+                            <li><a href="{% url 'blog_list' %}">{% trans "Blog" %}</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 mr-lg-65 col-md-4 col-6 order-lg-0 order-2">
+                    <div class="footer-area-lists mb-30" data-aos="fade-up" data-aos-delay="400">
+                        <h4>{% trans "Services" %}</h4>
+                        <ul>
+                            <li><a href="{% url 'webservices' %}">{% trans "Web Services" %}</a></li>
+                            <li><a href="{% url 'crmservices' %}">{% trans "CRM Services" %}</a></li>
+                            <li><a href="{% url 'chatbotservices' %}">{% trans "Chatbot Services" %}</a></li>
+                            <li><a href="{% url 'itservices' %}">{% trans "IT Services" %}</a></li>
+                        </ul>                        
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 order-lg-0 order-md-3">
+                    <div class="footer-area-lists" data-aos="fade-up" data-aos-delay="500">
+                        <h4>{% trans "Legal" %}</h4>
+                        <ul>
+                            <li><a href="{% url 'privacy' %}">{% trans "Privacy Policy" %}</a></li>
+                            <li><a href="{% url 'terms' %}">{% trans "Terms & Conditions" %}</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row align-items-center copyright-area">
+                <div class="col-sm-12 d-flex justify-content-between align-items-center">
+                    <div class="copyright-area-text">
+                        <p class="text-white">{% trans "© Stregasoft 2024" %}</p>
+                    </div>
+                    <div class="copyright-area-top text-lg-right">
+                        <a class="text-white" href="#header" id="to-top">{% trans "Back to Top" %} <i class="fas fa-angle-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+    <!-- JS here -->
+    <script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/aos.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+    <script>
+    function goToURL(url) {
+        window.open(url, '_blank');
+    }
+    </script>
+    
+    <!-- Purchase Button -->
+    </body>
+    </html>
+    

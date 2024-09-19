@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <title>Real estate</title>
+  <g class="nc-icon-wrapper" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" fill="#1D4999" stroke="#1D4999">
+    <line x1="6" y1="27" x2="26" y2="27" fill="none" stroke="#1D4999" stroke-miterlimit="10"/>
+    <line x1="6" y1="5" x2="26" y2="5" fill="none" stroke="#1D4999" stroke-miterlimit="10"/>
+    <path d="M24,31H8a2.006,2.006,0,0,1-2-2V3A2.006,2.006,0,0,1,8,1H24a2.006,2.006,0,0,1,2,2V29A2.006,2.006,0,0,1,24,31Z" fill="none" stroke="#1D4999" stroke-miterlimit="10"/>
+    <polygon points="16 11 11 14 11 21 16 21 21 21 21 14 16 11" fill="none" stroke="#1D4999" stroke-miterlimit="10"/>
+    <line x1="16" y1="18" x2="16" y2="21" fill="none" stroke="#1D4999" stroke-miterlimit="10"/>
+  </g>
+</svg>
